@@ -606,118 +606,118 @@
     s "\"Ну, в любом случае, мне нужно тренироваться. Поговорим позже?\""
     mc 1 u "\"Конечно. Увидимся.\""
     show s 1 v at offscreenright with moveoridis
-    "I check my bag to make sure I have everything in order."
-    "Once I sure that nothing's missing, I grab my racket and head outside."
+    "Я проверяю свою сумку, чтобы убедиться, что у меня все в порядке."
+    "Убедившись, что ничего не пропало, я хватаю ракетку и выхожу на улицу."
     stop music2 fadeout 5.0
     scene SCourt with fade
     play music "music/tennisambiance.ogg" fadein 10.0
-    "As I start looking for Saya, I catch Kei-kun stretching alone at a court."
-    mc 1 t sigh "\"Oh, you've got to be kidding me...\""
+    "Когда я начинаю искать Саю, я ловлю взглядом Кей-куна, растягивающегося в одиночестве во дворе."
+    mc 1 t sigh "\"О, ты, должно быть, шутишь...\""
     play sound "music/punch.ogg"
-    "Pain suddenly shoots from my shin, making me jump forward, yelping."
-    mc 1 t shock "\"Son of a-\""
+    "Боль внезапно пронзает мою голень, заставляя меня с визгом прыгнуть вперед."
+    mc 1 t shock "\"Сукин сын.-\""
     show sa 1 t bored at fdis, five with moveiledis
-    "I reflexively reach down to my foot, rubbing down the spot that just got brutally assaulted by this monster woman."
-    "Saya merely leers down at me with an annoyed look on her face."
-    sa "\"What took you so long? Did you get lost inside the locker room? Sheesh.\""
-    mc 1 t sigh "\"I ran into Shoichi while I was changing... Also, {size=+6}OW!{/size}\""
+    "Я рефлекторно опускаю руку к ноге, потирая место, которое только что было жестоко атаковано этой чудовищной женщиной."
+    "Сая просто смотрит на меня сверху вниз с раздраженным выражением на лице."
+    sa "\"Почему ты так долго? Ты что, заблудился в раздевалке? Шиш.\""
+    mc 1 t sigh "\"Я столкнулась с Шойчи, когда переодевалась... Также, {size=+6}АУЧ!{/size}\""
     show sa 1 t sigh at fdis
-    "At least she's no longer breathing fire from her mouth. She seems to have mostly calmed down."
-    "She's only {i}just{/i} annoyed."
+    "По крайней мере, она больше не дышит огнем изо рта. Кажется, она почти успокоилась."
+    "Она только {i}просто{/i} раздражена."
     show sa 1 t complain at fdis
-    sa "\"By the way, I'm sorry I didn't tell you this before, but Kei is the one you'll be playing against.\""
+    sa "\"Кстати, извини, что не сказала тебе об этом раньше, но ты будешь играть против Кея.\""
     show sa 1 t pout2 at fdis
-    sa "\"You were kind of a flight risk at the time...\""
+    sa "\"В то время вы были своего рода риском для полета...\""
     show sa 1 t laugh at fdis
-    sa "\"Just like you, he got all the votes in his year. This is the first time our club has ever gotten two players with 100\% of the votes. I'm really excited for this!\""
-    "She looks like she might start hopping in place from excess glee."
-    mc 1 t sigh2 "\"I've only played against him once and that was a while ago... but I still can't see myself losing to him. Sorry if that sounds cocky.\""
+    sa "\"Как и ты, он получил все голоса в свой год. Это первый раз, когда наш клуб получил двух игроков со 100% голосов. Я действительно взволнована этим!\""
+    "Она выглядит так, будто вот-вот начнет прыгать на месте от избытка ликования."
+    mc 1 t sigh2 "\"Я играл против него всего один раз, и это было довольно давно... но я все еще не могу представить, что проиграю ему. Извини, если это звучит дерзко.\""
     show sa 1 t at fdis
-    sa "\"To be honest, I also think you'll win. But then again, this is tennis. Never put it past your opponent to win by an upset.\""
+    sa "\"Честно говоря, я тоже думаю, что ты победишь. Но опять же, это теннис. Никогда не ставьте его выше вашего противника, чтобы выиграть от расстройства.\""
     show sa 1 t happy at fdis
-    sa "\"You should be happy, this will be a great chance for you to practice. You'll probably play against him during the prefecturals anyway.\""
-    mc 1 t avoid "\"Yeah, great. Practice I didn't even want to get. Such an amazing opportunity indeed.\""
-    "I grumble unhappily in place, still thinking of the throbbing pain in my shin."
+    sa "\"Вы должны быть счастливы, это будет отличный шанс для вас, чтобы практиковать. Ты, вероятно, будете играть против него во время префектур в любом случае.\""
+    mc 1 t avoid "\"Да, здорово. Тренироваться я даже не хотел. Действительно, такая удивительная возможность.\""
+    "Я недовольно ворчу на месте, все еще думая о пульсирующей боли в голени."
     show sa 1 t argue at fdis
-    "Goddammit, even if she was just playing around, she kicked way too hard!"
-    "She shakes her head sideways, making an exaggerated shrug."
-    sa "\"I find your lack of enthusiasm disturbing.\""
-    mc 1 t sigh "\"Really? You're quoting {i}Galaxy Warz{/i} in regular conversation now?\""
-    "I know she's a film nerd but there's a limit to everything..."
+    "Черт возьми, даже если она просто играла, она пиналась слишком сильно!"
+    "Она качает головой в сторону, преувеличенно пожимая плечами."
+    sa "\"Я нахожу ваше отсутствие энтузиазма тревожным.\""
+    mc 1 t sigh "\"Неужели? Ты цитируешь {i}Galaxy Warz{/i} теперь в обычном разговоре?\""
+    "Я знаю, что она помешана на кино, но всему есть предел..."
     show sa 1 t happy at fdis
-    sa "\"Hey, if it fits the situation then why shouldn't I?\""
+    sa "\"Эй, если это соответствует ситуации, то почему бы и нет?\""
     show sa 1 t happy at fdis, offscreenleft with move
-    "With a big smile on her face, Saya shrugs one last time before walking away towards the umpire chair, leaving me to watch in dismay as Kei-kun finishes his preparations."
-    "Wait, the umpire chair? She's the one that'll be overseeing the match today?"
-    "Oh, this is just great. Is our coach absent today again? I swear, that man takes every opportunity he has to slack off."
-    "And on the first day of class? Really?"
-    "Deciding to think nothing more of it, I proceed to do the most basic warm up, making sure to finish it in less than five minutes."
-    "It's not my usual warm up routine, but then again, I don't even care about this match in the first place."
-    "I wish I was home..."
-    "As I make my way to the court, I can hear some of my club mates whispering here and there, most of them sounding really excited for some reason."
-    "I guess Saya wasn't kidding when she said that people had been looking forward to this match..."
-    "Damn it, why do I have such a stupid grin on my face? I'm letting the excited mood permeating the gym affect me."
+    "С широкой улыбкой на лице, Сая пожимает плечами в последний раз, прежде чем уйти к судейскому креслу, оставляя меня в смятении наблюдать, как Кей-кун заканчивает свои приготовления."
+    "Подождите, судейское кресло? Это она сегодня будет следить за матчем?"
+    "Ох, это просто замечательно. Наш тренер сегодня опять отсутствует? Клянусь, этот человек использует любую возможность, чтобы расслабиться."
+    "И в первый день занятий? Неужели?"
+    "Решив больше не думать об этом, я приступаю к самой основной разминке, убедившись, что закончу ее менее чем за пять минут."
+    "Это не моя обычная разминка, но опять же, я даже не забочусь об этом матче в первую очередь."
+    "Жаль, что я не дома..."
+    "Направляясь к корту, я слышу, как кое-кто из моих одноклубников шепчется там и сям, причем большинство из них почему-то очень взволнованы."
+    "Думаю, Сая не шутила, когда говорила, что люди с нетерпением ждали этого матча..."
+    "Черт возьми, почему у меня такая глупая улыбка на лице? Я позволяю возбужденному настроению, пронизывающему спортзал, влиять на меня."
     show k 1 t at five with moveiledis
     show k 1 t at five, fdis
-    "I see that Kei-kun is waiting for me, having already finished his warm up routine."
-    "Even though he was running around and doing stretches up until now, his clothes still look to be in pristine condition."
+    "Я вижу, что Кей-кун ждет меня, уже закончив свою разминку."
+    "Несмотря на то, что он бегал и делал растяжки до сих пор, его одежда все еще выглядит в первозданном состоянии."
     show k 1 t smile at fdis
     $ renpy.music.set_volume(0.5, 4.0, channel="music")
     play music2 "music/BGM/In That Mood.ogg" fadein 8.0
-    "As he sees me coming over, he flashes a smile."
-    k "\"How are you feeling right now? You seemed a little out of it earlier. Did Saya-san give you too much trouble?\""
-    "Even though he was referring to us by our last names while other club members were around, now that we're out of earshot of other people, he's back to calling us by our first names."
-    "Which is great, because I hate the excessive deference people treat me with just because I happen to be a bit older."
-    "Age is just a number after all."
-    mc 1 t smile "\"Sorry, I was still half asleep earlier today. Saya gave me one hell of a kick to the shin though so that's jolted me awake.\""
+    "Увидев, что я подхожу, он улыбается."
+    k "\"Как ты себя сейчас чувствуешь? Раньше ты казался немного не в себе. Сая-чан доставила тебе слишком много хлопот?\""
+    "Несмотря на то, что он называл нас по фамилиям, когда другие члены клуба были рядом, теперь, когда мы вне пределов слышимости других людей, он снова называет нас по именам."
+    "И это здорово, потому что я ненавижу чрезмерное почтение, с которым люди относятся ко мне только потому, что я немного старше."
+    "В конце концов, возраст, это всего лишь число."
+    mc 1 t smile "\"Извини, сегодня я еще не совсем проснулся. Сая дала мне один адский пинок в голень, так что это встряхнуло меня.\""
     show k 1 t calm at fdis
-    "He seems almost... amused by hearing it."
-    "He's been exposed to Saya for too long, he's not even batting an eye to random acts of violence."
-    "This one has already been corrupted by us..."
-    k "\"As long as you're not limping it should be fine. I'd be wary of angering her again though.\""
-    mc 1 t sigh "\"I'll say. Feels like I've had a few years knocked off of my life expectancy.\""
-    "Saya is one scary girl when she's angry."
+    "Он кажется почти... забавно это слышать."
+    "Он слишком долго был подвержен влиянию Саи, он даже не моргнул глазом на случайные акты насилия."
+    "Он уже испорчен нами..."
+    k "\"Пока ты не хромаешь, все будет в порядке. Хотя я бы побоялся снова ее разозлить.\""
+    mc 1 t sigh "\"Я скажу. Такое чувство, что у меня было несколько лет, отнявших у меня ожидаемую продолжительность жизни.\""
+    "Сая страшная девушка, когда злится."
     show k 2 t gentle at fdis
-    "He laughs at my remark, his normally deep voice carrying softly through the air."
-    "He's pretty subdued most of the time, but I guess there's a certain air of refinement to him."
-    "Like... almost as if he wasn't just some average high school student."
+    "Он смеется над моим замечанием, его обычно глубокий голос мягко разносится в воздухе."
+    "Он довольно сдержан большую часть времени, но я думаю, что в нем есть определенная утонченность."
+    "Нравится... как будто он не был обычным старшеклассником."
     show k 1 t smile at fdis
-    k "\"Well, since we'll be playing only one set, stamina won't be much of a problem. How about we go at each other guns blazing from the start?\""
-    mc 1 t "\"Sounds good to me. How do we decide who gets the first serve? Should we just flip a coin?\""
+    k "\"Ну, поскольку мы будем играть только один сет, выносливость не будет большой проблемой. Как насчет того, чтобы начать стрелять друг в друга с самого начала?\""
+    mc 1 t "\"Звучит неплохо для меня. Как мы решим, кто будет делать первую подачу? Может, просто подбросить монетку?\""
     show k 1 t haughty at fdis
-    k "\"If it's okay with you, I'd like for you to take the first serve. I know it's usually your preference and I'd like to give it a try.\""
-    mc 1 t shock "\"Uhm... sure, I guess. I mean, if you're really okay with it.\""
+    k "\"Если вы не против, я бы хотел, чтобы вы взяли первую подачу. Я знаю, что это обычно ваши предпочтения, и я хотел бы попробовать.\""
+    mc 1 t shock "\"Хм... конечно, я думаю. Я имею в виду, если ты действительно не против.\""
     show k 2 t cocky at fdis
-    k "\"I am. I think it'll be a great opportunity for me to try out a new strategy I've come up with.\""
+    k "\"Я. Я думаю, что это будет отличная возможность для меня попробовать новую стратегию, которую я придумал.\""
     show k 1 t calm at fdis
-    k "\"Now, if you don't mind, I'll stay with this side of the court. Shall we get started?\""
-    "I nod, wishing him good luck and heading over to my side of the court."
+    k "\"А теперь, если вы не возражаете, я останусь с этой стороны двора. Ну что, начнем?\""
+    "Я киваю, желаю ему удачи и направляюсь на свою сторону корта."
     show k 1 t at fdis
-    "What's up with him willingly giving me the first serve?"
-    "He's totally underestimating me isn't he?"
-    "I walk over to my starting position and one of the freshmen hands me a two balls."
-    "I guess Saya's roped them into being our ball boys for this match, huh?"
-    "I take a few deep breaths to steady myself. Once I walk onto the court, I shouldn't focus on anything but my opponent."
-    "It doesn't matter if it's a tournament match or an exhibition match, it's all still tennis in the end."
-    "And I refuse to give anything less than my all when it comes to tennis!"
+    "Почему он так охотно отдает мне первую порцию?"
+    "Он явно недооценивает меня, не так ли?"
+    "Я возвращаюсь на исходную позицию и один из первокурсников протягивает мне два мяча."
+    "Я думаю, Сая связала их, чтобы они были нашими ребятами для этого матча, а?"
+    "Я делаю несколько глубоких вдохов, чтобы успокоиться. Как только я выйду на корт, я не должен сосредотачиваться ни на чем, кроме своего соперника."
+    "Неважно, будет ли это турнир или выставка, в конце концов, это все равно теннис."
+    "И я отказываюсь отдавать что-либо меньшее, чем все, что у меня есть, когда речь заходит о теннисе!"
     stop music2 fadeout 5.0
     play music3 "music/BGM/Straight.ogg" fadein 10.0
     show diagram
     show km1p1i1
     with dissolve
     play sound "music/tennishit.ogg"
-    "I throw the ball into the air, moving my body as quickly as I can with a whip-like motion to hit the ball at the peak of the toss."
+    "Я подбрасываю мяч в воздух, двигая свое тело так быстро, как только могу, с хлыстом, чтобы ударить по мячу на пике броска."
     show km1p1i2 with dissolve
-    "It goes past the net and hits close to the line. A powerful flat serve that goes wide. The ball bounces quickly and swiftly, sliding past Kei-kun's reach."
+    "Он проходит мимо сетки и попадает близко к линии. Мощная плоская подача, которая идет широко. Мяч отскакивает быстро-быстро, проскакивая мимо Кей-куна."
     play sound "music/tennishit.ogg"
     show km1p1i3 with dissolve
-    "Or at least it should have. With a swift motion, he dashes to the ball and returns it, though not perfectly."
-    "The ball doesn't go very deep and doesn't have much power behind it. If it's like this, I can handle it easily."
+    "Или, по крайней мере, должен был. Быстрым движением он бросается к мячу и возвращает его, хотя и не идеально."
+    "Мяч не входит очень глубоко и не имеет большой силы за ним. Если это так, я могу легко справиться с этим."
     play sound "music/tennishit.ogg"
     show km1p1i4 with dissolve
-    "I reach the ball and counter it, putting as much force as I possibly can without sending it flying out of the court."
+    "Я дотягиваюсь до мяча и отбиваю его, прикладывая столько силы, сколько могу, не посылая его за пределы площадки."
     show km1p1i5 with dissolve
-    "The ball goes to the opposite side of the court as Kei-kun is standing in right now, hitting the ground and bouncing away before he even starts running again."
+    "Мяч летит на противоположную сторону площадки, где сейчас стоит Кей-кун, ударяется о землю и отскакивает, даже не успев снова побежать."
     sa 1 t "\"15-0!\""
     show k 1 t calm at fdis
     hide km1p1i5
@@ -726,32 +726,32 @@
     hide km1p1i2
     hide km1p1i1
     with dissolve
-    "Kei-kun looks down at the skid mark left on the floor by the ball, whistling in admiration."
-    "Heh, seeing his surprise definitely makes me smile a little."
-    "The freshmen all start talking loudly and excitedly after seeing the last rally."
+    "Кей-кун смотрит на след, оставленный мячом на полу, и восхищенно присвистывает."
+    "Хех, видя его удивление, я определенно немного улыбаюсь."
+    "Все первокурсники начинают громко и возбужденно говорить, увидев последний митинг."
     show k 1 t shock at fdis
-    sa 1 t angry "\"{size=+4}Shut up!{/size}\"" with hpunch
-    "Saya easily solves that {i}problem{/i} by using her usual sunny disposition."
-    "The only problem is she almost gave me a heart attack!"
-    "Looking over at Kei-kun, I notice him standing completely frozen, eyes wide as he stares at Saya."
-    "She quickly notices his gaze and laughs nervously."
+    sa 1 t angry "\"{size=+4}Заткнуться!{/size}\"" with hpunch
+    "Сая легко решает эту {i}проблему{/i} используя свой обычный солнечный характер."
+    "Единственная проблема в том, что она чуть не довела меня до сердечного приступа!"
+    "Посмотрев на Кей-куна, я замечаю, что он стоит совершенно неподвижно, широко раскрыв глаза и глядя на Саю."
+    "Она быстро замечает его взгляд и нервно смеется."
     show k 1 t sigh at fdis
-    sa 1 t happy "\"Please continue!\""
-    "Well at least she regains her composure quite fast."
+    sa 1 t happy "\"Пожалуйста, продолжайте!\""
+    "Ну, по крайней мере, она довольно быстро приходит в себя."
     show k 1 t at fdis
     show km1p2i1 with dissolve
-    "We both walk back to our positions, Kei-kun taking just a bit longer to compose himself again."
-    "After knowing us for a full year, I'm surprised he's not used to Saya's personality yet."
-    "I take a moment to bask in this atmosphere."
-    "Even if I hesitated to be here right now, I have to admit that being on the court is the best feeling ever."
+    "Мы оба возвращаемся на свои позиции, и Кей-Куну требуется еще немного времени, чтобы прийти в себя."
+    "Зная нас целый год, я удивляюсь, что он еще не привык к личности Саи."
+    "Я ловлю момент, чтобы погреться в этой атмосфере."
+    "Даже если бы я колебался, чтобы быть здесь прямо сейчас, я должен признать, что быть на корте, это лучшее чувство когда-либо."
     play sound "music/tennishit.ogg"
     show km1p2i2 with dissolve
-    "Once more, I shoot a flat shot aiming for the lines."
+    "И снова я стреляю в упор, целясь в линии."
     play sound "music/tennishit.ogg"
     show km1p2i3
     show km1p2i4
     with dissolve
-    "Kei-kun dashes to the ball and, although he reaches it, returns the ball into the net."
+    "Кей-кун бросается к мячу и хотя он достигает его, возвращает мяч в сетку."
     sa 1 t "\"30-0!\""
     show k 1 t worried at fdis
     hide km1p2i4
@@ -759,20 +759,20 @@
     hide km1p2i2
     hide km1p2i1
     with dissolve
-    "Kei-kun stares at me with a troubled look on his face. I guess he just isn't used to a truly fast serve."
-    "There aren't many players with a lot of raw power around for him to practice against so it's no surprise he's still not used to playing against me."
-    "Guess that's one benefit to me not playing against him often."
+    "Кей-кун смотрит на меня с беспокойством на лице. Я думаю, он просто не привык к действительно быстрой подаче."
+    "Там не так много игроков с большим количеством грубой силы вокруг него, чтобы практиковаться против, так что неудивительно, что он все еще не привык играть против меня."
+    "Думаю, это одно из преимуществ того, что я не часто играю против него."
     show k 1 t at fdis
-    "I repeat the same strategy once more."
+    "Я повторяю ту же стратегию еще раз."
     show km1p3i1 with dissolve
     play sound "music/tennishit.ogg"
     show km1p3i2 with dissolve
-    "A flat ball with lots of power is what I excel at."
+    "Плоский шар с большим количеством энергии, это то, в чем я преуспел."
     play sound "music/tennishit.ogg"
     show km1p3i3 with dissolve
-    "Although he gets to the ball with relative ease, he misjudges the timing."
+    "Хотя он добирается до мяча с относительной легкостью,он недооценивает время."
     show km1p3i4 with dissolve
-    "His return ends up going too long and flies out of the court by quite a bit."
+    "Его возвращение заканчивается слишком долгим и улетает за поле совсем немного."
     show k 1 t shock at fdis
     sa 1 t "\"Out. 40-0!\""
     hide km1p3i4
@@ -780,12 +780,12 @@
     hide km1p3i2
     hide km1p3i1
     with dissolve
-    "I can't keep myself from grinning like an idiot."
-    "I just might be a little bit of a sadist because crushing an opponent always feels so satisfying."
-    "I never get sick of it."
-    "Kei-kun probably thought he could come up with some strategy to break my serve and asked me to serve first so he could attack and mess with my head."
-    "He probably thought that by breaking my serve, he'd also break my concentration."
-    "Instead, it seems the spell has been turned against its user."
+    "Я не могу удержаться от идиотской ухмылки."
+    "Я просто могу быть немного садистом, потому что сокрушение противника всегда приносит такое удовлетворение."
+    "Я никогда не устаю от этого."
+    "Кей-кун, вероятно, думал, что сможет придумать какую-то стратегию, чтобы сломать мою подачу и попросил меня подавать первым, чтобы он мог атаковать и запутать меня."
+    "Он, вероятно, думал, что, нарушив мою подачу, он также нарушит мою концентрацию."
+    "Вместо этого, похоже, заклинание было обращено против его пользователя."
     stop music3 fadeout 3.0
     stop music fadeout 3.0
     $ renpy.music.set_volume(1.0, 0.0, channel="music")
@@ -793,77 +793,77 @@
     show k 1 t wince at fdis, five
     show sa 1 t at offscreenleft
     with fade
-    sa 1 t "\"Game [povLastName]. Game count: 3-0! [povLastName] leads.\""
+    sa 1 t "\"Игра [povLastName]. Счет: 3-0! [povLastName] ведет.\""
     play sound "music/crowdcheer.ogg"
-    "The small crowd that's gathered around our court starts to cheer loudly once more."
+    "Небольшая толпа, собравшаяся вокруг нашего двора, снова начинает громко аплодировать."
     play sound "music/disappointment.ogg"
-    "I just wish these guys would shut up. This is way too distracting."
+    "Я просто хочу, чтобы эти парни заткнулись. Это слишком отвлекает."
     show k 1 t worried at fdis
     play music2 "music/BGM/The Chase.ogg" fadein 6.0
-    "As for Kei-kun, he's seemed largely out of it since the end of the first game."
-    "I guess the shock of seeing his strategy failing so catastrophically has broken his concentration."
-    "He's completely abandoned his tactics and fine skills in favor of a brute force approach."
-    "Tennis is a sport where your mind is just as important as your body."
-    "If you start thinking too much about losing, your fear will cause your body to panic."
-    "Your body won't move as it normally does and, without noticing, your play becomes affected."
-    "Because of that, I managed to easily break through his serve game."
-    "And that created a downwards spiral. The more he's dominated, the more he fears an eventual defeat, causing his play to worsen further and making him feel even more dominated."
-    "It's a feedback loop that you can't escape from unless you notice that you're in it in the first place. And even then, it's no small feat."
-    "Professional players struggle with this type of thing. For a high school student... this is a monumental beast all on its own."
+    "Что касается Кей-куна, то он, казалось, был в значительной степени не в себе с конца первой игры."
+    "Наверное, шок от того, что его стратегия провалилась что катастрофически, нарушило его концентрацию."
+    "Он полностью отказался от своей тактики и тонких навыков в пользу подхода грубой силы."
+    "Теннис - это спорт, где ваш ум так же важен, как и ваше тело."
+    "Если вы начнете слишком много думать о проигрыше, ваш страх вызовет панику в вашем теле."
+    "Ваше тело не будет двигаться, как обычно, и, не замечая этого, ваша игра будет затронута."
+    "Из-за этого мне удалось легко прорваться через его игру подачи."
+    "И это создало нисходящую спираль. Чем больше он доминирует, тем больше он боится возможного поражения, что еще больше ухудшает его игру и заставляет его чувствовать себя еще более доминированным."
+    "Это петля обратной связи, из которой вы не можете вырваться, пока не заметите, что вы в ней с самого начала. И даже тогда, это не маленький подвиг."
+    "Профессиональные игроки борются с этим типом вещей. Для старшеклассника... это монументальное животное само по себе."
     hide k 1 t worried with dissolve
     play sound "music/sit.ogg"
-    "Huh... I'm usually all in favor of rest breaks, but..."
-    "Right now, I wish we could play the whole match without stopping."
-    "Not because I'd like to, but because I don't want Keisuke to have time to calm down."
-    "It might be a shitty thing to say, but I hope he stays in this slump all the way to the end of the match."
-    sa 1 t "\"Time!\""
+    "Ха... Обычно я полностью за перерывы на отдых, но....."
+    "Сейчас я бы хотел, чтобы мы могли играть весь матч без остановки."
+    "Не потому, что мне этого хочется, а потому, что я не хочу, чтобы Кейсуке успел успокоиться."
+    "Это может быть дерьмово, но я надеюсь, что он останется в таком состоянии до конца матча."
+    sa 1 t "\"Время!\""
     play sound "music/fabric.ogg"
-    "Well, no point dwelling in it. I'll just get back to the court and try to get this match done as fast as I can."
+    "Что ж, нет смысла задерживаться на этом. Я просто вернусь на корт и постараюсь закончить этот матч как можно быстрее."
     show k 1 t serious at five with dissolve
     show k 1 t serious at fdis, five
     "..."
-    "Hah... this is exactly what I was hoping wouldn't happen."
-    "His eyes seem much more focused right now."
-    "I guess this small break gave him enough time to get himself back together."
-    "I really can't afford to let my guard down."
+    "Ха... именно на это я и надеялся."
+    "Сейчас его взгляд кажется гораздо более сосредоточенным."
+    "Думаю, этот небольшой перерыв дал ему достаточно времени, чтобы прийти в себя."
+    "Я действительно не могу позволить себе потерять бдительность."
     show diagram
     show km1p4i1
     with dissolve
     play sound "music/tennishit.ogg"
     show km1p4i2 with dissolve
-    "Keisuke tosses the ball high into the air, making contact with it just as it begins to drop again."
-    "There's no doubt about it that his serve has gone back to normal."
-    "I guess there's no more weakness for me to exploit."
-    "The good things in life are always short-lived after all."
-    "The ball soars over the net, making contact with the ground deep onto the court."
+    "Кейсуке подбрасывает мяч высоко в воздух, соприкасаясь с ним как раз в тот момент, когда он снова начинает падать."
+    "Нет никаких сомнений в том, что его подача вернулась в норму."
+    "Думаю, у меня больше нет слабости, которую я мог бы использовать."
+    "В конце концов, все хорошее в жизни всегда недолговечно."
+    "Мяч парит над сеткой, соприкасаясь с землей далеко на площадке."
     play sound "music/tennishit.ogg"
     show km1p4i3 with dissolve
-    "I manage to reach the ball and send it back, but I lost my balance for a second and got a late start on my subsequent dash."
+    "Мне удается дотянуться до мяча и отправить его обратно, но я на секунду потерял равновесие и запоздал с последующим броском."
     play sound "music/tennishit.ogg"
     show km1p4i4 with dissolve
-    "Just as I take a couple of steps towards the center of the court, Kei-kun immediately sends a powerful shot to the side I had been on."
-    "Not having had enough time to regain my balance, attempting to change direction again makes me trip."
-    "The ball slides through the floor, bouncing again on a sideways arch."
+    "Как только я делаю пару шагов к центру площадки, Кей-кун тут же посылает мощный выстрел в ту сторону, где я был."
+    "Не имея достаточно времени, чтобы восстановить равновесие, попытка изменить направление снова заставляет меня споткнуться."
+    "Мяч скользит по полу, снова подпрыгивая на боковой арке."
     play sound "music/tennishit.ogg"
     show km1p4i5 with dissolve
-    "I somehow manage to reach his shot but, because it stays too close to the ground, I can't make a full swing and end up lacking power."
-    "This is likely what he was going for."
-    "It seems Kei-kun has decided to attack my counter, which is, admittedly, a rather annoying strategy."
+    "Мне каким-то образом удается дотянуться до его выстрела, но, поскольку он остается слишком близко к земле, я не могу сделать полный размах и в конечном итоге лишаюсь силы."
+    "Скорее всего, именно к этому он и стремился."
+    "Похоже, Кей-кун решил атаковать мой прилавок, что, по общему признанию, довольно раздражающая стратегия."
     play sound "music/tennishit.ogg"
     show km1p4i6 with dissolve
-    "Right after I return the ball to the other side of the court, he, again, shoots it to the other side of the court to make me run."
-    "If this were a three or even a full-set match, I would be seriously worried about my stamina."
+    "Сразу после того, как я возвращаю мяч на другую сторону площадки, он снова стреляет в другую сторону площадки, чтобы заставить меня бежать."
+    "Если бы это была тройка или даже полный матч, я бы серьезно беспокоился о своей выносливости."
     play sound "music/tennishit.ogg"
     show km1p4i7 with dissolve
-    "In a flash, Kei-kun has identified the shots I most struggle against and the ones I most want to hit."
-    "By doing that, he is aggressively looking to keep his serve by chipping away at me until he can go for a winner."
-    "This style of tennis that emphasizes a wide variation of shots and a delicate touch is his specialty. It's thanks to this that Kei-kun managed to overcome his average constitution, becoming a well-known player in our region."
+    "В мгновение ока Кей-кун определил выстрелы, с которыми я больше всего борюсь, и те, которые я больше всего хочу поразить."
+    "Делая это, он агрессивно ищет, чтобы сохранить свою подачу, откалывая меня, пока он не сможет выйти на победителя."
+    "Этот стиль тенниса, подчеркивающий широкий разброс бросков и тонкое касание, является его фирменным стилем. Именно благодаря этому Кей-кун сумел преодолеть свое среднее телосложение, став известным игроком в нашем регионе."
     play sound "music/tennishit.ogg"
     show km1p4i8 with dissolve
-    "Still, he has yet to make a breakthrough when it comes to the national competitions."
-    "Since I can't fall into a comfortable pace, I end up not being able to hit the ball as I want to and, as such, can't put away a winner."
+    "Тем не менее, ему еще предстоит совершить прорыв, когда дело дойдет до национальных соревнований."
+    "Поскольку я не могу попасть в удобный темп, я в конечном итоге не могу ударить по мячу, как я хочу, и, как таковой, не могу убрать победителя."
     show km1p4i9 with dissolve
-    "I continue to struggle with the rally until Keisuke eventually runs me out of the point."
+    "Я продолжаю бороться с ралли, пока Кейсуке в конце концов не выбивает меня из точки."
     show k 1 t haughty at fdis
     hide km1p4i9
     hide km1p4i8
@@ -875,33 +875,33 @@
     hide km1p4i2
     hide km1p4i1
     with dissolve
-    "Keisuke continues to use this same strategy for the remainder of the game. I'm only able to score a single point before he wins."
-    "We promptly start the fifth game."
-    "This time, I have to try and hit my best possible serve to keep myself on the lead during my service game."
+    "Кейсуке продолжает использовать эту же стратегию на протяжении всей игры. Я могу набрать только одно очко, прежде чем он выиграет."
+    "Мы быстро начинаем пятую игру."
+    "На этот раз, я должен попытаться ударить мою лучшую возможную подачу, чтобы сохранить себя на лидерстве во время моей служебной игры."
     show km1p5i1 with dissolve
-    "While I fully expect myself to have the advantage on my serve, I still don't want to be caught up on a long rally against him."
-    "I don't have that much stamina."
+    "Хотя я полностью ожидаю, что у меня будет преимущество на моей подаче, я все еще не хочу быть пойманным на долгом ралли против него."
+    "У меня нет такой выносливости."
     play sound "music/tennishit.ogg"
     show km1p5i2
     show k 1 t serious
     with dissolve
-    "I go for a strong, flat serve to the center of the court."
-    "Although it's high risk, the ball makes it right on the edge of the court, painting the line."
+    "Я иду на сильную, плоскую подачу к центру площадки."
+    "Хотя это очень рискованно, мяч попадает прямо на край площадки, рисуя линию."
     play sound "music/tennishit.ogg"
     show km1p5i3 with dissolve
-    "Despite that, Kei-kun reaches it, returning a deep ball with tons of topspin."
+    "Несмотря на это, Кей-кун достигает его, возвращая глубокий шар с тоннами топшпина."
     play sound "music/tennishit.ogg"
     show km1p5i4 with dissolve
-    "Using the advantage given to me by my serve game, I quickly return a strong flat shot to the other side of the court."
-    "The speed of the shot doesn't give him time to ready his next swing. If he doesn't have much time to prepare, he can't send a very precise shot."
+    "Используя преимущество, данное мне моей подачей, я быстро возвращаю сильный плоский удар на другую сторону площадки."
+    "Скорость выстрела не дает ему времени подготовить следующий удар. Если у него не будет много времени на подготовку, он не сможет послать очень точный выстрел."
     play sound "music/tennishit.ogg"
     show km1p5i5 with dissolve
-    "He ends up lightly tapping it to my side of the court."
+    "В конце концов он легонько постукивает ею по моей стороне площадки."
     play sound "music/tennishit.ogg"
     show km1p5i6 with dissolve
     play sound "music/tennishit.ogg"
     show km1p5i7 with dissolve
-    "I rush over to it and strike with everything I have, putting away an easy winner."
+    "Я бросаюсь к нему и бью всем, что у меня есть, отбрасывая легкого победителя."
     show k 1 t shock at fdis
     sa 1 t "\"15-0!\""
     show k 1 t hostile at fdis
@@ -913,34 +913,34 @@
     hide km1p5i2
     hide km1p5i1
     with dissolve
-    "Kei-kun looks somewhat angry. I see him muttering something to himself before he gets back to position."
-    "This is the main reason I avoided playing against him for so long."
-    "Kei-kun falls in the category of \"tactical\" players. He is constantly running simulations and thinking up different strategies to deal with any problems he might face."
-    "Ordinarily, when faced with a huge hurdle, a player like myself would attempt to find an answer through trial and error."
-    "A player like Keisuke though is constantly analyzing the shifts in pattern. Because of that, he can shift into an answer almost instantly."
-    "I'm forced to keep changing up shots far too often in an attempt to throw him off."
-    "In the end, I'm not truly forcing my way through. I am just taking a detour that forces me to spend extra energy."
-    "I just hate having to deal with any wall that my power can't break through."
-    "Because I am forced to constantly think and look for alternatives, the strain of having to sustain such a degree of concentration while keeping up my usual high-pace game makes me get tired faster than usual."
-    "Still, I can't just shoot blindly, otherwise he will eventually find a way to shut me out."
+    "Кей-кун выглядит несколько сердитым. Я вижу, как он бормочет что-то себе под нос, прежде чем вернуться на свое место."
+    "Это главная причина, по которой я так долго избегал играть против него."
+    "Кей-кун попадает в категорию \"тактических\" игроков. Он постоянно проводит симуляции и придумывает различные стратегии, чтобы справиться с любыми проблемами, с которыми он может столкнуться."
+    "Обычно, столкнувшись с огромным препятствием, игрок вроде меня пытается найти ответ методом проб и ошибок."
+    "Однако такой игрок, как Кейсуке, постоянно анализирует изменения в поведении. Из-за этого он может перейти к ответу почти мгновенно."
+    "Я вынужден слишком часто менять удары, чтобы сбить его с толку."
+    "В конце концов, я на самом деле не пробиваю себе дорогу. Я просто делаю крюк, который заставляет меня тратить дополнительную энергию."
+    "Я просто ненавижу иметь дело с любой стеной, которую моя сила не может пробить."
+    "Поскольку я вынужден постоянно думать и искать альтернативы, напряжение от необходимости поддерживать такую степень концентрации, поддерживая мою обычную игру в высоком темпе, заставляет меня уставать быстрее, чем обычно."
+    "Тем не менее, я не могу просто делать подачи вслепую, иначе он в конце концов найдет способ отгородиться от меня."
     show km1p6i1 with dissolve
-    "I decide to change up my serves a little bit. By adding a few spin shots to my serves, which are usually all flat anyway, I can throw him off for a while."
+    "Я решаю немного изменить свои подачи. Добавив несколько спин-шотов к моим подачам, которые обычно все равно плоские, я могу сбить его с толку на некоторое время."
     play sound "music/tennishit.ogg"
     show km1p6i2 with dissolve
-    "I try putting as much power as I can into this spin serve, though the ball is significantly slower than before. Crap, I'm not too good at using spin."
-    "Because of the way a player grips his racket and the hand he uses to hold it, the ball tends to naturally spin to one direction."
-    "That's one of the reasons left-handed players are favored in the game, since there aren't many of them and players tend to have already ingrained their reactions to different shots. Any difference, no matter how small, can throw them off."
-    "Most players capitalize on this natural spin, hitting spin shots that make the ball slide in that direction."
-    "Since hitting a spin towards the opposite direction makes it so the ball doesn't slide so much to the side, it tends to not be as favored."
-    "But because it isn't as favored, it becomes unexpected and I use this to catch Kei-kun by surprise."
+    "Я стараюсь вложить как можно больше энергии в эту подачу вращения, хотя мяч значительно медленнее, чем раньше. Черт, я не слишком хорошо использую вращение."
+    "Из-за того, как игрок сжимает свою ракетку и руку, которую он использует, чтобы держать ее, мяч имеет тенденцию естественно вращаться в одном направлении."
+    "Это одна из причин, по которой левшам отдают предпочтение в игре, так как их не так много, и игроки, как правило, уже укоренили свои реакции на различные удары. Любая разница, даже самая незначительная, может сбить их с толку."
+    "Большинство игроков извлекают выгоду из этого естественного вращения, нанося удары по вращению, которые заставляют мяч скользить в этом направлении."
+    "Поскольку удар по вращению в противоположном направлении делает его таким, что мяч не скользит так сильно в сторону, он, как правило, не так благоприятен."
+    "Но поскольку это не так благоприятно, это становится неожиданным, и я использую это, чтобы застать Кей-куна врасплох."
     play sound "music/tennishit.ogg"
     show k 1 t serious at fdis
     show km1p6i3
     with dissolve
-    "He reads my serve and rushes into a position to return, but because the ball doesn't escape as far to the side as he expects it, he ends up hitting the ball too close to the grip of the racket."
+    "Он читает мою подачу и бросается в позицию, чтобы вернуться, но поскольку мяч не улетает так далеко в сторону, как он ожидает, он попадает по мячу слишком близко к рукоятке ракетки."
     play sound "music/tennishit.ogg"
     show km1p6i4 with dissolve
-    "His return is shallow, leaving me an opportunity to attack."
+    "Его возвращение поверхностно, оставляя мне возможность атаковать."
     show k 1 t shock at fdis
     show km1p6i5
     with dissolve
@@ -952,23 +952,23 @@
     hide km1p6i2
     hide km1p6i1
     with dissolve
-    k "\"Tch...\""
-    "Kei-kun looks just about ready to throw his racket on the floor. He's gripping it so tight that his hands are shaking."
-    "I'm not exactly happy to see him like this, but I decide to bury those feelings for now."
-    "He's my friend, but when we're on the court, I can't show sympathy."
+    k "\"Черт...\""
+    "Кей-кун, похоже, вот-вот бросит ракетку на пол. Он сжимает ее так крепко, что у него дрожат руки."
+    "Я не очень рад видеть его таким, но решил пока похоронить эти чувства."
+    "Он мой друг, но когда мы на площадке, я не могу проявлять сочувствие."
     show k 1 t serious at fdis
     show km1p7i1
     with dissolve
     play sound "music/tennishit.ogg"
     show km1p7i2 with dissolve
-    "This time I go with a wide slice."
-    "Once again, since I'm serving the ball to a direction opposite of it's spin, instead of sliding away from the court, it angles itself back in."
+    "На этот раз я иду с широким ломтем."
+    "И снова, поскольку я подаю мяч в направлении, противоположном его вращению, вместо того, чтобы соскользнуть с площадки, он поворачивается обратно."
     play sound "music/tennishit.ogg"
     show km1p7i3 with dissolve
     play sound "music/tennishit.ogg"
     show km1p7i4 with dissolve
     show km1p7i5 with dissolve
-    "The awkward angle of the shot causes Kei-kun to hit another weak return, which I easily put away."
+    "Неловкий угол выстрела заставляет Кей-куна нанести еще один слабый ответный удар, который я легко отбиваю."
     sa 1 t "\"40-0!\""
     show k 1 t scorn at fdis
     hide km1p7i5
@@ -978,96 +978,96 @@
     hide km1p7i1
     with dissolve
     play music "music/crowd01.ogg" fadein 4.0
-    "The freshmen all chat excitedly while they watch the match. There are so many voices at the same time that I can barely even make out what they're saying."
-    "Well... not that I'm trying to anyway."
-    "Kei-kun seems like he can't even notice them, not reacting at all to their voices."
-    "That guy's concentration is on a whole other level... and that's already scary enough by itself."
+    "Все первокурсники возбужденно болтают, наблюдая за матчем. Здесь так много голосов одновременно, что я едва могу разобрать, что они говорят."
+    "Что ж... впрочем, я и не пытаюсь."
+    "Кей-кун, кажется, даже не замечает их, никак не реагируя на их голоса."
+    "Концентрация этого парня находится на совершенно другом уровне... и это уже само по себе достаточно страшно."
     show km1p8i1 with dissolve
     play sound "music/tennishit.ogg"
     show km1p8i2 with dissolve
-    "I ready myself for another serve. I take advantage of the indecision my past two serves created and hit a strong top spin shot wide."
+    "Я готовлюсь к новой порции. Я использую в своих интересах нерешительность, созданную моими прошлыми двумя подачами, и поражаю сильный верхний спин-шот."
     show k 1 t shock at fdis
-    "Kei-kun is caught by surprise. Having tried to anticipate my serve, he ran towards the center but had to double back immediately."
+    "Кей-кун застигнут врасплох. Пытаясь предугадать мою подачу, он побежал к центру, но тут же вынужден был вернуться назад."
     show km1p8i3 with dissolve
-    "Because he can't reach the ball, I score a service ace to take the game."
+    "Поскольку он не может дотянуться до мяча, я достаю свой туз, чтобы выйграть игру."
     play sound "music/crowdcheer.ogg"
-    "The freshmen erupt in cheers before being reprimanded by the other club members."
-    sa 1 t "\"Game [povLastName]. Game count: 4-1! [povLastName] leads.\""
+    "Первокурсники разразились аплодисментами перед тем, как другие члены клуба сделали выговор."
+    sa 1 t "\"Игра [povLastName]. Счет: 4-1! [povLastName] ведет.\""
     show k 1 t scorn at fdis
     hide km1p8i3
     hide km1p8i2
     hide km1p8i1
     with dissolve
     play sound "music/sit.ogg"
-    "We take another break."
-    "I slide into my seat to rest for a bit, uncapping my bottle of water and taking a quick sip."
+    "Мы делаем еще один перерыв."
+    "Я проскальзываю на свое место, чтобы немного отдохнуть, открываю бутылку воды и делаю быстрый глоток."
     show cg20 with Dissolve(1.0)
-    "When I glance over at Kei-kun on the side... he has a really intense look on his face."
-    "He might look like the meek, silent type, but he really gets fired up when it comes to tennis, huh?"
-    "He mutters something to himself that I can't really make out, sweat rolling down his face and dripping from his matted fur."
-    "He's wiping his face using the hem of his shirt."
-    "... Why he isn't going for a towel inside his bag I really don't understand."
-    "One thing I will say is that for someone who looks so lithe and somewhat fragile, Kei-kun is surprisingly well-built underneath his clothes."
-    "You can quickly tell just how much effort he put into nurturing and caring for his body."
-    "Even for someone who doesn't seem to naturally very athletic, he managed to build himself to a point where he doesn't have even a little bit excess muscle anywhere."
-    "It's something to marvel at really. Even I probably am a little bit thicker on the muscle mass than I should be."
+    "Когда я смотрю на Кей-куна сбоку... у него очень напряженное выражение лица."
+    "Может, он и выглядит кротким, молчаливым типом, но когда дело доходит до тенниса, он действительно заводится, да?"
+    "Он бормочет что-то себе под нос, но я не могу разобрать, пот катится по его лицу и капает со спутанной шерсти."
+    "Он вытирает лицо, пользуясь подолом рубахи."
+    "... Почему он не полез за полотенцем в свою сумку, я действительно не понимаю."
+    "Одно могу сказать точно: для того, кто выглядит таким гибким и немного хрупким, Кей-кун удивительно хорошо сложен под одеждой."
+    "Вы можете быстро понять, сколько усилий он вложил в заботу о своем теле."
+    "Даже для того, кто не кажется очень спортивным от природы, он сумел построить себя до такой степени, что у него нет даже немного лишних мышц."
+    "Это действительно то, чему можно удивляться. Даже я, вероятно, немного толще в мышечной массе, чем следовало бы."
     hide cg20 with Dissolve(1.0)
-    sa 1 t "\"Time!\""
+    sa 1 t "\"Время!\""
     show k 1 t serious at fdis
-    "We both get up from our chairs at the same time."
-    "If I want to end this match as soon as possible then my goal should be to break his serve."
-    "I've had enough time to get used to his tricky style."
-    "Not only that, he feels like he's slipping. He's getting impatient and that shows."
-    "I should use that to my advantage to break his serve."
+    "Мы оба одновременно встаем со своих стульев."
+    "Если я хочу закончить этот матч как можно скорее, то моя цель должна быть сломить его подачу."
+    "У меня было достаточно времени, чтобы привыкнуть к его хитрому стилю."
+    "Мало того, он чувствует, что ускользает. Он становится нетерпеливым, и это видно."
+    "Я должен использовать это в своих интересах, чтобы сломить его подачу."
     show km1p9i1 with dissolve
     play sound "music/tennishit.ogg"
     show km1p9i2 with dissolve
-    "We both get to our positions. Kei-kun sends the ball high before striking it, hitting a strong flat serve to the center of the court."
-    "I was already expecting him to do something like that. People tend to put too much force on the shot when they're angry whilst ignoring spin and placement."
+    "Мы оба занимаем свои позиции. Кей-кун посылает мяч высоко, прежде чем ударить его, ударяя сильной плоской подачей в центр площадки."
+    "Я уже ожидал, что он сделает что-то подобное. Люди, как правило, придают слишком большую силу выстрелу, когда они злятся, игнорируя вращение и размещение."
     play sound "music/tennishit.ogg"
     show km1p9i3 with dissolve
-    "Having gotten to the ball a lot earlier, I have ample time to prepare, hitting my strongest shot back at him."
+    "Добравшись до мяча намного раньше, у меня есть достаточно времени, чтобы подготовиться, ударив по нему своим самым сильным ударом."
     show km1p9i4 with dissolve
-    "The ball hits the ground and bounces away from his reach, scoring me a return ace."
+    "Мяч падает на землю и отскакивает от его досягаемости, забивая мне ответный туз."
     show k 1 t angry at fdis
-    "It seems that with each passing moment, Kei-kun becomes more and more agitated."
-    "He should really try to calm down. Playing like this is only gonna drag him down further."
+    "Кажется, что с каждым мгновением Кей-кун становится все более и более возбужденным."
+    "Он действительно должен попытаться успокоиться. Такая игра только еще больше затянет его вниз."
     sa 1 t "\"0-15!\""
     hide km1p9i4
     hide km1p9i3
     hide km1p9i2
     hide km1p9i1
     with dissolve
-    "Well, it can't be helped. If he's not trying to help himself, there isn't anything I can do to help him."
-    "And, to be honest, I feel that he'd fly off the rails if I did try."
+    "Ну, тут уж ничего не поделаешь. Если он не пытается помочь себе, я ничем не могу ему помочь."
+    "И, честно говоря, я чувствую, что он слетит с катушек, если я попытаюсь."
     show km1p10i1 with dissolve
-    "Kei-kun takes a while to get into position."
-    "He starts tying his shoes repeatedly, probably trying to calm himself down."
+    "Кей-кун занимает некоторое время, чтобы занять позицию."
+    "Он начинает завязывать шнурки на ботинках, вероятно, пытаясь успокоиться."
     show k 1 t sigh at fdis
     $ renpy.pause (2.0)
     show k 1 t at fdis
     "..."
-    "Well, he definitely looks to have calmed down a bit."
+    "Ну, он определенно выглядит немного успокоившимся."
     play sound "music/tennishit.ogg"
     show km1p10i2 with dissolve
-    "He serves the ball again, shooting a sliced serve towards the center."
+    "Он снова подает мяч, отправляя нарезанную подачу в центр."
     play sound "music/tennishit.ogg"
     show km1p10i3 with dissolve
-    "If it weren't for the spin on the ball, that would practically be a body shot. As soon as the ball gets close, I sidestep it and hit an angled shot to the side of the court."
-    "The ball practically paints the line, bouncing very high from all the top spin I put on it."
-    "I really have to be more careful with my spin shots. They're barely going in right now. I might actually make a mistake if I keep going like this."
+    "Если бы не вращение мяча, это был бы практически выстрел в тело. Как только мяч приближается, я уклоняюсь от него и делаю угловой удар в сторону площадки."
+    "Мяч практически рисует линию, подпрыгивая очень высоко от всех верхних вращений, которые я на него ставлю."
+    "Мне действительно нужно быть более осторожным с моими спин-шот. Сейчас они почти не заходят внутрь. Я действительно могу ошибиться, если буду продолжать в том же духе."
     play sound "music/tennishit.ogg"
     show km1p10i4 with dissolve
-    "Kei-kun reaches it and effortlessly hits it back at me with another slice, going right at the center of the court."
+    "Кей-кун дотягивается до него и без особых усилий бьет его в ответ другим куском, попадая прямо в центр площадки."
     play sound "music/tennishit.ogg"
     show km1p10i5 with dissolve
-    "I hit it back with as much power as I can whilst aiming crosscourt, but can't get good contact with the ball and it ends up hitting the upper part of the net."
-    "We are both taken by surprise."
+    "Я отбиваю его с такой силой, как только могу, целясь в кросскорт, но не могу получить хороший контакт с мячом, и он попадает в верхнюю часть сетки."
+    "Мы оба застигнуты врасплох."
     show k 1 t shock at fdis
     show km1p10i6
     with dissolve
-    "The ball topples down to Kei-kun's side of the court."
-    "He dashes over to the net in an attempt to reach it, but ends up being too late."
+    "Мяч падает на сторону Кей-куна."
+    "Он бросается к сетке, пытаясь дотянуться до нее, но оказывается слишком поздно."
     sa 1 t "\"0-30!\""
     hide km1p10i6
     hide km1p10i5
@@ -1076,24 +1076,24 @@
     hide km1p10i2
     hide km1p10i1
     with dissolve
-    mc 1 u wince "\"Sorry about that. I didn't-\""
-    "I apologize, as it's the proper thing to do."
+    mc 1 u wince "\"Сожалеть об этом. Я не-\""
+    "Я приношу свои извинения, так как это правильно."
     show k 1 t annoyed at fdis
-    k "\"It's fine.\""
-    "He nearly spits those words out. That's how angry he is right now."
-    "I'm sure he doesn't blame me for it, but it's hard to keep your feelings in check when you're under pressure."
+    k "\"Все нормально.\""
+    "Он почти выплевывает эти слова. Вот как он сейчас зол."
+    "Я уверен, что он не винит меня за это, но трудно держать свои чувства под контролем, когда на тебя давят."
     show k 1 t at fdis
     show km1p11i1 with dissolve
     play sound "music/tennishit.ogg"
     show km1p11i2 with dissolve
-    "Kei-kun serves a strong flat, this time aiming wide."
+    "Кей-кун подает сильный флэт, на этот раз целясь широко."
     play sound "music/tennishit.ogg"
     show km1p11i3 with dissolve
-    "I dash towards the ball and hit it back, but since I can't get to a good position, the ball ends up being too weak."
+    "Я бросаюсь к мячу и отбиваю его, но так как я не могу попасть в хорошую позицию, мяч оказывается слишком слабым."
     play sound "music/tennishit.ogg"
     show km1p11i4 with dissolve
     show km1p11i5 with dissolve
-    "Kei-kun reaches it and puts it away in an instant."
+    "Кей-кун достает его и тут же убирает."
     sa 1 t "\"15-30!\""
     show k 1 t smile at fdis
     hide km1p11i5
@@ -1102,36 +1102,36 @@
     hide km1p11i2
     hide km1p11i1
     with dissolve
-    "My return was pretty terrible, so there wasn't anything I could do."
-    "Keisuke might not look like it, but he's certainly a high level player."
-    "If I give him any openings, he'll certainly go for them in an instant."
+    "Мое возвращение было довольно ужасным, так что я ничего не мог сделать."
+    "Кейсуке может и не выглядеть так, но он определенно игрок высокого уровня."
+    "Если я дам ему какие-то возможности, он, конечно же, сразу же пойдет на них."
     show km1p12i1 with dissolve
     play sound "music/tennishit.ogg"
     show km1p12i2 with dissolve
-    "Kei-kun serves once again. This time, I have a much easier time reaching it."
+    "Кей-кун снова подает. На этот раз мне гораздо легче добраться до него."
     play sound "music/tennishit.ogg"
     show km1p12i3 with dissolve
-    "I return an angled shot that hits the ground before the service line and bounces away from the court. Kei-kun is caught by surprise and has to rush to the ball."
+    "Я возвращаю угловой выстрел, который попадает в землю перед линией обслуживания и отскакивает от корта. Кей-кун застигнут врасплох и вынужден броситься к мячу."
     play sound "music/tennishit.ogg"
     show km1p12i4 with dissolve
-    "Right after striking, he runs up to the net, probably to try and restrict the angle of my return, but I'm one step ahead of him."
+    "Сразу после удара он подбегает к сетке, вероятно, чтобы попытаться ограничить угол моего возвращения, но я на шаг впереди него."
     play sound "music/tennishit.ogg"
     show km1p12i5 with dissolve
-    "Right as he reaches the net, I lob the ball high over his head. He immediately starts running back and I don't doubt for a second that he will reach."
+    "Как только он достигает сетки, я подбрасываю мяч высоко над его головой. Он тут же бросается назад, и я ни секунды не сомневаюсь, что он добежит."
     play sound "music/tennishit.ogg"
     show km1p12i6 with dissolve
-    "He manages to hit the ball at the last second, barely putting any power to it as the ball bounces a few centimeters away from the net."
+    "Он успевает ударить по мячу в последнюю секунду, едва приложив к нему силу, как мяч отскакивает на несколько сантиметров от сетки."
     play sound "music/tennishit.ogg"
     show km1p12i7 with dissolve
-    "I reach it before its first bounce and, right after it goes high again, I hit it with a drop shot."
-    "Since I dropped the ball while being so close to the net, there is barely any power left in it."
+    "Я достигаю его до первого отскока, и сразу после того, как он снова поднимается высоко, я поражаю его падающим выстрелом."
+    "Поскольку я бросил мяч, находясь так близко к сетке, в нем почти не осталось энергии."
     show km1p12i8 with dissolve
-    "Kei-kun doesn't even make it to the service line before it double bounces."
+    "Кей-кун даже не добирается до линии обслуживания, прежде чем он дважды отскакивает."
     play sound "music/crowdcheer.ogg"
-    "The first years erupt in cheers and I'm pretty sure some of the 2nd and 3rd years joined them in it."
-    sa 1 t angry "\"I said shut up!\""
-    "Well, she certainly has a way of handling the crowd..."
-    "That way is fear."
+    "Первые годы разражаются радостными возгласами, и я почти уверен, что некоторые из 2-х и 3-х лет присоединились к ним."
+    sa 1 t angry "\"Я сказала, заткнулись!\""
+    "Ну, она определенно умеет управлять толпой..."
+    "Этот путь страха."
     sa 1 t "\"15-40!\""
     show k 1 t nervous at fdis
     hide km1p12i8
@@ -1143,713 +1143,713 @@
     hide km1p12i2
     hide km1p12i1
     with dissolve
-    "It seems that the pressure is starting to get to him. His face is a completely open book."
-    "No matter how he looks at it, I've been dominating him on his service game and he can't do a thing about it."
-    "Right now he would have to score twice in a row just to get us to deuce."
-    "I definitely hold the advantage here."
+    "Кажется, что давление начинает на него давить. Его лицо - это полностью открытая книга."
+    "Неважно, как он на это смотрит, я доминирую над ним в его служебной игре, и он ничего не может с этим поделать."
+    "Прямо сейчас ему пришлось бы забивать дважды подряд, чтобы мы попали в двойку."
+    "Я определенно держу преимущество здесь."
     show km1p13i1 with dissolve
     play sound "music/tennishit.ogg"
     show km1p13i2 with dissolve
-    "He serves the ball again, but just like his first serve of this game, he was so anxious to finish things fast that he got predictable."
+    "Он снова подает мяч, но так же, как и его первая подача в этой игре, он так стремился закончить все быстро, что стал предсказуемым."
     play sound "music/tennishit.ogg"
     show km1p13i3 with dissolve
     play sound "music/tennishit.ogg"
     show km1p13i4 with dissolve
     show k 1 t shock at fdis
-    "I easily anticipate it and put the ball away with a return ace."
-    sa 1 t "\"Game [povLastName]. Game count: 5-1! [povLastName] leads.\""
+    "Я легко предвосхищаю его и убираю мяч с ответным тузом."
+    sa 1 t "\"Игра [povLastName]. Счет: 5-1! [povLastName] ведет.\""
     show k 1 t sigh at fdis
     hide km1p13i4
     hide km1p13i3
     hide km1p13i2
     hide km1p13i1
     with dissolve
-    "As if he had lost all the drive that fueled him so far, Keisuke's shoulders sags."
-    "I don't blame him for being discouraged, but right now he looks as if he's already been defeated."
-    "What happened to \"try your best until the end\"?"
-    "What's the point of continuing to play when you've already given up?"
-    "Ugh... I'm starting to get angry because of his attitude."
-    "I'll just finish this soon so we can both stop this miserable match."
+    "Как будто он потерял всю энергию, которая питала его до сих пор, плечи Кейсуке поникли."
+    "Я не виню его за то, что он обескуражен, но сейчас он выглядит так, словно уже потерпел поражение."
+    "Что случилось с ним? \"старайся изо всех сил до самого конца\"?"
+    "Какой смысл продолжать играть, когда ты уже сдался?"
+    "Тьфу... Я начинаю злиться из-за его отношения."
+    "Я просто закончу это в ближайшее время, чтобы мы оба могли остановить этот несчастный матч."
     scene SCourt
     show k 1 t wince at fdis, five
     show sa 1 t at offscreenleft
     with fade
-    sa 1 t wry "\"Game, set and match won by [povLastName]. Count: 6-1!\""
+    sa 1 t wry "\"Игра, сет и матч выиграны [povLastName]. Счет: 6-1!\""
     stop music2 fadeout 4.0
     show k 1 t sigh at offscreenleft with moveoledis
     hide k 1 t sigh
-    "Saya has barely finished announcing the score and Keisuke has already walked out of the court, stuffing his racket back into his bag and slipping away with it."
-    "Saya doesn't miss a beat, getting down from her seat and walking after him in a rush."
-    "Tennis players really have glass hearts sometimes..."
-    "A little crowd of freshmen gathers around me, showering me with praise and admiration."
-    "... And using this as an opportunity to ask for tips."
-    "I make no effort to listen, walking towards the locker room."
-    "I just want to rest. I don't care."
+    "Сая едва закончила объявлять счет, а Кейсуке уже вышел с корта, запихнув ракетку обратно в сумку и ускользнув с ней."
+    "Сая, не теряя ни секунды, встает со своего места и торопливо идет за ним."
+    "У теннисистов действительно иногда бывают стеклянные сердца..."
+    "Вокруг меня собирается небольшая толпа первокурсников, осыпая меня похвалами и восхищением."
+    "... И использовать это как возможность попросить чаевые."
+    "Я даже не пытаюсь слушать, идя к раздевалке."
+    "Я просто хочу отдохнуть. Мне все равно."
     show s 1 v seductive at five with moveiridis
     show s 1 v seductive at fdis, five
     stop music2 fadeout 2.0
     $ renpy.music.set_volume(0.5, 0.0, channel="music3")
     play music "music/tennisambiance.ogg" fadein 4.0
     play music3 "music/BGM/On My Way.ogg" fadein 4.0
-    "And right there, standing in front of the door, is Shoichi."
-    s "\"Man, you're heartless. Don't you know how to go easy on people? It's good to do it every now and then.\""
-    mc 1 t sigh "\"Suuure. Then I'd have him getting mad at me for underestimating him.\""
+    "И прямо там, перед дверью, стоит Шоичи."
+    s "\"Чувак, ты бессердечный. Разве ты не знаешь, как легко относиться к людям? Хорошо делать это время от времени.\""
+    mc 1 t sigh "\"Конечно. Тогда я бы заставил его злиться на меня за то, что он недооценил меня.\""
     "He shrugs."
     show s 1 v smile at fdis
     $ renpy.music.set_volume(1.0, 8.0, channel="music2")
-    s "\"The cheering over here was so loud that we could hear it from our side of the building. Coach asked me to come over and see what the fuss was about.\""
+    s "\"Аплодисменты здесь были настолько громкими, что мы могли слышать их с нашей стороны здания. Тренер попросил меня подойти и посмотреть, из-за чего весь сыр-бор.\""
     show s 1 v happy at fdis
-    s "\"Although I ended up sticking around to watch you play, hehe.\""
-    mc 1 t sigh "\"You sure are carefree with your duties, huh?\""
+    s "\"Хотя в итоге я остался, чтобы посмотреть, как ты играешь, хе-хе.\""
+    mc 1 t sigh "\"Ты уверен, что беззаботно относишься к своим обязанностям, а?\""
     show s 1 v smile at fdis
-    s "\"I enjoy watching you play. Why are you so surprised?\""
+    s "\"Мне нравится смотреть, как ты играешь. Почему ты так удивлен?\""
     show s 1 v at fdis
-    s "\"I have to ask, though. Why didn't you tell me you'd be playing against Urushihara?\""
-    mc 1 t annoyed "\"Saya didn't tell me. She decided to keep it a secret until the last minute because I was, as she says it, \"a flight risk\".\""
-    s "\"Sounds about right.\""
-    mc 1 t annoyed "\"Hey!\""
+    s "\"Но я должен спросить. Почему ты не сказал мне, что я буду играть против Урушихары?\""
+    mc 1 t annoyed "\"Сая мне ничего не сказала. Она решила держать это в секрете до последней минуты, потому что я был, как она говорит, \"рискованным полетом\".\""
+    s "\"Звучит примерно так.\""
+    mc 1 t annoyed "\"Эй!\""
     show s 1 v laugh at fdis
-    s "\"Sorry, but I think she's right. I imagine you'd have gone home the first chance you got if you knew about this.\""
+    s "\"Извини, но я думаю, что она права. Я думаю, ты бы уехал домой при первой же возможности, если бы узнал об этом.\""
     show s 1 v smile at fdis
-    s "\"After all, you've been talking about how annoying it is to play against Urushihara since you first watched him practice.\""
-    mc 1 t avoid "\"That's... only partly true...\""
+    s "\"В конце концов, ты говорили о том, как раздражает играть против Урушихары с тех пор, как ты впервые увидел, как он тренируется.\""
+    mc 1 t avoid "\"Это... правда, лишь отчасти...\""
     show s 1 v seductive at fdis
-    s "\"Oh, really? What part of what I said was wrong?\""
-    mc 1 t sigh "\"... Shut up.\""
+    s "\"О, неужели? Какая часть того, что я сказал, была неправильной?\""
+    mc 1 t sigh "\"... Заткнись.\""
     show s 1 v happy at fdis
-    s "\"Heh, as easy to rile up as usual.\""
+    s "\"Хех, так же легко разозлить, как обычно.\""
     show s 1 v smile at fdis
-    s "\"Oh, right, I nearly forgot. Here!\""
-    "Shoichi hands me a can. I can see beads of condensation rolling down from it. It must be really cold."
+    s "\"Ах да, чуть не забыл. Сюда!\""
+    "Шоичи протягивает мне банку. Я вижу, как с нее скатываются капельки конденсата. Должно быть, она очень холодная."
     show s 1 v happy at fdis
-    s "\"I picked up an energy drink for you, figured you'd want one after the match. I know orange is your favorite so I picked that one.\""
+    s "\"Я взял для тебя энергетический напиток, подумал, что ты захочешь выпить его после матча. Я знаю, что апельсин твой любимый, поэтому выбрала именно его.\""
     play sound "music/opencan.ogg"
-    mc 1 t happy "\"Oooh, thanks. You're a real life saver!\""
-    "I immediately start drinking it down without a care in the world."
-    "In just a few seconds, the entire can has already been emptied."
+    mc 1 t happy "\"Оооо, спасибо. Ты мой спаситель!\""
+    "Я сразу же начинаю пить его, не заботясь ни о чем на свете."
+    "Всего за несколько секунд вся банка уже была опустошена."
     show s 1 v shock at fdis
-    s "\"Wow. Were you really that thirsty?\""
-    mc 1 t sigh "\"You have no idea.\""
+    s "\"Вау. Неужели тебе так хотелось пить?\""
+    mc 1 t sigh "\"Ты даже не представляешь.\""
     show s 1 v happy at fdis
-    "Without a warning, Shoichi puts a hand on my head and begins to casually pet me."
-    "I don't even notice that's what he's doing until he's already started... at which point I'm so shocked by his complete lack of self consciousness about the whole thing."
-    "If there's one thing that needs to be said about him it's that he's a very touchy-feely kind of guy."
-    "Myself, Saya, his sister, and even Keisuke, on the rare occasion they're not going at each other's throats, have already been made victims to this."
-    "It wouldn't be half bad if he kept these things to private places either, but somehow he always tries to pull them off in public."
+    "Без предупреждения Шоичи кладет руку мне на голову и начинает небрежно гладить меня."
+    "Я даже не замечаю, что он делает, пока он уже не начал... в этот момент я так потрясен его полным отсутствием самосознания по поводу всего этого."
+    "Если и есть что-то, что нужно сказать о нем, так это то, что он очень обидчивый парень."
+    "Я, Сая, его сестра и даже Кейсуке, в тех редких случаях, когда они не вцепляются друг другу в глотки, уже стали жертвами этого."
+    "Было бы не так уж плохо, если бы он держал все это в тайне, но почему-то он всегда старается делать это на людях."
     $ renpy.music.set_volume(0.5, 0.0, channel="sound")
     play sound "music/slap.ogg"
-    "As soon as I snapped back to reality, I slap his hand away from my head... just as he had begun tugging on my ears."
+    "Как только я возвращаюсь к реальности, я отбрасываю его руку от своей головы... так же, как он начал дергать меня за уши."
     show s 1 v sigh at fdis
-    s "\"Aww, no fun...\""
-    "Jeez, you'd figure I killed his pet from the way he just reacted."
-    "It's not even like I mind it in the first place. I just don't like when he pulls this sort of stunt in public."
+    s "\"Ой, не смешно...\""
+    "Господи, можно подумать, Я убил его любимца по тому, как он только что отреагировал."
+    "Это даже не то, что я против этого в первую очередь. Мне просто не нравится, когда он выкидывает такие фокусы на публике."
     show s 1 v laugh at fdis
-    s "\"Eh, well, what can you do.\""
-    "... For some reason, he seems to find my rejection funny."
-    mc 1 t avoidb "\"I don't like being messed with in public. You know that.\""
-    s "\"Sorry sorry, I'll try to refrain from doing it again.\""
-    "That's a lie..."
+    s "\"Эх, ну что поделаешь.\""
+    "... По какой-то причине мой отказ кажется ему забавным."
+    mc 1 t avoidb "\"Я не люблю, когда со мной шутят на людях. И ты это знаешь.\""
+    s "\"Прости, прости, я постараюсь больше этого не делать.\""
+    "Это ложь..."
     show s 1 v smile at fdis
-    s "\"By the way, what did you think of Urushihara? This was the first time you've played against him since the prefecturals tournament last year wasn't it?\""
-    "I turn around to look for Kei-kun... but can't seem to find him."
-    mc 1 t "\"I don't know... he's a good player, I'll give him that, but...\""
-    mc 1 t wince "\"I don't think he's ready for a major competition just yet. He'd probably get destroyed by the higher ranking players.\""
+    s "\"Кстати, что ты думаешь об Урушихаре? Это был первый раз, когда ты играл против него после турнира префектур в прошлом году, не так ли?\""
+    "Я оборачиваюсь, чтобы посмотреть на Кей-куна... но никак не могу его найти."
+    mc 1 t "\"Я не знаю... он хороший игрок, надо отдать ему должное, но...\""
+    mc 1 t wince "\"Я не думаю, что он готов к серьезному соревнованию прямо сейчас. Скорее всего, его уничтожат игроки более высокого ранга.\""
     show s 1 v at fdis
-    s "\"Didn't he lose on the first round at last year's national tournament?\""
+    s "\"Разве он не проиграл в первом круге на прошлогоднем национальном турнире?\""
     show s 1 v think at fdis
-    mc 1 t sigh "\"Yeah. That's exactly what I mean by it.\""
-    s "\"I suppose you're right. I kinda feel bad about him though.\""
-    "What Shoichi is talking about is last year's All-Japan Junior tournament, the most important tournament in Japan for tennis players under the age of 18."
-    "Keisuke managed to qualify for it last year. Unfortunately for him though, he got matched up against the #4 player on the first round and lost without taking a single set."
-    "Competition for that event is brutal. I myself got all the way to the finals, but lost to Takagi Tanabe, the #1 player in the national rank."
-    s "\"Urushihara sure got unlucky, huh?\""
-    "I nod, pursing my lips."
-    "This sort of thing happens every now and then. If you want to be safe and have an easier time on the first rounds, you need to be a seeded player."
-    mc 1 t "\"Kei-kun is gonna have to try and get a seed ranking this year. That's pretty much the only thing he can do.\""
+    mc 1 t sigh "\"Да. Именно это я и имею в виду.\""
+    s "\"Наверное, ты прав. Хотя мне немного стыдно за него.\""
+    "То, о чем говорит Шоичи, это прошлогодний все Японский юниорский турнир, самый важный турнир в Японии для теннисистов в возрасте до 18 лет."
+    "Кейсуке удалось пройти квалификацию в прошлом году. К несчастью для него, он получил матч против игрока № 4 в первом раунде и проиграл, не взяв ни одного сета."
+    "Конкуренция за это событие жестокая. Я сам прошел весь путь до финала, но проиграл Такаги Танабе, игроку № 1 в Национальном рейтинге."
+    s "\"Урушихаре точно не повезло, а?\""
+    "Я киваю, поджав губы."
+    "Такого рода вещи происходит каждый сейчас и потом. Если вы хотите быть в безопасности и иметь более легкое время в первых раундах, вам нужно быть посеянным игроком."
+    mc 1 t "\"Кей-кун должен попытаться получить рейтинг семян в этом году. Это практически единственное, что он может сделать.\""
     show s 1 v at fdis
-    s "\"What would he need to do to become seeded?\""
-    mc 1 t sigh "\"Considering his current rank, he'd have to win at the Saitama Prefecture tournament and then place in the Top 4 for the Kanto tournament.\""
+    s "\"Что ему нужно сделать, чтобы стать посеянным?\""
+    mc 1 t sigh "\"Учитывая его нынешний ранг, он должен был выиграть турнир в префектуре Сайтама, а затем войти в топ-4 турнира в Канто.\""
     show s 1 v smile at fdis
-    s "\"And since we know for a fact he's not going to win the Prefectural, where should he finish on the regional to get a seed?\""
-    mc 1 t sigh2 "\"Second place.\""
-    "Shoichi whistles in admiration."
-    s "\"Urushihara is pretty much screwed, huh? Just goes to show... being #2 in Saitama doesn't really mean much. The competition here is pretty light compared to other areas of the country.\""
-    mc 1 t "\"Yeah, that's true. Right now, Tokyo and Hokkaido have the highest concentration of high-ranked players. Saitama is somewhere in the lower end of the rankings.\""
+    s "\"И поскольку мы точно знаем, что он не выиграет префектуру, где он должен закончить на региональном, чтобы получить семя?\""
+    mc 1 t sigh2 "\"Второе место.\""
+    "Шоичи восхищенно присвистывает."
+    s "\"Урушихара довольно сильно облажался, да? Просто идет, чтобы показать... быть №2 в Сайтаме на самом деле ничего не значит. Конкуренция здесь довольно легкая по сравнению с другими районами страны.\""
+    mc 1 t "\"Да, это правда. Сейчас в Токио и Хоккайдо наблюдается самая высокая концентрация игроков высокого ранга. Сайтама находится где-то в нижней части рейтинга.\""
     show s 1 v think at fdis
-    s "\"You're probably the only reason Saitama isn't dead last.\""
-    mc 1 t "\"I wouldn't go that far... I honestly don't think the level of the players in our area has fallen. I think the competition has just improved a lot.\""
+    s "\"Ты, наверное, единственная причина, по которой Сайтама не стал последним.\""
+    mc 1 t "\"Я бы не стал заходить так далеко... Честно говоря, я не думаю, что уровень игроков в нашей области упал. Я думаю, что конкуренция только что значительно улучшилась.\""
     show s 1 v at fdis
-    s "\"What do you mean?\""
-    mc 1 t think "\"I mean that the current generation is probably much stronger than the last ones.\""
-    mc 1 t think "\"Back when I was still a freshman in high school, I'd routinely beat juniors and seniors.\""
-    mc 1 t "\"It was against the other freshmen that I struggled.\""
+    s "\"Что ты имеешь в виду?\""
+    mc 1 t think "\"Я имею в виду, что нынешнее поколение, вероятно, намного сильнее, чем предыдущие.\""
+    mc 1 t think "\"Когда я был еще первокурсником в средней школе, я обычно побеждал юниоров и старшеклассников.\""
+    mc 1 t "\"Это было против других первокурсников, с которыми я играл.\""
     show s 1 v think at fdis
-    s "\"Huh, I never really thought of it like that... Kinda sucks when you're trying to go pro and have a hard time standing out.\""
+    s "\"Ха, я никогда не думал об этом в таком ключе... Как-то хреново, когда ты пытаешься стать профессионалом и с трудом выделяешься.\""
     show s 1 v smile at fdis
-    s "\"Not that {i}you're{/i} having a problem like that, of course. You already stand out plenty.\""
-    "Ah, yes... Shoichi is one of the few people I've told of my desire to go pro."
-    "So far, I've only told my family, my coach and a few close friends."
-    "Of course, most of the people involved in the tennis scene already {i}expect{/i} me to go pro, so it's not like there's much of a difference."
-    "But even at the risk of sounding superstitious, I'm afraid that if I tell many people, I'll end up jinxing it."
-    mc 1 t smile "\"What about you? Have you decided when you're going to go pro yet?\""
+    s "\"Не то чтобы у {i}тебя{/i} были такие проблемы, конечно. Ты уже достаточно выделяешься.\""
+    "Ах, да... Шоичи - один из немногих, кому я рассказал о своем желании стать профессионалом."
+    "До сих пор я говорил это только своей семье, тренеру и нескольким близким друзьям."
+    "Конечно, большинство людей, вовлеченных в теннисную сцену, уже {i}ожидают{/i}, что я стану профессионалом, так что особой разницы нет."
+    "Но даже рискуя показаться суеверным, я боюсь, что если расскажу об этом многим людям, то в конечном итоге сглазю."
+    mc 1 t smile "\"Что насчет тебя? Ты уже решил, когда станешь профессионалом?\""
     show s 1 v sigh at fdis
-    s "\"I already told you I'm not.\""
-    mc 1 t annoyed "\"Have I ever mentioned that that's a stupid idea?\""
-    s "\"Yes. Many times. Too many, in fact.\""
-    "Ugh... he's too stubborn."
-    "Shoichi is one of the best volleyball players in the country and yet he refuses to even consider the possibility of becoming a professional player."
-    "It's just... so much wasted potential..."
-    s "\"I can already tell what you're thinking so I'll just stop you right there. I'm not in the mood to have another discussion on me becoming a professional.\""
-    mc 1 t sigh "\"Augh! Why not?\""
+    s "\"Я уже сказал тебе, что нет.\""
+    mc 1 t annoyed "\"Я когда-нибудь говорил, что это глупая идея?\""
+    s "\"Да. Много раз. Даже слишком много.\""
+    "Тьфу... он слишком упрям."
+    "Шоичи - один из лучших волейболистов страны, и все же он отказывается даже рассматривать возможность стать профессиональным игроком."
+    "Это просто... так много потраченного впустую потенциала..."
+    s "\"Я уже знаю, о чем ты думаешь, поэтому просто остановлю тебя. Я не в настроении еще раз обсуждать, как мне стать профессионалом.\""
+    mc 1 t sigh "\"Агх! А почему бы и нет?\""
     show s 1 v at fdis
-    s "\"Instead, I'd rather talk about something a little more important.\""
-    mc 1 t curious "\"Oh? Like what?\""
-    "He really knows how to rope me into changing the subject of conversation."
-    "Use my curiosity against me."
-    s "\"Your progress... or lack thereof. I honestly don't see much improvement at all from last year. What happened to you?\""
-    mc 1 t sigh "\"... I was thinking the same thing.\""
+    s "\"Вместо этого я предпочел бы поговорить о чем-то более важном.\""
+    mc 1 t curious "\"А? Например, о чем?\""
+    "Он действительно знает, как заставить меня сменить тему разговора."
+    "Используй мое любопытство против меня."
+    s "\"Твой прогресс... или его отсутствие. Честно говоря, я не вижу особых улучшений по сравнению с прошлым годом. Что с тобой случилось?\""
+    mc 1 t sigh "\"... Я думал о том же самом.\""
     play sound "music/trash.ogg"
-    "I throw the now empty can of sports drink into the nearby trash, where it falls inside with a satisfying clink."
+    "Я бросаю пустую банку из-под спортивного напитка в ближайший мусорный бак, где он падает внутрь с удовлетворительным звоном."
     show s 1 v sigh at fdis
-    s "\"I know I ask this a lot, but... are you okay? Are you sure you're not going through any trouble?\""
-    mc 1 t sigh "\"I'm fine, big guy. I guess I'm just not putting in enough work, that's all.\""
-    "I'm honestly not as convinced of the truth of my words as I might sound."
-    "Just thinking about some of the guys I'll have to face again this year almost invokes a feeling of dread."
+    s "\"Я знаю, что прошу слишком многого, но... ты в порядке? Ты уверен, что у тебя нет никаких проблем?\""
+    mc 1 t sigh "\"Я в порядке, здоровяк. Наверное, я просто не слишком много работаю, вот и все.\""
+    "Честно говоря, я не так уверен в правдивости своих слов, как может показаться."
+    "Одна только мысль о некоторых парнях, с которыми мне снова придется столкнуться в этом году, почти вызывает чувство страха."
     show s 1 v smile at fdis
-    s "\"Hopefully this year you'll be able to turn things around."
+    s "\"Надеюсь, в этом году ты сможешь все изменить."
     show s 1 v laugh at fdis
-    extend " Tanabe isn't invincible. I'm sure you can beat him if you try hard enough!\""
-    "... I'm not so sure of that either."
-    mc 1 t sigh "\"Yeah, I suppose... How about we cut this conversation here, though? I'd rather not think about all this stuff right now.\""
+    extend " Танабэ не непобедим. Я уверен, что ты сможешь победить его, если постараешься!\""
+    "... В этом я тоже не уверен."
+    mc 1 t sigh "\"Да, наверное... Как насчет того, чтобы прервать этот разговор здесь? Я бы предпочел не думать обо всем этом прямо сейчас.\""
     show s 1 v smile at fdis
-    s "\"Sure thing. In that case, how about you get into the locker room and at least towel yourself off."
+    s "\"Конечно. В таком случае, как насчет того, чтобы пойти в раздевалку и хотя бы вытереться полотенцем?"
     show s 1 v happy at fdis
-    extend " No offense but you're smelling kinda ripe.\""
+    extend " Не обижайся, но от тебя пахнет.\""
     play sound "music/stab.ogg"
-    "He says that with the most innocent smile in the world... even though he was definitely taking a jab at me to tease me."
-    mc 1 t sigh "\"Wow! Thanks for the delicacy on the matter.\""
+    "Он говорит это с самой невинной улыбкой на свете... несмотря на то, что он определенно пытался меня поддразнить."
+    mc 1 t sigh "\"Ух ты! Спасибо за деликатность в этом вопросе.\""
     show s 1 v smile at fdis
-    s "\"Alright. I'll rephrase that."
+    s "\"Хорошо. Я перефразирую это."
     show s 1 v happy at fdis
-    extend " Dude, you fucking stink! Don't you ever fucking shower?\""
-    mc 1 t sigh2 "\"...{w} Never mind.\""
+    extend " Чувак, от тебя пахнет дерьмом! Ты что, никогда не принимаешь душ?\""
+    mc 1 t sigh2 "\"...{w} Не бери в голову.\""
     show s 1 v laugh at fdis
-    "Shoichi stands there, grinning like an idiot, his tail wagging left and right."
-    "I have to give him props for being able to be so cheery about everything."
+    "Шоичи стоит, ухмыляясь, как идиот, виляя хвостом направо и налево."
+    "Я должен ударить его за то, что он может быть таким веселым во всем."
     stop music3 fadeout 4.0
     scene SLockers
     show s 1 v smile at fdis, five
     with fade
-    "Heading into the locker room, I notice that it's mostly empty save for two members of the volleyball club."
-    "The only reason I can even tell who they are is because they have team shirts on them."
+    "Направляясь в раздевалку, я замечаю, что там почти никого нет, кроме двух членов волейбольного клуба."
+    "Единственная причина, по которой я могу даже сказать, кто они, - это то, что на них есть футболки команды."
     show s 1 v at fdis
-    s "\"Tomita, Ayano, the locker room isn't a break room. Stop slacking off and get back to practice.\""
-    "The two look at Shoichi with a scared look before dashing away and back into the volleyball courts."
-    mc 1 t sigh "\"... Aren't you slacking off too?\""
+    s "\"Томита, Аяно, раздевалка - это не комната отдыха. Перестань расслабляться и возвращайся к тренировкам.\""
+    "Оба смотрят на Шоичи испуганным взглядом, прежде чем броситься прочь и вернуться на волейбольную площадку."
+    mc 1 t sigh "\"... Разве ты тоже не расслабляешься?\""
     show s 1 v laugh at fdis
-    s "\"They don't need to know that!\""
-    "... Demon."
+    s "\"Им не нужно этого знать!\""
+    "... Демон."
     $ renpy.music.set_volume(1.0, 0.0, channel="music3")
     play sound "music/flick.ogg"
-    "Shoichi flicks me in the forehead, sending a small jolt over my entire body."
-    mc 1 t pout "\"What was that for\""
+    "Шоичи щелкает меня по лбу, посылая небольшой толчок по всему моему телу."
+    mc 1 t pout "\"Для чего это было нужно.\""
     show s 1 v seductive at fdis
-    s "\"You think too loud. I can tell that you're thinking bad things of me just by the look on your face.\""
-    mc 1 t "\"Am I really that transparent?\""
+    s "\"Ты слишком громко думаешь. Я могу сказать, что ты думаешь обо мне плохо, просто по выражению твоего лица.\""
+    mc 1 t "\"Неужели я настолько прозрачен?\""
     show s 1 v happy at fdis
-    s "\"To me you are.\""
+    s "\"Для меня, да.\""
     play sound "music/disappointment.ogg"
-    "I don't think this is something to be happy about..."
+    "Я не думаю, что этому стоит радоваться..."
     show s 1 v smile at fdis
-    mc 1 t sigh2 "\"You don't have to wait around for me to leave.\""
+    mc 1 t sigh2 "\"Тебе не нужно ждать, пока я уйду.\""
     show s 1 v happy at fdis
-    s "\"But it's more fun this way!\""
-    "As always, I can't understand what goes on in his head..."
-    mc 1 t sigh "\"You're just staying around because you want to get a private show, aren't you?\""
+    s "\"Но так гораздо веселее!\""
+    "Как всегда, я не могу понять, что творится у него в голове..."
+    mc 1 t sigh "\"Ты просто остаешься здесь, потому что хочешь получить приватное шоу, не так ли?\""
     show s 1 v laugh at fdis
-    "Shoichi chuckles, leaning his back against a nearby locker."
-    s "\"Pfft, I wish. But I know the mere thought of getting changed in a public locker already makes you squeamish.\""
-    mc 1 t blush "\"W-what? No it doesn't. I do it all the time, you know!\""
-    "... It does. It makes me so squeamish..."
-    "But I'd die before admitting to that!"
+    "Шоичи хихикает, прислонившись спиной к ближайшему шкафчику."
+    s "\"Пфф, я бы хотел. Но я знаю, что одна только мысль о том, чтобы переодеться в общественном шкафчике, уже вызывает у тебя отвращение.\""
+    mc 1 t blush "\"Ч-что? Я делаю это постоянно, ты же знаешь!\""
+    "... Оно делает. Это делает меня таким брезгливым..."
+    "Но я скорее умру, чем признаюсь в этом!"
     show s 1 v smile at fdis
-    s "\"Jeez, you're sighing and pouting so much. Shouldn't you be happier that you just got a victory?\""
-    mc 1 t sigh "\"You're making too much fuss out of something minor. It was just a practice match after all.\""
+    s "\"Господи, ты так много вздыхаешь и дуешься. Разве ты не должен быть счастливее, что только что одержал победу?\""
+    mc 1 t sigh "\"Ты слишком много суетишься из-за какой-то мелочи. В конце концов, это был всего лишь тренировочный матч.\""
     show s 1 v seductive at fdis
-    s "\"Oh, please. Both are just as important to you. You always say that, remember?\""
-    mc 1 t sigh2 "\"... I guess.\""
+    s "\"О, пожалуйста. И то, и другое одинаково важно для тебя. Ты всегда так говоришь, помнишь?\""
+    mc 1 t sigh2 "\"... Я думаю.\""
     show s 1 v happy at fdis
-    s "\"You're being too negative here. Look on the bright side. Now you know that you can easily beat Urushihara in an official match. Isn't it great?\""
-    "... I wouldn't go that far."
-    "I was lucky that I managed to do so well today. I wouldn't bet my chips on it happening again."
-    "Kei-kun might not be as skilled, but his tricky style and strategies can corner you if you're not careful."
+    s "\"Ты слишком негативно настроен. Посмотри на это с другой стороны. Теперь ты знаешь, что можешь легко победить Урушихару в официальном матче. Разве это не здорово?\""
+    "... Я бы не стал заходить так далеко."
+    "Мне повезло, что я сегодня так хорошо справился. Я бы не поставил свои фишки на то, что это случится снова."
+    "Кей-кун, возможно, не так искусен, но его хитрый стиль и стратегии могут загнать вас в угол, если вы не будете осторожны."
     stop music fadeout 4.0
     play sound "music/punchlocker.ogg"
     show s 1 v shock at fdis
     show k 1 t doom at offscreenleft
-    "Suddenly, the sound of metal banging on metal echoes through the locker, catching us both by surprise."
+    "Внезапно звук металла, бьющегося о металл, эхом отдается в шкафчике, заставая нас обоих врасплох."
     show s 1 v shock at fdis, seven
     show k 1 t doom at fdis, three
     with move
-    "We both turn around to see Keisuke, staring at us with a face that spells out impending doom."
-    "I don't think I've ever seen him this mad before."
+    "Мы оба оборачиваемся и видим Кейсуке, который смотрит на нас с выражением лица, предвещающим неминуемую гибель."
+    "Не думаю, что я когда-либо видела его таким взбешенным."
     show s 1 v happy at fdis
-    s "\"Oh, Urushihara, it's just you. I was afraid someone fell onto a locker or something. You can't do this you know, you've got to respect school property.\""
-    "I'm asking myself the same question. When the hell did he get here?"
-    "Did he pass by us while we were talking and we didn't notice?"
-    "I know for a fact that he wasn't here when we walked into the room."
-    "Although from the look on Shoichi's eyes, I can already guess that he knew Kei-kun was here and said those things on purpose."
-    "In hindsight, I should have seen this one coming."
-    "Shoichi isn't the type to make light of a person's skills so I should have imagined he was plotting something."
+    s "\"Ох, Урушихара, это всего лишь ты. Я боялся, что кто-то упал на шкафчик или что-то в этом роде. Ты не можешь этого сделать, ты должен уважать школьную собственность.\""
+    "Я задаю себе тот же вопрос. Когда, черт возьми, он сюда попал?"
+    "Может, он прошел мимо нас, пока мы разговаривали и мы ничего не заметили?"
+    "Я точно знаю, что его не было здесь, когда мы вошли в комнату."
+    "Хотя по выражению глаз Шоичи я уже догадываюсь, что он знал, что Кей-кун был здесь и сказал Все это нарочно."
+    "Оглядываясь назад, я должен был предвидеть, что это произойдет."
+    "Шоичи не из тех, кто пренебрегает человеческими способностями, так что мне следовало бы вообразить, что он что-то замышляет."
     show k 1 t scorn at fdis
-    k "\"I'm sorry if I made such a poor opponent. I'll try to do better next time, your highness.\""
-    s "\"Don't be silly. We both know such a thing would be impossible.\""
-    "Oh boy, are these two going to go at it again?"
-    "These two seem to look for every opportunity to take a jab at each other."
-    "I don't know how these two manage to be friends when they behave so poorly around each other..."
+    k "\"Прости, если я был таким плохим противником. В следующий раз я постараюсь быть лучше, Ваше Высочество.\""
+    s "\"Не говори глупостей. Мы оба знаем, что такая вещь была бы невозможна.\""
+    "О Боже, неужели эти двое снова начнут ругаться?"
+    "Эти двое, похоже, ищут любую возможность нанести удар друг другу."
+    "Я не знаю, как эти двое умудряются быть друзьями, когда они так плохо ведут себя друг с другом..."
     show k 1 t doom at fdis
-    k "\"Oh, really? And what exactly do you mean by that?\""
-    "... I feel like I shouldn't be so calm in a situation like this... but then again, I've already seen this happen so many times that I feel like I've become jaded."
-    "I want to go home and be done with this."
+    k "\"Ох, неужели? И что именно ты имеете в виду?\""
+    "... Я чувствую, что не должен быть таким спокойным в подобной ситуации... но, с другой стороны, я уже столько раз видел, как это происходит, что чувствую себя пресыщенным."
+    "Я хочу вернуться домой и покончить с этим."
     show s 1 v laugh at fdis
-    s "\"I mean, come on. This is [povFirstName] we're talking about. You might be good, but you can't possibly think you could compare, right? Now that would just be crazy.\""
-    "Why do I get the feeling that I've turned into a babysitter over the past year?"
+    s "\"Я имею в виду, давай. Это [povFirstName], тот о ком мы говорим. Может быть, ты и хорош, но вряд ли сможешь с ним сравниться, верно? Теперь это было бы просто безумием.\""
+    "Почему у меня такое чувство, что за последний год я превратилась в няню?"
     menu:
-        "Maybe I should just cut them off now and avoid any escalation..."
-        "Stop them.":
+        "Может быть, мне следует просто остановить их сейчас и избежать любой эскалации..."
+        "Остановить их.":
             play music2 "music/BGM/Mischief Maker.ogg" fadein 3.0
             $ discussion = "Neither"
-            mc 1 t angry "{size=+6}\"Enough!!\"{/size}" with hpunch
+            mc 1 t angry "{size=+6}\"Довольно!!\"{/size}" with hpunch
             show k 1 t shock at fdis, shake1
             show s 1 v shock at fdis, shake1
-            "My sudden shouting makes them both jump back in surprise, a look of complete shock on their faces."
-            "... Wait, isn't this a little much? All I did was shout a little, what are you two looking so surprised for?"
-            "No, don't let yourself calm down. Keep up the strict persona. They need to be taught a lesson!"
-            mc 1 t angry "\"That is it, I have had it with the two of you.\""
-            mc 1 t sigh "\"You guys have any idea how much of a nightmare it was during this entire break? Saya and I kept having to run around and keep you two from killing each other.\""
-            mc 1 t angry "\"We didn't get to relax whatsoever for that whole time. That's it. I'm done. I'm not gonna deal with you two anymore.\""
-            mc 1 t sigh2 "\"Either you two apologize to each other right now and stop behaving like little children or I'm done dealing with either of you!\""
+            "Мой внезапный крик заставляет их обоих отскочить в удивлении, выражение полного шока на их лицах."
+            "... Подождите, не слишком ли это? Все, что я сделал, это слегка крикнул: \"почему вы двое так удивлены?\""
+            "Нет, не позволяй себе успокоиться. Сохраняйте строгий образ. Им нужно преподать урок!"
+            mc 1 t angry "\"Вот и все, с меня хватит вас двоих.\""
+            mc 1 t sigh "\"Ребята, вы хоть представляете, какой кошмар был во время всего этого перерыва? Нам с Саей все время приходилось бегать, чтобы вы не поубивали друг друга.\""
+            mc 1 t angry "\"За все это время нам так и не удалось расслабиться. Вот и все. С меня хватит. Я больше не собираюсь иметь с вами дело.\""
+            mc 1 t sigh2 "\"Или вы оба сейчас же извинитесь друг перед другом и перестанете вести себя как маленькие дети или я покончу с вами обоими!\""
             stop music fadeout 4.0
             "..."
-            "....."
+            "..."
             play sound "music/disappointment.ogg"
-            "Uhm... I know I was just shouting but someone please say something..."
+            "Хм... Я знаю, что просто кричал, но кто-нибудь, пожалуйста, скажите что-нибудь..."
             show s 1 v wry at fdis
-            "Shoichi is the first to recompose himself. He clears his throat, looking at me with an apologetic expression."
-            s "\"Sorry, [povFirstName]. I guess we crossed the line. I'm sorry we troubled you so much.\""
+            "Шоичи первым приходит в себя. Он откашливается, глядя на меня с извиняющимся выражением лица."
+            s "\"Прости, [povFirstName]. Думаю, мы перешли черту. Прости, что мы так тебя побеспокоили.\""
             show s 1 v avoid at fdis
-            s "\"And... uhm..."
+            s "\"И... гхм..."
             show s 1 v avoidb at fdis
-            extend "I'm sorry to you to, Urushihara. I shouldn't have provoked you like that. It was childish of me.\""
+            extend "Мне очень жаль, что я это сделал, Урушихара. Мне не следовало так тебя провоцировать. Это было по-детски с моей стороны.\""
             show k 1 t serious at fdis
-            "It seems that seeing Shoichi apologizing has somehow snapped Keisuke back to reality."
-            "... But what's with that look on his face?"
-            "Don't you use this as another chance to pick a fight or I swear I'm going to slap you!"
+            "Похоже, вид извиняющегося Шоичи каким-то образом вернул Кейсуке к реальности."
+            "... Но что это за выражение у него на лице?"
+            "Не используй это как еще один шанс затеять драку, или, клянусь, я дам тебе пощечину!"
             show k 1 t angry at fdis
             k "\"..."
             show k 1 t avoid at fdis
-            extend " I..."
+            extend " Я..."
             show k 1 t avoidb at fdis
-            extend " I'm sorry, Urata. I let my emotions get the better of me. Please forgive me... erm... for all of the spring break. You too, [povFirstName]-san.\""
-            "Waaah, this went beyond my wildest dreams. I never expected these two to apologize so sincerely to each other!"
-            "... I mean... forgetting the fact that they're not even looking at each other in the eye."
-            mc 1 t sigh2 "\"It's fine if you two avoid doing this kind of thing again. Honestly, what is it with you two anyway? Why do you keep pulling stuff like this?\""
+            extend " Прости меня, Урата. Я позволил эмоциям взять верх надо мной. Пожалуйста, прости меня... и... на все весенние каникулы. Ты тоже, [povFirstName]-сан.\""
+            "Вааа, это выходило за пределы моих самых смелых мечтаний. Я никогда не ожидал, что эти двое будут так искренне извиняться друг перед другом!"
+            "... Я имею в виду... забыв о том, что они даже не смотрят друг другу в глаза."
+            mc 1 t sigh2 "\"Хорошо, если вы двое больше не будете заниматься подобными вещами. Честно говоря, что это с вами двумя происходит? Почему вы продолжаете вытворять такие вещи?\""
             show s 1 v avoid at fdis
-            s "\"Well... teasing Urushihara is kinda fun... {size=-2}though I guess I've been going a little overboard.{/size}\""
+            s "\"Что ж... дразнить Урушихару довольно забавно... {size=-2}хотя, наверное, я немного переборщил.{/size}\""
             show k 1 t sigh at fdis
-            k "\"And I guess I have fun antagonizing Urata too... {size=-2}it's a bit refreshing when he acts that way.{/size}\""
-            "... I can't tell if you two are supposed to be fighting or playing around anymore."
-            "What are you two, nine?"
-            mc 1 t sigh "\"Like I said, avoid pulling this kind of crap in the future and it'll be fine. You two are friends for God's sake, act like it.\""
+            k "\"И я думаю, что мне тоже нравится враждовать с Уратой... {size=-2}это немного освежает, когда он так себя ведет.{/size}\""
+            "... Я не могу сказать, должны ли вы двое больше драться или играть."
+            "Сколько вам двоим, девять?"
+            mc 1 t sigh "\"Как я уже сказал, избегайте такого дерьма в будущем, и все будет хорошо. Ради Бога, вы же друзья, ведите себя соответственно.\""
             show s 1 v wince at fdis
             show k 1 t sigh at fdis
-            s "\"Will do.\""
-            k "\"Yeah. Got the message loud and clear.\""
+            s "\"Будем стараться.\""
+            k "\"Да. Я получил твое сообщение громко и ясно.\""
             show k 1 t nervous at fdis
-            k "\"Well... uhm... anyway... I have some things I need to do and I should really get to them, hahaha... haha... ha... Err... see you two later.\""
+            k "\"Что ж... хм... в любом случае... У меня есть кое-какие дела, которые я должен сделать, и я действительно должен добраться до них, ха-ха-ха... хаха... ха... увидимся позже.\""
             show k 1 t nervous at offscreenleft with move
             hide k 1 t nervous
             show s 1 v sigh at fdis, five with move
-            "Kei-kun finishes drops his towel on top of his bag and runs back to the courts in a hurry."
-            s "\"Hah... poor bastard.\""
-            mc 1 t curious "\"Huh? What?\""
+            "Кей-кун заканчивает, бросает полотенце в сумку и торопливо бежит обратно во двор."
+            s "\"Ха... бедный ублюдок.\""
+            mc 1 t curious "\"А? Что?\""
             show s 1 v wry at fdis
-            s "\"It's beyond me to be worrying about Urushihara, but... this is the first time you've ever yelled at him. You probably traumatized the poor guy.\""
-            "Now he's a \"poor guy\"?"
-            mc 1 t sigh "\"I was yelling at you too. How come he's the only one getting traumatized?\""
+            s "\"Это выше моего понимания, беспокоиться об Урушихаре, но... это первый раз, когда ты на него накричал. Ты, наверное, травмировали беднягу.\""
+            "Теперь он \"бедный парень\"?"
+            mc 1 t sigh "\"Я тоже на тебя орал. Как получилось, что он единственный получил травму?\""
             show s 1 v think at fdis
-            s "\"Oh, please. How long do you think I've known you for? I'm used to getting yelled at.\""
-            "... That's not a good thing to get used to."
+            s "\"О, пожалуйста. Как ты думаешь, давно я тебя знаю? Я привык к тому, что на меня кричат.\""
+            "... Это не хорошая вещь, к которой стоит привыкать."
             show s 1 v wry at fdis
-            s "\"Well, I should probably get back to my own practice, I guess. Sorry again for today. I'll see you later.\""
+            s "\"Ну, наверное, мне стоит вернуться к своей практике. Еще раз прошу прощения за сегодняшний день. Увидимся позже.\""
             mc 1 t smile "\"See ya.\""
             show s 1 v wry at offscreenright with move
             hide s 1 v wry
             "..."
             play sound "music/badjoke.ogg"
-            "Haah, I think I was too hard on them..."
-            "I tried to do something I'm not used to doing and I messed up..."
+            "Ха-ха, я думаю, что был слишком строг к ним..."
+            "Я попытался сделать что-то, к чему не привык, и все испортил..."
             "..."
-            "I guess at least now I can have peace."
+            "По крайней мере, теперь я могу жить спокойно."
             "..."
-            "I'm not really in a mood to continue practice today."
-            "I think I'm just gonna tell Saya that I'm leaving early for the day."
-            "I finish toweling myself off and head back to the courts."
-        "Ignore them.":
+            "Сегодня я не в настроении продолжать тренировки."
+            "Я думаю, что просто скажу Сае, что уезжаю рано утром."
+            "Я заканчиваю вытираться полотенцем и возвращаюсь на корт."
+        "Игнорировать их.":
             hide s 1 v laugh at fdis
             hide k 1 t doom at fdis
             play music2 "music/BGM/Punchline.ogg" fadein 5.0
-            "Oh, well. It's not my problem anyway."
-            "I don't care if they wind up killing each other."
-            "Plus, it'd be less trouble for me down the line if they did anyway."
-            "Yup, I'll just let them be."
-            "Let's see... well, they're not looking my way anyway..."
+            "Ну и ладно. В любом случае, это не моя проблема."
+            "Мне все равно, если они закончат тем, что убьют друг друга."
+            "К тому же, если бы они все равно это сделали, у меня было бы меньше проблем."
+            "Да, я просто оставлю их в покое."
+            "Давай посмотрим... ну, они все равно не смотрят в мою сторону..."
             play sound "music/fabric.ogg"
-            "I guess it's safe for me to strip down for a bit..."
-            "Haah, it feels so good taking off those sweaty clothes!"
-            "... Though I'll keep my underwear on, thank you very much."
-            "Good thing I got an extra absorbent towel!"
-            "... Still, these two are loud. Even though I'm trying to tune them out, I can't keep myself from hearing them arguing..."
-            "Not that I can make any of what they're saying out though."
-            "Let's see, where's my deodorant spray... ah, found it!"
-            "Hehe, my trusty partner, I'll never leave the house without you~"
-            "You're the only reason I can get by after practice without needing to shower at school after all."
-            "Hmm... they don't seem to have noticed me yet..."
+            "Я думаю, что для меня безопасно немного раздеться..."
+            "Ха-ха, так приятно снять эту потную одежду!"
+            "... Хотя я останусь в нижнем белье, спасибо большое."
+            "Хорошо, что у меня есть дополнительное впитывающее полотенце!"
+            "... И все же эти двое очень громкие. Хотя я и пытаюсь не обращать на них внимания, я не могу удержаться, чтобы не услышать, как они спорят..."
+            "Хотя я не могу разобрать ни слова из того, что они говорят."
+            "Давай посмотрим, где мой дезодорант-спрей... а, нашел!"
+            "Хе-хе, мой верный партнер, я никогда не выйду из дома без тебя.~"
+            "Ты единственная причина, по которой я могу после тренировки обходиться без душа в школе."
+            "Хмм... они, кажется, еще не заметили меня..."
             play sound "music/disappointment.ogg"
-            "These two really do shut themselves off from the rest of the world when they get going, don't they?"
+            "Эти двое действительно закрывают себя от остального мира, когда они уходят, не так ли?"
             play sound "music/fabric.ogg"
-            "There, all done and dressed back up!"
-            "And they're none the wiser to it, just as it should be."
-            "Hmm... I guess they wouldn't notice if I just left, would they?"
-            "I planned on letting Saya know that I'd head home early, but... If I don't leave now, I'll lose my chance of slipping away before they notice me."
-            "Saya-chan, I'm sorry. I promise to make it up to you later!"
-            "I grab my bag and head towards the exit."
-            "Just then, the sound of an even louder voice catches my attention."
-            "It's Shoichi's voice."
-            s 1 v scorn "\"Fine, let's ask him then!\""
-            "Him? Please don't let \"him\" be me. Please don't let it be me..."
+            "Ну вот, все готово и снова принарядился!"
+            "И они ничего не знают об этом, как и должно быть."
+            "Хмм... Я думаю, они не заметят, если я просто уйду, не так ли?"
+            "Я планировала предупредить Саю, что вернусь домой пораньше, но..... Если я не уйду сейчас, то потеряю шанс ускользнуть прежде, чем они заметят меня."
+            "Сая-тян, прости меня. Я обещаю загладить свою вину позже!"
+            "Я хватаю свою сумку и направляюсь к выходу."
+            "И тут мое внимание привлекает еще более громкий голос."
+            "Это голос Шоичи."
+            s 1 v scorn "\"Ладно, тогда давай спросим его!\""
+            "Его? Пожалуйста, я надеюсь что они под \"ему\" имеют ввиду не меня. Пожалуйста, пусть это буду не я..."
             show s 1 v scorn at fdis, seven
             show k 1 t hostile at fdis, three
-            "Shoichi and Keisuke" "\"[povFirstName]!\" / \"[povFirstName]-san!\"" with hpunch
+            "Шоичи и Кейсуке" "\"[povFirstName]!\" / \"[povFirstName]-сан!\"" with hpunch
             "..."
             "....."
-            "... Damn it..."
-            mc 1 t sigh "\"What?\""
-            "Shoichi and Keisuke" "\"{size=+4}Who's the best player?{/size}\""
-            mc 1 t shock "\"Eh... what?! Err... P-Pix Santras?\""
-            s "\"No! We're not talking about the best tennis player in history. We're talking about which of us is the best player!\""
-            k "\"Please settle this argument!\""
-            mc 1 t fsmile "\"W-what?\""
-            "I... err... uhm... what?"
-            mc 1 t sigh2 "\"You two are going to need to give me a little more context here. Who's the best player at... what, exactly?\""
+            "... Черт возьми..."
+            mc 1 t sigh "\"Что?\""
+            "Шоичи и Кейсуке" "\"{size=+4}Кто лучший игрок?{/size}\""
+            mc 1 t shock "\"Эх... Что?! Оши... П-Пикс Сантрас?\""
+            s "\"Нет! Мы говорим не о лучшем теннисисте в истории. Мы говорим о том, кто из нас лучший игрок!\""
+            k "\"Пожалуйста, уладь этот спор!\""
+            mc 1 t fsmile "\"Ч-что?\""
+            "Я... оши... хм... что?"
+            mc 1 t sigh2 "\"Вам двоим придется дать мне немного больше контекста. Кто из вас лучший игрок... в чем именно?\""
             show k 1 t annoyed at fdis
-            k "\"No. Which one of us is the better player in general? Am I a better tennis player than he is a volleyball player?\""
-            mc 1 t fsmile "\"You do know that there's no easy way to compare, right? It's two completely different sports an-\""
+            k "\"Нет. Кто из нас вообще лучший игрок? Разве я лучше играю в теннис, чем он в волейбол?\""
+            mc 1 t fsmile "\"Ты ведь знаешь, что сравнивать нелегко, верно? Это два совершенно разных вида спорта.-\""
             show s 1 v displeased at fdis
-            s "\"Do your best!\""
-            "Ehhh?! But I never even agreed to this in the first place!"
-            mc 1 t fsmile "\"Aren't you guys being a little silly? What's the point of even-\""
+            s "\"Сделай все возможное!\""
+            "Эххх?! Но я никогда даже не соглашался на это с самого начала!"
+            mc 1 t fsmile "\"А вы, ребята, не ведете себя немного глупо? Какой смысл даже в этом-\""
             show k 1 t scorn at fdis
             show s 1 v frown at fdis
-            "Waah, they look scary..."
-            "Do I really want to say no to them when they're looking at me like that?"
-            "I feel like a little puppy put face to face with two huge wild beasts..."
-            "I sigh. I might as put some thought into this and come up with an actual answer."
-            "Maybe if I sound like I'm not talking out of my ass, they'll accept the answer and they'll leave me alone."
-            "I guess this is the best route I can go for right now."
-            "... I probably should have stopped them when I had the chance, huh?"
-            "But how am I even supposed to compare the two?"
-            "They're both accomplished players in their own fields."
-            "Keisuke plays tennis... his playstyle is that of a defensive baseliner."
-            "He studies his opponents and comes up with strategies to attack their weaknesses."
-            "He's also fairly skilled at a multitude of different shots and has lots of different attack patterns to confuse his opponents."
-            "If I had to, I'd say that Keisuke is definitely a player I would keep my eye on in the future."
-            "He's not fully developed yet, but he has tons of untapped potential."
-            "Now Shoichi..."
-            "Uhm... I don't know much about volleyball so I can't really say."
-            "I don't understand volleyball strategy at all. Shoichi made me play with him ever since we were little but the only thing I know how to do is spike."
-            "I don't understand things like rotations, substitutions or liberos and..."
-            "Haah, just thinking about that complicated stuff already has my brain overheating..."
-            "But I know for a fact that Shoichi is one of the best players in Japan."
-            "Not only on his position, but he's overall considered one of the Top 10 in the country."
-            "Shoichi plays as a setter... it wouldn't be an exaggeration to say that he's the team's control tower."
-            "He's the one deciding which attacks to pull off at any given moment, not to mention who gets the ball, when and where."
-            "He's the one always calling the shots..."
-            "If I compare their individual achievements in their fields, Shoichi definitely comes out way ahead."
-            "... But if I compare their skills based on my knowledge of their sports, I can't really give a fair evaluation. As far as I know, Keisuke is definitely high-level..."
-            "Waah, I can't choose."
+            "Вау, они выглядят пугающе..."
+            "Неужели я действительно хочу сказать им "нет", когда они так на меня смотрят?"
+            "Я чувствую себя маленьким щенком, столкнувшимся лицом к лицу с двумя огромными дикими зверями..."
+            "Я вздыхаю. Я мог бы подумать об этом и придумать реальный ответ."
+            "Может быть, если я буду говорить так, как будто я говорю не из своей задницы, они примут ответ и оставят меня в покое."
+            "Я думаю, это лучший маршрут, который я могу выбрать прямо сейчас."
+            "... Наверное, мне следовало остановить их, когда у меня была такая возможность, а?"
+            "Но как я вообще могу сравнивать эти две вещи?"
+            "Они оба опытные игроки в своих областях."
+            "Кейсуке играет в теннис... его стиль игры это комбинированная атака и защита."
+            "Он изучает своих противников и придумывает стратегии, чтобы атаковать их слабые места."
+            "Он также довольно искусен во множестве различных выстрелов и имеет множество различных схем атаки, чтобы запутать своих противников."
+            "Если бы мне пришлось, я бы сказал, что Кейсуке определенно игрок, за которым я буду следить в будущем."
+            "Он еще не полностью расскрыл свой потенциал, но у него есть тонны неиспользованного потенциала."
+            "Теперь Шоичи..."
+            "Хм... Я мало что знаю о волейболе, поэтому не могу сказать точно."
+            "Я вообще не понимаю волейбольную стратегию. Шойчи заставлял меня играть с ним с тех пор, как мы были маленькими, но единственное, что я умею делать это Спайк."
+            "Я не разбираюсь в таких вещах, как ротации, замены или либеросы..."
+            "Ха-ха, от одной мысли об этих сложных вещах мой мозг уже перегревается..."
+            "Но я точно знаю, что Шоичи - один из лучших игроков в Японии."
+            "Не только по должности, но и в целом он считается одним из 10 лучших в стране."
+            "Шойчи играет в роли сеттера... не будет преувеличением сказать, что он командный пункт команды."
+            "Именно он решает, какие атаки проводить в любой момент, не говоря уже о том, кто получает мяч, когда и где."
+            "Это он всегда командует..."
+            "Если сравнивать их индивидуальные достижения в своих областях, то Шоичи определенно выходит далеко вперед."
+            "... Но если я сравниваю их навыки, основываясь на моем знании их видов спорта, я не могу действительно дать справедливую оценку. Насколько я знаю, Кейсуке определенно высокого уровня..."
+            "Ваааа, я не могу выбирать."
             play sound "music/disappointment.ogg"
-            "And they're both staring at me with scary faces so I don't want to take much longer to come up with an answer!"
-            "Well, if I think about it, Shoichi really should be the logical answer, but..."
+            "И они оба смотрят на меня со страшными лицами, так что я не хочу тратить много времени, чтобы дать им ответ!"
+            "Ну, если подумать, то Шоичи действительно должен быть логичным ответом, но..."
             menu:
-                "\"Tell the truth: Pick Shoichi.\"":
+                "\"Скажи правду: Выбери Шоичи.\"":
                     $ discussion = "Shoichi"
-                    mc 1 t fsmile "\"I-I guess I'd have to go with... Shoichi."
+                    mc 1 t fsmile "\"Я ... я думаю, мне придется пойти с ними... Шоичи."
                     show s 1 v shock at fdis
                     show k 1 t shock at fdis
-                    "Just then, I see both of them going wide-eyed."
-                    k "\"Huh?!\"" with hpunch
+                    "И тут я вижу, как они оба широко раскрывают глаза."
+                    k "\"А?!\"" with hpunch
                     show s 1 v seductive at fdis
-                    "Kei-kun looks completely taken aback by my answer."
-                    "... I guess he really expected me to pick him?"
-                    k "\"You're kidding, right?! [povFirstName]-san, you see me practice everyday. How can you say that this... this... brute is better than me?!\""
+                    "Кей-кун выглядит совершенно ошарашенным моим ответом."
+                    "... Я думаю, он действительно ожидал, что я выберу его?"
+                    k "\"Ты ведь шутишь, правда?! [povFirstName]-сан, вы видите, как я тренируюсь каждый день. Как вы можете говорить, что это... этот... скотина лучше меня?!\""
                     show s 1 v scorn at fdis
-                    s "\"Brute? I might be strong, but I'll have you know that when I'm on the court, I rely on skill, not strength.\""
-                    mc 1 t "\"It's true. Shoichi might not look it, but he's actually incredibly skilled. His tosses are so accurate, almost like he's threading a needle.\""
-                    mc 1 t sigh "\"It feels a little unreal. It's not a matter of wondering where the ball will be. If he's the one handling it, the ball will always be at the perfect place for you to spike.\""
-                    mc 1 t "\"I might not be a volleyball player, but over the years where he's made me practice with him, I've experienced it first hand. Shoichi's tosses really are god-like.\""
+                    s "\"Скотина? Может быть, я и силен, но я хочу, чтобы вы знали: когда я нахожусь на корте, я полагаюсь на мастерство, а не на силу.\""
+                    mc 1 t "\"Это правда. Может быть, Шоичи и не выглядит так, но на самом деле он невероятно искусен. Его броски настолько точны, как будто он продевает нитку в иголку.\""
+                    mc 1 t sigh "\"Это кажется немного нереальным. Дело не в том, чтобы гадать, где будет мяч. Если он тот, кто управляет им, мяч всегда будет в идеальном месте для вас, чтобы спайкнуть.\""
+                    mc 1 t "\"Может, я и не волейболист, но за те годы, что он заставлял меня тренироваться с ним, я испытал это на себе. Броски Шоичи действительно богоподобны.\""
                     show s 1 v flattered at fdis
-                    s "\"Aww, now you're just exaggerating.\""
-                    "Why are you even blushing in the first place?"
+                    s "\"Ох, теперь ты просто преувеличиваешь.\""
+                    "Почему ты вообще покраснел?"
                     show k 1 t uncomfortable at fdis
-                    k "\"N-no way. [povFirstName]-san, are you sure you're not just being partial to him because he's your friend?\""
+                    k "\"Н-ни за что. [povFirstName]-сан, ты уверена, что не просто неравнодушен к нему, потому что он твой друг?\""
                     show s 1 v happy at fdis
-                    s "\"It was your idea to involve him in the first place. Now suck it up!\""
-                    "... You're having way too much fun with this."
-                    k "\"But... but...\""
+                    s "\"Это была твоя идея привлечь его в первую очередь. А теперь смирись!\""
+                    "... Тебе это слишком нравится."
+                    k "\"Но... но...\""
                     show s 1 v seductive at fdis
-                    s "\"No buts. I win.\""
+                    s "\"Никаких "но". Я выиграл.\""
                     show k 1 t annoyed at fdis
-                    "Keisuke sighs."
-                    "Is it bad for me to say that seeing his brow twitching like that is a little amusing?"
-                    k "\"Fine, you win this time."
+                    "Кейсуке вздыхает."
+                    "Разве плохо для меня сказать, что видеть, как его брови дергаются, немного забавно?"
+                    k "\"Отлично, на этот раз ты победил."
                     show k 1 t doom at fdis
-                    extend " I'll get you back for this later, Urata.\""
+                    extend " Я отплачу тебя за это позже, Урата.\""
                     show k 1 t doom at offscreenleft with moveoledis
                     show s 1 v happy at fdis, five with move
-                    "Kei-kun shoves the rest of his clothes back in his bag, picking it up and stomping out of the locker room."
+                    "Кей-кун запихивает оставшуюся одежду обратно в сумку, поднимает ее и выходит из раздевалки."
                     show s 1 v smile at fdis
-                    s "\"Sheesh, what's his problem?\""
-                    mc 1 t sigh "\"You are! And could you stop starting fights with him. It's incredibly annoying having to deal with the messes you make.\""
+                    s "\"Блин, в чем его проблема?\""
+                    mc 1 t sigh "\"Так и есть! И не могли бы ты перестать затевать с ним драки? Это невероятно раздражает иметь дело с вашими ссорами, который вы создаете.\""
                     show s 1 v think at fdis
-                    s "\"{i}I{/i} make messes? Since when? As far as I know, Urushihara was also involved.\""
-                    mc 1 t sigh2 "\"We both know you're the one provoking these fights in the first place. Please stop trying to act innocent.\""
+                    s "\"{i}Я{/i} устраиваю ссоры? С каких это пор? Насколько я знаю, Урушихара тоже был замешан.\""
+                    mc 1 t sigh2 "\"Мы оба знаем, что именно ты провоцируешь эти драки в первую очередь. Пожалуйста, перестань изображать невинность.\""
                     show s 1 v sigh at fdis
-                    s "\"Sheesh. What's gotten into {i}you{/i}? You're usually more fun than this.\""
-                    mc 1 t sigh "\"Forgive me for not being enthusiastic after having to deal with my two nearly adult friends having a 5th grade argument.\""
+                    s "\"Шиш. Во что вляпался {i}ты{/i}? Обычно ты веселее, чем сейчас.\""
+                    mc 1 t sigh "\"Простите меня за отсутствие энтузиазма после того, как мне пришлось иметь дело с двумя моими почти взрослыми друзьями, которые спорили в 5-м классе.\""
                     show s 1 v laugh at fdis
-                    s "\"Hey, hey, there's no reason to be acting so serious. Lighten up a bit!\""
-                    "This guy... even when I'm lecturing him on something, he still cannot take me seriously."
-                    "Sometimes I wish the serious, business-like Shoichi that always shows up when he's working would make an appearance during everyday activities too..."
+                    s "\"Эй, эй, нет причин вести себя так серьезно. Расслабься немного!\""
+                    "Этот парень... даже когда я читаю ему лекцию, он все равно не воспринимает меня всерьез."
+                    "Иногда мне хочется, чтобы серьезный, деловой Шоичи, который всегда появляется, когда он работает, также появлялся во время повседневной деятельности..."
                     show s 1 v happy at fdis
-                    s "\"Welp, I guess I've pestered you enough for now. Time to head back to my practice.\""
-                    mc 1 t sigh2 "\"You've \"pestered\" me enough for an entire week.\""
-                    s "\"Aww, don't be like that! Well, anyway, talk to you later!\""
-                    mc 1 t smile "\"See ya!\""
+                    s "\"Ну ладно, думаю, я уже достаточно надоел тебе. Пора возвращаться к моей практике.\""
+                    mc 1 t sigh2 "\"Вы имеете \"докучавший\" мне хватит на целую неделю.\""
+                    s "\"Ой, не надо так! Ну, в любом случае, поговорим позже!\""
+                    mc 1 t smile "\"Увидимся!\""
                     show s 1 v happy at offscreenright with moveoridis
                     "..."
                     play sound "music/disappointment.ogg"
-                    "These two are a real handful... are they really high school students? Feels like I've been warped back to grade school..."
-                    "Ah..."
-                    "Wait, did Shoichi even get permission to bail out on practice for so long? He was already late to begin with..."
+                    "Эти двое настоящая ужас... они действительно старшеклассники? Такое чувство, что я снова очутился в начальной школе..."
+                    "Ах..."
+                    "Погоди, а Шоичи вообще получил разрешение так долго не выходить на тренировку? Он уже опаздывал с самого начала..."
                     play sound "music/disappointment.ogg"
-                    "I'd rather not think about it..."
+                    "Я бы предпочел не думать об этом..."
                     "..."
-                    "Well, what do {i}I{/i} do now?"
-                    "It's true that I haven't done much today, at least when it comes to practice."
-                    "But on the other hand, dealing with those two idiots has left me thoroughly exhausted..."
-                    "I think I'll just call it a day and head home."
-                    "Come to think of it, wasn't I going to do that even before they interrupted me?"
-                    "Yeah, I guess I might as well stick with it."
-                    "Better tell Saya before I leave though."
-                "\"Lie: Pick Keisuke.\"":
+                    "Ну и что же {i}мне{i} теперь делать?"
+                    "Это правда, что я сегодня мало что сделал, по крайней мере, когда дело доходит до практики."
+                    "Но, с другой стороны, общение с этими двумя идиотами совершенно измотало меня..."
+                    "Я думаю, что просто закончу с этим и отправлюсь домой."
+                    "Если подумать, разве я не собирался сделать это еще до того, как они прервали меня?"
+                    "Да, я думаю, что могу также придерживаться этого."
+                    "Но лучше сказать об этом Сае, прежде чем я уйду."
+                "\"Ложь: Выбери Кейсуке.\"":
                     $ discussion = "Keisuke"
-                    "These two really try my patience sometimes..."
-                    "But I guess this might be a good chance to teach Shoichi a lesson."
-                    "He's the one who started this in the first place."
-                    "In fact, he's {i}always{/i} the one starting things with Kei-kun."
-                    mc 1 t think "\"Hmm... I think I'll go with...\""
-                    mc 1 t happy "\"Keisuke!\""
+                    "Эти двое действительно иногда испытывают мое терпение..."
+                    "Но я думаю, что это хороший шанс преподать урок Шоичи."
+                    "Это он все начал с самого начала."
+                    "На самом деле, он {i}всегда{/i} тот, кто начинает все с Кей-куна."
+                    mc 1 t think "\"Хмм... Пожалуй, я пойду с тобой...\""
+                    mc 1 t happy "\"Кейсуке!\""
                     show k 2 t gentle at fdis
                     show s 1 v shock at fdis
-                    k "\"Yes!\""
-                    "Waaah, I don't think I've ever seen Shoichi's eyes going so wide."
-                    "Shit, I have to resist the urge to laugh!"
-                    "This is your just desserts!"
-                    "What are you even doing picking a fight with your junior in the first place? Idiiiot!"
+                    k "\"Да!\""
+                    "Вааа, я никогда не видел, чтобы глаза Шоичи так широко раскрывались."
+                    "Черт, я должен сопротивляться желанию рассмеяться!"
+                    "Это ваши справедливые десерты!"
+                    "Зачем ты вообще затеял драку со своим младшим братом? Идиот!"
                     show k 2 t cocky at fdis
-                    k "\"See, Urata. I told you there was no way he'd pick you. I am the clearly superior choice after all!\""
-                    "Kei-kun is hopping from one side to the other, gloating about it."
+                    k "\"Смотри, Урата. Я же говорил, что он ни за что не выберет тебя. В конце концов, я определенно лучший выбор!\""
+                    "Кей-кун прыгает из стороны в сторону, злорадствуя по этому поводу."
                     play sound "music/disappointment.ogg"
-                    "Talk about childish."
-                    k "\"I knew you'd make the blatantly correct choice, {i}Senpai{/i}. Of course It'd be me.\""
-                    "\"clearly superior choice\", \"blatantly correct choice\". Did I give him a confidence boost or a vocabulary boost?"
-                    "Also, \"Senpai\"? You've never called me that before. Are you trying to flatter me just because I picked you?"
-                    "... Shit, but I do admit that I like being called that."
+                    "Поговорим о ребячестве."
+                    k "\"Я знал,что ты сделаешь вопиюще правильный выбор, {i}Сэмпай{i}. Конечно же, ты сделал правильный выбор.\""
+                    "\"явно превосходный выбор\", \"вопиюще правильный выбор\". Придала ли я ему уверенности или словарного запаса?"
+                    "Также, \"Сэмпай\"? Ты никогда раньше меня так не называл. Ты пытаешься польстить мне только потому, что я выбрал тебя?"
+                    "... Черт, но я признаю, что мне нравится, когда меня так называют."
                     show k 1 t wry at fdis
-                    k "\"Now if you'll both excuse me. I have other errands that I need to attend to.\""
+                    k "\"А теперь прошу меня извинить. У меня есть и другие дела, которые я должен выполнить.\""
                     show k 1 t wry at offscreenleft with moveoledis
                     show s 1 v blank at fdis, five with move
-                    "Kei-kun grabs his bag and walks out of the room, all the while humming a little song."
+                    "Кей-кун хватает свою сумку и выходит из комнаты, все время напевая какую-то песенку."
                     "..."
-                    "Waah, Shoichi is still giving me the stink eye..."
-                    mc 1 t nervous "\"So... uhm...\""
-                    s "\"Mind explaining to me what the hell just happened?\""
-                    "I kinda want to flee from this situation..."
-                    "No, you can't [povFirstName]. Stand your ground!"
-                    mc 1 t sigh2 "\"Serves you right for going around and picking fights with your juniors.\""
-                    mc 1 t sigh "\"It's also payback for getting me involved in this in the first place. If you don't like it then stop picking fights with Kei-kun.\""
+                    "ВАА, Шойчи все еще смотрит на меня исподлобья..."
+                    mc 1 t nervous "\"Так... хм...\""
+                    s "\"Не могли бы ты объяснить мне, что, черт возьми, только что произошло?\""
+                    "Я вроде как хочу сбежать из этой ситуации..."
+                    "Нет, ты не можешь [povFirstName]. Стойте на своем!"
+                    mc 1 t sigh2 "\"Так тебе и надо, чтобы ходить вокруг да около и затевать драки с младшими по званию.\""
+                    mc 1 t sigh "\"Это также расплата за то, что втянул меня в это в первую очередь. Если тебе это не нравится, перестань ссориться с Кей-куном.\""
                     show s 1 v avoid at fdis
-                    s "\"Yeah, sure. I won't do it again. Does that make you happy, now?\""
-                    mc 1 t smile "\"Very.\""
+                    s "\"Да, конечно. Я больше не буду этого делать. Теперь ты счастлив?\""
+                    mc 1 t smile "\"Очень.\""
                     show s 1 v wince at fdis
-                    s "\"Tch... I'm going back to practice. See you later.\""
+                    s "\"Грр... Я возвращаюсь к тренировкам. Увидимся позже.\""
                     show s 1 v smile at offscreenright with move
                     hide s 1 v smile
-                    "Hmm... maybe I should have remained uninvolved..."
-                    "Nah, he had it coming to him."
-                    "What should I do now, anyway? I'm really tired after that match, even if it was just one-set."
-                    "Hmm... guess I might head home now."
-                    "Okay, it's settled. I need to go tell Saya."
+                    "Хмм... возможно, мне следовало остаться незаинтересованным..."
+                    "Нет, он сам напросился на это."
+                    "И вообще, что мне теперь делать? Я очень устал после этого матча, даже если это был всего один сет."
+                    "Хмм... наверное, мне пора домой."
+                    "Ладно, договорились. Мне нужно пойти и сказать Сае."
     scene SCourt with fade
     $ renpy.music.set_volume(0.5, .0, channel="music")
     play music "music/tennisambiance.ogg"
     play music2 "music/BGM/Autumn Day.ogg" fadein 5.0
-    "I'm starting to think I should have done a better job of wiping myself dry..."
-    "Eh, not that it matters since I'll be heading home soon."
-    "And I don't really smell bad. My deodorant was pretty strong so I doubt anyone could smell anything over it."
-    "I'll just grin and bear this damp feeling."
-    "Where's Saya though..."
-    "Ah, there she is!"
+    "Я начинаю думать, что мне следовало бы лучше вытереться насухо..."
+    "Впрочем, это не имеет значения, потому что я скоро вернусь домой."
+    "И от меня не так уж плохо пахнет. Мой дезодорант был довольно сильным, так что я сомневаюсь, что кто-то мог чувствовать запах чего-либо поверх него."
+    "Я просто буду улыбаться и терпеть это влажное ошущение."
+    "Но где же Сая?"
+    "А, вот и она!"
     show sa 1 t considerate at fdis, three with dissolve
     show k 1 t worried at fdis, seven with dissolve
-    "Ah, Kei-kun's there too."
-    "He seems a bit... tense. What are they talking about?"
+    "А, Кей-кун тоже там."
+    "Он кажется немного..... напряженная. О чем они говорят?"
     if discussion == "Keisuke":
         show k 1 t smile at fdis
-        "Kei-kun is the first to notice me approaching, smiling at me as I do."
-        "Guess that whole thing in the locker room has left him in a good mood."
+        "Кей-кун первым замечает мое приближение и улыбается мне."
+        "Похоже, вся эта история в раздевалке оставила его в хорошем настроении."
         show k 1 t calm at fdis
         show sa 1 t at fdis
-        "He bows to Saya one last time and walks past me before leaving for the locker room."
+        "Он в последний раз кланяется Сае и проходит мимо меня, прежде чем уйти в раздевалку."
         show k 2 t gentle at fdis
         $ renpy.pause (1.0)
         show k 1 t wry at offscreenright with moveoridis
         show sa 1 t at fdis, five with move
-        mc 1 t think "\"Is he leaving early?\""
-        "Saya nods."
-        sa "\"Apparently his family asked him to run some errands so he had to leave early.\""
-        mc 1 t think "\"Now that I think about it, this is kind of a regular occurrence with him, isn't it?\""
+        mc 1 t think "\"Он рано уезжает?\""
+        "Сая кивает."
+        sa "\"Очевидно, его семья попросила его выполнить какие-то поручения, поэтому он должен был уйти рано.\""
+        mc 1 t think "\"Теперь, когда я думаю об этом, это вроде как обычное явление с ним, не так ли?\""
         show sa 1 t wry at fdis
-        sa "\"Yeah. It must be hard...\""
-        mc 1 t curious "\"What is?\""
-        sa "\"Having a family like his. I don't know if I could handle it.\""
-        "Huh? Is there something wrong with his family?"
+        sa "\"Да. Это должно быть тяжело...\""
+        mc 1 t curious "\"А что такое?\""
+        sa "\"Иметь такую семью, как у него. Не знаю, смогу ли я с этим справиться.\""
+        "А? Что-то не так с его семьей?"
         show sa 1 t think at fdis
-        sa "\"Huh? What's with that clueless look you have on your face? Don't tell me you don't know what I'm talking about.\""
-        mc 1 t "\"I don't know what you're talking about.\""
+        sa "\"А? Что это за бестолковое выражение у тебя на лице? Только не говори мне, что ты не знаешь, о чем я говорю.\""
+        mc 1 t "\"Я не понимаю, о чем ты говоришь.\""
         play sound "music/disappointment.ogg"
         show sa 1 t sigh at fdis
-        sa "\"Seriously? You really are beyond hopeless...\""
-        mc 1 t annoyed "\"Well, I'm sorry if I don't know about everyone else's private lives. Maybe I should just ask him tomorrow.\""
+        sa "\"Серьезно? Ты действительно безнадежен...\""
+        mc 1 t annoyed "\"Ну, извини, если я не знаю о личной жизни всех остальных. Может, мне стоит спросить его об этом завтра?\""
         show sa 1 t talk at fdis
-        sa "\"Yeah, you do that.\""
-        mc 1 t "\"In the meantime, there's something else I wanted to talk to you about.\""
+        sa "\"Да, ты это сделаешь.\""
+        mc 1 t "\"А пока я хотел бы поговорить с тобой еще кое о чем.\""
         show sa 1 t at fdis
-        sa "\"Oh, sure. What is it?\""
-        mc 1 t "\"I'm heading home.\""
+        sa "\"О, Конечно. Что это?\""
+        mc 1 t "\"Я еду домой.\""
         show sa 1 t happy at fdis
-        sa "\"Oh, su-"
+        sa "\"Ох, коне-"
         show sa 1 t shock at fdis
-        extend " Eh?\""
-        "Saya completely freezes."
+        extend " А?\""
+        "Сая полностью замирает."
     else:
         show k 1 t shock at fdis
-        "Kei-kun is the first to notice me approaching, his eyes widen when he sees me."
+        "Кей-кун первым замечает мое приближение, его глаза расширяются, когда он видит меня."
         show k 1 t avoid at fdis
-        "Waah, he's totally avoiding looking at me."
+        "Вааа, он совершенно избегает смотреть на меня."
         show k 1 t avoid at offscreenright with moveoridis
         show sa 1 t shock at fdis, five with move
-        "He bows to Saya as if he were apologizing for... something and then promptly leaves."
-        "Saya stares at his fleeing figure completely slack-jawed."
-        sa "\"What was that about?!\""
-        "Just then, she seems to finally take notice of me and her eyes light up."
+        "Он кланяется Сае, как будто извиняется перед ней за... что-то и тут же уходит."
+        "Сая смотрит на его убегающую фигуру с отвисшей челюстью."
+        sa "\"Что это было?!\""
+        "В этот момент она, кажется, наконец замечает меня, и ее глаза загораются."
         show sa 1 t smile at fdis
-        sa "\"Ah, [povFirstName]-kun. That was a great match you two had, it really had my heart racing. I wish I could watch you play more often!\""
-        mc 1 t "\"Why don't you start watching my tournament matches more often, then?\""
+        sa "\"Ах, [povFirstName]-кун. Это был отличный матч для вас двоих, это действительно заставило мое сердце биться быстрее. Жаль, что я не могу смотреть, как ты играешь чаще!\""
+        mc 1 t "\"Тогда почему бы тебе не начать чаще смотреть мои турнирные матчи?\""
         show sa 1 t pout2 at fdis
-        sa "\"Eh? I'd like to, but we always end up scheduled for matches at the same time.\""
-        sa "\"And yours are always over before mine...\""
+        sa "\"А? Я бы с удовольствием, но мы всегда приходим на матчи в одно и то же время.\""
+        sa "\"А твои всегда заканчиваются раньше моих...\""
         show sa 1 t bored at fdis
-        "Saya bites her lip, looking over at the door to the locker room again."
-        sa "\"Say... do you know if anything's happened to Keisuke? He was looking a bit... uncomfortable.\""
-        "Doesn't he always?"
-        mc 1 t "\"Nothing much. I just defused another Kei/Shoichi situation.\""
+        "Сая закусывает губу и снова смотрит на дверь раздевалки."
+        sa "\"Скажи... ты не знаешь, что случилось с Кейсуке? Он выгладил немного... потерянным.\""
+        "Разве он не всегда так поступает?"
+        mc 1 t "\"Ничего особенного. Я только что разрядил еще одну ситуацию Кей / Шоичи.\""
         show sa 1 t sigh at fdis
-        sa "\"Ah, another one? They're almost adults already, they really should behave more like it...\""
+        sa "\"А, еще один? Они уже почти взрослые, им действительно следует вести себя так же...\""
         play sound "music/disappointment.ogg"
-        "Look who's talking..."
-        mc 1 t "\"That's not what I came over to talk to you about though.\""
+        "Смотрите, кто говорит..."
+        mc 1 t "\"Но я пришел поговорить с тобой не об этом.\""
         show sa 1 t smile at fdis
-        sa "\"Oh? What's up then?\""
-        mc 1 t "\"I'm headed out for the day.\""
+        sa "\"А? Что же тогда происходит?\""
+        mc 1 t "\"Я уезжаю на целый день.\""
         show sa 1 t smile at fdis, jumping
-        sa "\"Eh?\""
-        "Just then, her smile freezes in place. Almost as if she were expecting me to add a \"just kidding!\" to the sentence."
+        sa "\"А?\""
+        "И тут ее улыбка застывает на месте. Как будто она ожидала, что я добавлю: \"шучу!\"к приговору."
     show sa 1 t shock at fdis
-    sa "\"Ehhh?!\"" with hpunch
-    "Could you please not react so dramatically to everyday news?"
-    sa "\"You're kidding me, right? Can't you stick around for a bit longer? Practice is only gonna run for two more hours!\""
-    mc 1 t sigh "\"Hey, I did my part. I played in that stupid match even though I didn't want to. You can't possibly need me for anything else.\""
+    sa "\"Эххх?!\"" with hpunch
+    "Не могли бы вы не реагировать так резко на ежедневные новости?"
+    sa "\"Ты что, издеваешься надо мной? Ты не можешь задержаться здесь еще немного? Тренировка длится всего два часа!\""
+    mc 1 t sigh "\"Эй, я сделал свое дело. Я играл в этом дурацком матче, хотя и не хотел этого делать. Я вам больше ни для чего не понадоблюсь.\""
     show sa 1 t avoidb at fdis
-    "Saya looks up at me with pleading eyes."
-    mc 1 t sigh2 "\"... There is something else you want isn't there?\""
-    "So transparent..."
-    sa "\"I was hoping you could stick around to instruct the new players.\""
+    "Сая смотрит на меня умоляющими глазами."
+    mc 1 t sigh2 "\"... Есть что-то еще, чего ты хочешь, не так ли?\""
+    "Так прозрачно..."
+    sa "\"Я надеялся, что ты сможешь остаться и проинструктировать новых игроков.\""
     show sa 1 t complain at fdis
-    sa "\"Pretty please? I haven't managed to do my own practice because I keep having to help the others...\""
-    mc 1 t sigh "\"I don't want to be a poor sport but you knew this would happen when you took the position of captain. Come on, you know what our coach is like.\""
+    sa "\"Ну пожалуйста. Мне не удалось сделать свою собственную практику, потому что я продолжаю помогать другим...\""
+    mc 1 t sigh "\"Я не хочу быть плохим спортсменом, но ты знала, что это произойдет, когда ты заняла должность капитана. Да ладно, ты же знаешь, какой у нас тренер.\""
     show sa 1 t considerate at fdis
-    sa "\"W-well, that's true. But I just thought, since you're the vice-captain and all...\""
-    "So she wants to force me to do the work she initially agreed to do under the excuse that I'm the vice-captain... even though she's the one that forced me to take the position in the first place."
-    mc 1 t annoyed "\"What's the one thing I made you promise when I accepted this position?\""
-    "She continues to stare at me, but the smile on her face is disappearing ever so slowly."
-    mc 1 t sigh "\"Wasn't it you who said all I had to do was make sure the other club members followed the rules and, other than that, I was free to do whatever I wanted?\""
+    sa "\"Н-ну, это правда. Но я просто подумала, Раз уж ты вице-капитан и все такое...\""
+    "Поэтому она хочет заставить меня делать работу, на которую она изначально согласилась под предлогом того, что я вице-капитан... хотя именно она заставила меня занять эту должность в первую очередь."
+    mc 1 t annoyed "\"Что же я заставил тебя пообещать, когда согласилась на эту должность?\""
+    "Она продолжает смотреть на меня, но улыбка на ее лице медленно исчезает."
+    mc 1 t sigh "\"Разве не ты сказала, что все, что я должен сделать, это убедиться, что другие члены клуба следуют правилам и кроме этого, я могу делать все, что захочу?\""
     show sa 1 t pout2 at fdis
-    sa "\"Yeah, but-\""
-    mc 1 t sigh "\"Wasn't it also you who said that my own training would take precedence over whatever it was I had to do for the club?\""
+    sa "\"Да, но...\""
+    mc 1 t sigh "\"Разве не ты сама сказала, что моя собственная подготовка будет иметь приоритет над тем, что я должен сделать для клуба?\""
     show sa 1 t complain at fdis
-    sa "\"Sure, but I-\""
-    mc 1 t sigh2 "\"Isn't resting after a particularly tough training session also a very important part of practice?\""
+    sa "\"Конечно, но я...\""
+    mc 1 t sigh2 "\"Разве отдых после особенно напряженной тренировки не является также очень важной частью практики?\""
     show sa 1 t pout2 at fdis
-    sa "\"Guh...\""
-    "She's biting her lip in frustration."
-    "I feel a bit bad for not letting her speak, but knowing her, she'd just use this as a chance to guilt-trip me into helping and I'm not dealing with that right now."
+    sa "\"Гх...\""
+    "Она в отчаянии кусает губы."
+    "Мне немного стыдно за то, что я не даю ей говорить, но зная ее, она просто использовала бы это как шанс обвинить меня в том, что я помогаю, и я не имею с этим дела прямо сейчас."
     show sa 1 t sigh at fdis
-    "Saya-chan sighs, her whole body slumping forward as she pouts."
-    sa "\"Fine, I understand. You can go.\""
-    mc 1 t sigh "\"And you're not going to use this against me in the future?\""
+    "Сая-тян вздыхает, всем телом наклоняясь вперед и надувая губы."
+    sa "\"Прекрасно, я понимаю. Ты можешь идти.\""
+    mc 1 t sigh "\"И ты не собираешься использовать это против меня в будущем?\""
     show sa 1 t pout2 at fdis
-    "She looks away, biting her lips."
-    "Aha, caught you."
+    "Она отворачивается, кусая губы."
+    "Ага, поймал тебя."
     show sa 1 t considerate at fdis
-    sa "\"N-no, I won't. I did promise to let you do as you please...\""
-    "Victory."
+    sa "\"Н-нет, я не буду. Я обещаю дать тебе поступать, как тебе заблагорассудится...\""
+    "Победа."
     show sa 1 t bored at fdis
-    sa "\"I guess I better get back to it then. I already see someone beckoning me over... see you tomorrow.\""
-    mc 1 t "\"See ya.\""
+    sa "\"Тогда, наверное, мне лучше вернуться. Я уже вижу, как кто-то зовет меня... увидимся завтра.\""
+    mc 1 t "\"Увидимся.\""
     show sa 1 t at offscreenleft with move
     "..."
-    "Knowing her, I better leave before she has a change of heart."
+    "Зная ее, я лучше уйду, пока она не передумала."
     stop music fadeout 4.0
     stop music2 fadeout 4.0
     scene SGateE with fade
     play music "music/birds.ogg" fadein 8.0
     play music2 "music/BGM/Dog Days.ogg" fadein 6.0
-    "Once I step out of the training building, the warm, orange colored sun rays touch upon my skin."
-    "Ah, it feels really good."
-    "The orange tinted sky looks so gentle and mild."
-    "Today really is a beautiful day..."
-    jin "\"Ah, there you are!\""
-    mc 1 t curious "\"Eh?\""
-    "I hear a nearby voice and reflexively turn around."
+    "Как только я выхожу из тренировочного корпуса, теплые оранжевые солнечные лучи касаются моей кожи."
+    "Ах, это действительно здорово."
+    "Оранжевое небо кажется таким нежным и мягким."
+    "Сегодня действительно прекрасный день..."
+    jin "\"Ах, вот и ты!\""
+    mc 1 t curious "\"А?\""
+    "Я слышу знакомый голос и рефлексивно оборачиваюсь."
     show gin at two
     show jin at six
     show ayako at ten
     with dissolve
-    "Standing before me are three of my classmates."
-    mc 1 t curious "\"Jin? Gin? Rep?\""
-    "The fox smiles at me. Her smile is warm and kind, almost the same as this afternoon sun."
+    "Передо мной стоят трое моих одноклассников."
+    mc 1 t curious "\"Джин? Гин? Реп?\""
+    "Лиса улыбается мне. Ее улыбка теплая и добрая, почти такая же, как сегодня днем."
     "She makes me feel at ease."
     ay "\"What a coincidence, [povFirstName]-kun, I was just looking for you.\""
     mc 1 t curious "\"For me? What could you possibly need from me? Wait, it's not bad news, is it?\""
