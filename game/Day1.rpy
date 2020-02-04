@@ -1,13 +1,13 @@
 ﻿label Day1:
     stop music fadeout 2.0
     scene Black
-    $ povFirstName = renpy.input("What is your first name? Default: Yuuichi", length=15) or "Yuuichi"
-    $ povLastName = renpy.input("What is your last name? Default: Michimiya", length=30) or "Michimiya"
+    $ povFirstName = renpy.input("Как тебя зовут? По умолчанию: Юити", length=15) or "Юити"
+    $ povLastName = renpy.input("Какая у тебя фамилия? По умолчанию: Мичимия", length=30) or "Мичимия"
     $ povName = povFirstName +" "+povLastName
     if persistent.prologue_played == True:
-        "Skip to character selection? The game will tailor choices made in the prologue based on which character you chose last in character selection (by getting all the hearts)."
+        "Перейти к выбору персонажа? Игра адаптирует выбор, сделанный в прологе, в зависимости от того, какого персонажа вы выбрали последним в выборе персонажа (получив все сердца)."
         menu:
-            "Yes":
+            "Да":
                 $ may2 = False
                 $ may8 = False
                 $ may9 = False
@@ -50,7 +50,7 @@
                     $ day10hug = False
                     $ yuuyawin = True
                 jump cs_1
-            "No":
+            "Нет":
                 window hide
     scene April3 with fade
     play sound "music/windchimes.ogg"
@@ -60,325 +60,325 @@
     window show
     $ date = "day1"
     play music "music/breeze.ogg" fadein 10
-    "A cool breeze passes by, softly ruffling my fur. I bask in the mild weather of April, enjoying the feel of the sun against my skin."
-    "I can faintly hear the sound of the wind against the trees below and the chirping of birds above."
-    "I'm content to just laze around and watch the clouds in the sky. It has always been a good way to kill time when I had nothing better to do."
-    "Lately, though, it has developed into a habit."
-    "As I lay on the ground counting clouds, I feel myself drifting away into sleep."
-    "Just keeping my eyelids open seems like an impossible fight at this point."
-    "I'm tempted to just reach into my bag and grab my gaming console, but the thought of playing while fighting my urge to sleep is too troublesome."
+    "Прохладный ветерок пробегает мимо, мягко взъерошивая мой мех. Я нежусь в теплой апрельской погоде, наслаждаясь ощущением солнца на своей коже."
+    "Я едва слышу шум ветра в кронах деревьев внизу и щебет птиц наверху."
+    "Я довольствуюсь тем, что просто бездельничаю и наблюдаю за облаками в небе. Это всегда был хороший способ убить время, когда мне нечем было заняться."
+    "Однако в последнее время это вошло в привычку."
+    "Когда я лежу на земле, считая облака, я чувствую, что погружаюсь в сон."
+    "Просто держать мои веки открытыми кажется невозможной борьбой в этот момент."
+    "Я испытываю желание просто сунуть руку в сумку и схватить игровую консоль, но мысль о том, чтобы играть, борясь с моим желанием спать, слишком хлопотная."
     play sound "music/schoolbell.ogg"
-    "I am snapped out of my sleep induced daze by the sound of the school bell."
-    "Is it already this late?"
-    "Slowly, I hear voices. At first there are only a few, but they keep increasing little by little."
-    "Students are probably leaving the auditorium now and are heading towards their classrooms."
-    "Others are likely carrying around pamphlets and trying to recruit new students for their clubs."
-    "I don't even have to look to know what's happening. It's the same scene every year, after all."
-    "Just the thought of being pushed around by all those people who keep trying to go to a million different places gives me a headache."
-    "I suppose I should head into class myself..."
-    "Then I remember that {i}that{/i} teacher is going to be in charge of our homeroom this year."
-    "I think I'll just stay here and catch some sleep. Seems like the more comfortable approach."
+    "Я вырываюсь из своего сна, вызванного оцепенением от звука школьного звонка."
+    "Неужели уже так поздно?"
+    "Медленно я слышу голоса. Поначалу их немного, но постепенно они увеличиваются."
+    "Студенты, вероятно, уже покидают аудиторию и направляются в свои классы."
+    "Другие, скорее всего, носят с собой брошюры и пытаются набрать новых студентов для своих клубов."
+    "Мне даже не нужно смотреть, чтобы знать, что происходит. В конце концов, это одна и та же сцена каждый год."
+    "Одна только мысль о том, что меня будут толкать все эти люди, которые пытаются попасть в миллион разных мест, вызывает у меня головную боль."
+    "Наверное, мне тоже надо идти в класс..."
+    Потом я вспоминаю, что в этом году этот учитель будет отвечать за наш класс.
+    "Тогда я вспоминаю, что {i}этот{/i} учитель будет отвечать за нашу классную комнату в этом году."
+    "Пожалуй, я останусь здесь и немного посплю. Кажется, это более удобный подход."
     play sound "music/metaldoor.ogg" fadein 1.0
-    "As I begin to feel the sweet calling of dreamland, a sudden noise snaps my mind back to reality."
-    "Did some student decide to wander onto the roof?"
-    "Students aren't allowed up on the roof so no one is supposed to come here..."
-    "As for me... I just come here for the peace and quiet. It's a great napping spot after all."
+    "Когда я начинаю ощущать сладкий зов страны грез, внезапный шум возвращает мой разум к реальности."
+    "Может быть, какой-нибудь студент решил забрести на крышу?"
+    "Студентам запрещено подниматься на крышу, поэтому сюда никто не должен приходить..."
+    "Как по мне... Я просто прихожу сюда за тишиной и покоем. В конце концов, это отличное место для сна."
     play sound "music/footsteps concrete.ogg"
-    "The sound of approaching steps echoes, I move my ears a bit to be able to hear it better."
-    "Is it... is it coming towards me?!"
-    "Crap, have I been caught?!"
-    sw "\"I had a feeling you would be here...\""
-    "My ears twitch to the sound of a familiar voice. My body relaxes almost instantly."
-    "Thank God... it's not trouble."
+    "Звук приближающихся шагов отдается эхом, я слегка шевелю ушами, чтобы лучше слышать его."
+    "Это... он приближается ко мне?!"
+    "Черт, неужели меня поймали?!"
+    sw "\"У меня было предчувствие, что ты будешь здесь...\""
+    "Мои уши дергаются от звука знакомого голоса. Мое тело расслабляется почти мгновенно."
+    "Слава Богу... у меня не будет проблем."
     show s 1 u wry at fdis, five with moveiridis
-    "I slowly open my eyes, holding a hand up to block the sunlight from assaulting my vision."
-    "Standing atop me is a tall guy my own age with a kind, wry smile across his face."
-    "His bright green gaze looks directly at my eyes, nearly as bright as the morning sky above it."
-    "He looked like he didn't know whether he wanted to commend or chastize me."
-    "So in the end, he merely stood at that same spot, looking down at me with indecision."
-    "Finally, he sighed, scratching his chin and continuing to watch me with that smile."
-    s "\"You do know morning assembly is already over, right?\""
+    "Я медленно открываю глаза и поднимаю руку, чтобы солнечный свет не мешал мне видеть."
+    "Рядом со мной стоит высокий парень моего возраста с доброй, кривой улыбкой на лице."
+    "Его ярко-зеленый взгляд смотрит прямо в мои глаза, почти такой же яркий, как утреннее небо над ним."
+    "Он выглядел так, словно не знал, похвалить меня или наказать."
+    "Так что в конце концов он просто стоял на том же самом месте, глядя на меня сверху вниз с нерешительностью."
+    "Наконец, он вздохнул, почесывая подбородок и продолжая смотреть на меня с той же улыбкой."
+    s "\"Ты ведь знаешь что утреннее собрание уже закончилось, верно?\""
     scene SRooftop
     show s 1 u smile at fdis, five
     with fade
     stop music fadeout 3.0
     play music2 "music/BGM/Windswept.ogg" fadein 6
     play sound "music/fabric.ogg"
-    "He sits down next to me with a huff, turning around to look at my face with a smile."
-    s "\"I don't know how you manage to keep evading the teachers every single year, but they were royally pissed this time. I think your luck just might have run out.\""
-    "I'm somewhat taken aback by this nonchalant attitude."
-    "Shouldn't you be a little more pissed?"
-    "I really thought he had come over to drag me to the Staff Room."
-    "He puts both his arms behind his head and lies down on the ground next to me."
-    "I can feel the heat radiating from his body. Our arms slightly graze one another."
-    "Ah, I'm still feeling a little drowsy. Guess I might sleep for a few more minutes."
+    "Он раздраженно садится рядом со мной, поворачивается и с улыбкой смотрит мне в лицо."
+    s "\"Я не знаю, как тебе удается избегать учителей каждый год, но на этот раз они были по-королевски взбешены. Я думаю, что твоя удача могла просто иссякнуть.\""
+    "Я несколько озадачен таким беспечным отношением."
+    "Разве ты не должен быть немного более злым?"
+    "Я действительно думала,что он пришел, чтобы затащить меня в учительскую."
+    "Он кладет обе руки за голову и ложится на землю рядом со мной."
+    "Я чувствую жар, исходящий от его тела. Наши руки слегка задевают друг друга."
+    "Ах, я все еще чувствую себя немного сонным. Думаю, я мог бы поспать еще несколько минут."
     show s 1 u at fdis
-    s "\"By the way, my sister was looking for you this morning. Did you speak to her?\""
-    "His voice breaks the pleasant silence from before. I don't really feel like speaking so I just nod along."
-    "His tail shifts around next to him, whipping me in the legs."
+    s "\"Кстати, моя сестра искала тебя сегодня утром. Ты говорил с ней?\""
+    "Его голос нарушает приятную тишину, которая была до этого. Мне не очень хочется говорить,поэтому я просто киваю."
+    "Его хвост крутится рядом с ним, хлеща меня по ногам."
     show s 1 u displeased at fdis
-    "I turn my head slightly so that he's in my sight."
-    "He looks somewhat annoyed by my lack of words."
-    "Eh... what a pain."
-    mc 1 u sigh "\"She asked me to show her around school. I said that she should probably ask you instead. She wasn't amused.\""
+    "Я слегка поворачиваю голову, чтобы он был в поле моего зрения."
+    "Он выглядит несколько раздраженным моим отсутствием слов."
+    "Эх... какая боль."
+    mc 1 u sigh "\"Она попросила меня показать ей школу. Я сказал, что она должна спросить тебя. Она не была удивлена.\""
     show s 1 u smile at fdis
-    "Shoichi holds back a laugh."
-    mc 1 u sigh "\"She also asked me if she looked cute in her new uniform. I told her it was \"so so\". She was {i}not{/i} happy about that.\""
+    "Шоичи сдерживает смех."
+    mc 1 u sigh "\"Она также спросила меня, хорошо ли она выглядит в своей новой униформе. Я сказал ей что она выглядит \"так себе\". Она {i}не{/i} была рада этому.\""
     show s 1 u laugh at fdis
-    "This time, he's unable to hold back and laughs softly, his shoulders moving up and down at a pleasant rhythm."
-    mc 1 u happy "\"She tried to hit me with her bag. Lucky for me, I'm a fast runner.\""
-    "Shoichi doubles over, clutching his stomach as he continues on his fit of laughter."
-    mc 1 u judge "\"It's not funny. Your sister is the devil.\""
-    s "\"Sorry, sorry. I know I shouldn't laugh.\""
+    "На этот раз он не может сдержаться и тихо смеется, его плечи двигаются вверх и вниз в приятном ритме."
+    mc 1 u happy "\"Она попыталась ударить меня своей сумкой. К счастью для меня, я быстро бегаю.\""
+    "Шоичи сгибается, схватившись за живот и продолжая смеяться.."
+    mc 1 u judge "\"Это не смешно. Твоя сестра дьявол.\""
+    s "\"Прости, прости. Я знаю, что не должен смеяться.\""
     show s 1 u sigh at fdis
-    "He takes a few deep breaths, trying to stabilize himself."
-    "Little by little, his shoulders stop quivering."
-    s "\"Okay...{nw}"
+    "Он делает несколько глубоких вдохов, пытаясь успокоиться."
+    "Мало-помалу его плечи перестают дрожать."
+    s "\"Окей...{nw}"
     show s 1 u laugh at fdis
-    extend " I think I'm okay now.\""
-    "Really? Because you still look like you're about to burst into fits of laughter at any minute now."
+    extend " Думаю, теперь я в порядке.\""
+    "Неужели? Потому что ты все еще выглядишь так, будто в любую минуту можешь разразиться приступами смеха."
     show s 1 u smile at fdis
-    s "\"Sorry she was such a pain, she actually spent most of the summer sending me photos of her in different clothes, asking me what would look good for her first day of class.\""
+    s "\"Извини, что она была такой занозой, она на самом деле провела большую часть лета, посылая мне свои фотографии в другой одежде, спрашивая меня, что будет хорошо выглядеть в ее первый день занятий.\""
     show s 1 u sigh at fdis
-    s "\"At first I thought she was joking, but when the semester was close to starting and she hadn't stopped, I sent her a message reminding her of the uniform.\""
-    mc 1 u "\"And?\""
+    s "\"Сначала я подумал, что она шутит, но когда семестр был близок к началу, и она не остановилась, я послал ей сообщение, напомнив о форме.\""
+    mc 1 u "\"И что же она?\""
     show s 1 u at fdis
-    s "\"She got mad at me because I \"didn't tell her sooner\".\""
-    "Really? A high school student has to be reminded of the existence of the school uniform? Talk about a blunder."
+    s "\"Она разозлилась на меня, потому что я \"не сказал ей раньше.\".\""
+    "Неужели? Старшекласснику обязательно напоминать о существовании школьной формы? Поговорим об ошибке."
     show s 1 u smile at fdis
-    s "\"Oh, and it looks like she still has a major crush on you!\""
-    mc 1 u wince "\"Ugh... don't remind me.\""
-    "When we were kids, Hitoka had a serious older brother complex. Always following us around and saying that she wanted to marry her \"big bro\" when she grew up."
-    "In fact, I remember teasing Shoichi about it all the time..."
+    s "\"О, и похоже, она все еще влюблена в тебя!\""
+    mc 1 u wince "\"Тьфу... не напоминай мне.\""
+    "Когда мы были детьми, у Хитоки был серьезный комплекс старшего брата. Всегда ходила за нами по пятам и говорила, что хочет выйти замуж за своего \"старшего брата\", когда вырастет."
+    "На самом деле, я помню, что постоянно дразнил Шоичи по этому поводу..."
     play sound "music/disappointment.ogg"
-    "{size=+4}Why did she have to fall for me?{/size}" with hpunch
-    "... If I let him know how much it annoys me, he'll tease me mercilessly for the rest of the day."
-    "Time for a tactical retreat. Change of subject!"
-    mc 1 u wince "\"... Is your dad still out of town?\""
-    "... That was the first thing that came to mind."
-    "Oh God, I suck at this."
+    "{size=+4}Почему она должна была влюбиться в меня?{/size}" with hpunch
+    "Если я дам ему понять, как сильно это меня раздражает, он будет безжалостно дразнить меня весь остаток дня."
+    "... Время для тактического отступления. Сменим тему!"
+    mc 1 u wince "\"... Твоего отца все еще нет в городе?\""
+    "... Это было первое, что пришло в голову."
+    "О боже, у меня ничего не получается."
     show s 1 u seductive at fdis
-    "His eyes say \"Really? That's the best you can do?\", but he still lets it slide."
+    "Его глаза говорят: \"Правда? Это все, что ты можешь спросить?\", но он все еще позволяет ей скользить."
     show s 1 u smile at fdis
-    s "\"Yeah. Business trip to Taiwan. He'll stay there for most of the semester.\""
-    mc 1 u "\"Why don't you stay with your mom in the meantime? I'm sure she'd be thrilled about it. Hitoka too.\""
+    s "\"Да. Деловая поездка на Тайвань. Он пробудет там большую часть семестра.\""
+    mc 1 u "\"Почему бы тебе пока не остаться с мамой? Я уверен, что она будет в восторге от этого. Хитока тоже.\""
     show s 1 u wince at fdis
-    "At that moment, the look on his face is enough to tell me that I said something I shouldn't have."
-    s "\"That's... an idea... but I don't really feel comfortable there. I feel like an outsider. Their house has stopped being my home a long time ago.\""
+    "В этот момент выражение его лица говорит мне, что я сказала то, чего не должен был говорить."
+    s "\"Это... идея... но мне там не очень комфортно. Я чувствую себя чужаком. Их дом давно перестал быть моим домом.\""
     show s 1 u at fdis
-    s "\"Plus, someone has to watch over our house, so it's better if I stay there.\""
+    s "\"Кроме того, кто-то должен присматривать за нашим домом, так что будет лучше, если я останусь там.\""
     show s 1 u laugh at fdis
-    s "\"It's not all bad, though. At least I can enjoy not having someone breathing down my neck about the chores that need to be done.\""
-    "And yet, I'm sure you will do them all regardless."
-    "Come to think of it... I don't really remember much of his current house. I didn't really visit much since his parents got divorced."
-    "Maybe I should go there sometime to keep him company?"
-    "I know he still has a hard time dealing with the divorce, even if he likes to pretend that everything is fine."
-    mc 1 u smile "\"Maybe I could come over? I'll even bring one of my gaming consoles.\""
+    s "\"Впрочем, не все так плохо. По крайней мере, я могу наслаждаться тем, что никто не дышит мне в затылок о том, что нужно сделать.\""
+    "И все же я уверен, что вы сделаете их все, несмотря ни на что."
+    "Если подумать ... .. Я не очень хорошо помню его нынешний дом. Я почти не навещала его с тех пор, как его родители развелись."
+    "Может, мне стоит как-нибудь съездить туда, чтобы составить ему компанию?"
+    "Я знаю, что ему все еще тяжело переживать развод, даже если он любит притворяться, что все в порядке."
+    mc 1 u smile "\"Может быть, я смогу приехать? Я даже возьму с собой одну из своих игровых консолей.\""
     show s 1 u smile at fdis
-    s "\"Oh, that actually sounds like a great idea. Bring the Mega Neptune, then. It has the best fighting games!\""
-    mc 1 u judge "\"Fighting games? Again? Are those the only ones you can play?\""
+    s "\"О, это действительно звучит как отличная идея. Тогда принеси Mega Neptune. В нем есть лучшие файтинги!\""
+    mc 1 u judge "\"Файтинги? Опять таки? Ты можешь играть только в них?\""
     show s 1 u laugh at fdis
-    s "\"No, but they're the only ones I can actually beat you in.\""
-    "How can he say something so sad with such a smile on his face?"
+    s "\"Нет, но это единственное, в чем я могу победить тебя.\""
+    "Как он может говорить такие грустные вещи с такой улыбкой на лице?"
     show s 1 u smile at fdis
-    mc 1 u smile "\"Fair enough. I'll see if I can get some free time this week. I can go over and spend the night. We could pull a gaming all-nighter.\""
-    s "\"Deal! Well, except the part about the all-nighter. I don't think it'd be a good idea to lose sleep.\""
-    "Boo, such a goody two shoes!"
-    "It feels so natural to see him smiling all the time... it's weird to think that he isn't always like this."
-    "Whenever he's dealing with the few people that aren't part of his group of friends, he always has such a serious look on his face."
-    "Honestly, it feels like two completely different people."
+    mc 1 u smile "\"Справедливо. Я посмотрю, найдется ли у меня свободное время на этой неделе. Я мог бы пойти и переночевать у тебя. Мы бы играли всю ночь напролет.\""
+    s "\"Договорились! Ну, кроме той части, что касается ночи напролет. Я не думаю, что это хорошая идея не спать всю ночь.\""
+    "Так естественно видеть, как он все время улыбается... странно думать, что он не всегда такой."
+    "Всякий раз, когда он имеет дело с несколькими людьми, которые не являются частью его группы друзей, у него всегда такое серьезное выражение лица."
+    "Честно говоря, это похоже на двух совершенно разных людей."
     play sound "music/fabric.ogg"
-    "He starts leaning back to lie on the floor as well, but just as his back is about to touch the floor, he shoots up."
+    "Он тоже начинает откидываться назад, чтобы лечь на пол, но как только его спина почти касается пола, он вскакивает."
     show s 1 u shock at fdis
     stop music fadeout 5.0
-    s "\"Shoot, I almost forgot!"
+    s "\"Вот черт, я чуть не забыл!"
     show s 1 u at fdis
     stop music2 fadeout 2.5
     play music "music/breeze.ogg" fadein 5.0
-    extend " Saya-chan asked me to bring you over after she's done instructing the new club members.\""
-    "Guh... I was hoping she wouldn't have gone that far."
-    mc 1 u fsmile "\"N-nah, she's mistaken. I've taken a day off since there isn't anything important we need to do today.\""
+    extend " Сая-тян попросила меня привести тебя после того, как она закончит инструктаж новых членов клуба.\""
+    "ГХ... Я надеялся, что она не зашла бы так далеко."
+    mc 1 u fsmile "\"Н-нет, она ошибается. Я взял выходной, так как сегодня нам не нужно делать ничего важного.\""
     show s 1 u sigh at fdis
-    s "\"Is that so? Shouldn't the vice captain be there to be introduced to the new members?\""
-    "Shoichi shoots me such a suspicious look that I'm afraid he won't buy it."
-    s "\"Eh, I guess I'll just give you the benefit of the doubt on this one.\""
-    "... Luckily, he merely shrugs it off."
-    "I just managed to make up a convincing lie on the spot. Good going, me!"
-    s "\"The tennis club has things so easy. We had to jump through all sorts of hoops to get permission to use the courts during the break.\""
+    s "\"Так ли это? Разве вице-капитан не должен быть там, чтобы быть представленным новым членам?\""
+    "Шойчи бросает на меня такой подозрительный взгляд, что я боюсь, он не купится."
+    s "\"Эх, я полагаю, что я просто сомневаюсь в этом.\""
+    "... К счастью, он просто пожимает плечами."
+    "Мне просто удалось придумать убедительную ложь на месте. Я молодец!"
+    s "\"В теннисном клубе все так просто. Нам пришлось прыгать через всевозможные обручи, чтобы получить разрешение на использование кортов во время перерыва.\""
     show s 1 u scorn at fdis
-    s "\"Meanwhile, you guys had free access to them every day. It's so unfair.\""
-    mc 1 u cocky "\"If you want better treatment, maybe you guys should start winning more.\""
-    "I had planned on getting up and bolting long before I finished my sentence, but I seem to have overlooked one fatal flaw in my plan..."
-    "My body is still feeling sluggish from sleep, taking too long to move. In that time, Shoichi-"
+    s "\"Между тем, у вас, ребята, был свободный доступ к ним каждый день. Это так несправедливо.\""
+    mc 1 u cocky "\"Если вы хотите лучшего лечения, возможно, вы, ребята, должны начать больше выигрывать.\""
+    "Я собирался вскочить и убежать задолго до того, как закончу фразу, но, похоже, упустил из виду один роковой изъян в своем плане..."
+    "Мое тело все еще чувствует себя вялым после сна, слишком долго, чтобы двигаться. В то время, Шойчи-"
     stop music fadeout 3.0
     play music2 "music/BGM/Punchline - Org.ogg" fadein 6.0
     play sound "music/tap.ogg"
     show s 1 u doom at fdis:
         ease .2 zoom 1.5 xoffset -30 yoffset 200 #moves right 100px, bottom 50px. set to 0 when you return later.
-    "Unable to get up on time, I'm grabbed in a choke hold by Shoichi, who immediately starts grinding his fist at my head."
-    s "\"Hoho, was it my imagination? I could have sworn I heard a little brat trash talking my precious volleyball club. It couldn't have been you, right?\""
-    "While this might seem like a bad situation for an average person, I'm already so used to this kind of treatment that it doesn't even faze me."
-    "In fact, even if Shoichi is a little annoyed at my comment, this is nothing more than rough play for him."
-    "If he really wanted to hurt me, I'd have no chance. That guy is freakishly strong!"
-    "While he definitely has his arm wrapped around my neck, the \"noose\" is loose enough that I can get out whenever I want."
-    "Still, I decide to humor him and play the part."
-    mc 1 u laugh "\"Gaaah, Shoichi-san, I'm sorry I'm sorry. Please forgive me. Let me go!\""
+    "Не в силах вовремя встать, я задыхаюсь в объятиях Шойчи, который тут же начинает молотить меня кулаком по голове."
+    s "\"Хохо, это было мое воображение? Я мог бы поклясться, что услышал, как маленький хулиган говорит о моем драгоценном волейбольном клубе. Это не мог быть ты, верно?\""
+    "Хотя это может показаться плохой ситуацией для обычного человека, я уже настолько привык к такому обращению, что оно даже не беспокоит меня."
+    "На самом деле, даже если Шоичи немного раздражен моим комментарием, Это не более чем грубая игра для него."
+    "Если бы он действительно хотел причинить мне боль, у меня не было бы никаких шансов. Этот парень чертовски силен!"
+    "Хотя его рука определенно обвилась вокруг моей шеи, \"петля\" достаточно свободна, чтобы я мог выйти из его хватки, когда захочу."
+    "И все же я решаю подшутить над ним и сыграть свою роль."
+    mc 1 u laugh "\"Гааа, Шойчи-Сан, прости меня, прости. Пожалуйста, прости меня. Отпусти меня!\""
     show s 1 u doom at shake1, fdis
     s "\"Glk...\""
-    "Shoichi's body rumbles as he makes a choking noise."
+    "Тело шойчи громыхает, когда он издает удушающий звук."
     show s 1 u laugh at fdis
     stop music2 fadeout 2.5
     play music3 "music/BGM/Dazzling Sunlight.ogg" fadein 5.0
-    s "\"Bahahaha!\""
-    "Unable to hold it in, Shoichi begins to laugh with me still in his grip. Feeling his body vibrating like that is a strange, albeit familiar sensation."
-    "But even though he can barely restrain his laughter, he continues to play his part."
-    s "\"If you think forgiveness is going to come that easily, then you're sorely mistaken. It would take you at least one hundred years to achieve penance.\""
-    mc 1 u laugh "\"Ahahaha, wait, Shoichi, you're tickling me. And what's with that number? Be more realistic!\""
-    "Playing around like this is so nostalgic. It makes me miss the days of our childhood together."
-    "... Well, not that those days ever really left. After all, we {i}are{/i} rolling around on the rooftop in plain daylight."
+    s "\"Бахахаха!\""
+    "Не в силах сдержаться, Шоичи начинает смеяться, а я все еще в его объятиях. Ощущение, что его тело так вибрирует, - странное, хотя и знакомое ощущение."
+    "Но хотя он едва сдерживает смех, он продолжает играть свою роль."
+    s "\"Если ты думаешь, что прощение придет так легко, то чы глубоко ошибаешься. Тебе потребуется по меньшей мере сто лет, чтобы достичь покаяния.\""
+    mc 1 u laugh "\"Ахахаха, подожди, Шоичи, ты меня щекочешь. И что это за номер? Будь более реалистичнее!\""
+    "Такие игры вызывают ностальгию. Это заставляет меня скучать по дням нашего совместного детства."
+    "... Ну, не то чтобы эти дни когда-нибудь действительно уходили. В конце концов, мы катаемся по крыше при дневном свете."
     show s 1 u laugh at fdis:
         ease .2 zoom 1.0 xoffset 0 yoffset 0
-    "Shoichi gently pushes me away from him, giving me a tap on the shoulder."
-    s "\"Away with you, now, heathen. I am done with your punishment.\""
-    mc 1 u judge "\"Heathen? When did this become an inquisition?\""
+    "Шоичи мягко отталкивает меня от себя, похлопывая по плечу."
+    s "\"Прочь отсюда, язычник. Я покончил с твоим наказанием.\""
+    mc 1 u judge "\"Язычник? Когда это стало инквизицией?\""
     show s 1 u smile at fdis
-    s "\"I don't know. I just always wanted to say a line like that.\""
-    "He's acting so silly right now that I can't help but laugh."
-    "Whenever we get together, we end up fooling around like little kids."
-    "It's why we stopped studying together. We could never get things done."
+    s "\"Я не знаю. Просто мне всегда хотелось сказать такую фразу.\""
+    "Сейчас он ведет себя так глупо, что я не могу удержаться от смеха."
+    "Всякий раз, когда мы собираемся вместе, мы заканчиваем тем, что дурачимся, как маленькие дети."
+    "Вот почему мы перестали учиться вместе. У нас никогда ничего не получалось."
     show s 1 u at fdis
-    s "\"This is our last year, you know. You should try enjoying high school life a little more.\""
-    "Whoa. The change of subject came so fast that I can feel some whiplash."
-    mc 1 u judge "\"I am enjoying it. And also, what's with the sudden change of subject?\""
+    s "\"Это наш последний год, знаешь ли. Ты должен попробовать наслаждаться жизнью в средней школе немного больше.\""
+    "Вау. Смена темы произошла так быстро, что я чувствую какой-то кнут."
+    mc 1 u judge "\"Я наслаждаюсь этим. И еще, что за внезапная смена темы?\""
     show s 1 u sigh at fdis
-    s "\"No you're not. You barely speak to anyone in school other than Saya, Urushihara and me.{nw}"
+    s "\"Нет, это не так. Ты почти ни с кем не разговариваешь в школе, кроме Сая, Урушихары и меня.{nw}"
     show s 1 u at fdis
-    extend " And \"that\" came from me being worried about you. You should be happy.\""
-    mc 1 u sigh "\"Alright... {i}Mom{/i}. And for your information, I have plenty of friends.\""
+    extend " И \"это\" пришло от того, что я беспокоюсь о тебе. Ты должен быть счастлив.\""
+    mc 1 u sigh "\"Хорошо... {i}Мам{/i}. И к твоему сведению, у меня много друзей.\""
     show s 1 u sigh at fdis
-    s "\"Casual acquaintances aren't the same thing as friends, and I know that all of your classmates fall into that category.\""
-    mc 1 u annoyed "\"That's not true. You're just overstating the requirements to friendship.\""
-    s "\"Is that so?\""
-    "I shrug. Nothing I can say to change his mind, so I won't really bother to."
+    s "\"Случайные знакомые-это не то же самое, что друзья, и я знаю, что все твои одноклассники попадают в эту категорию.\""
+    mc 1 u annoyed "\"Это неправда. Ты просто преувеличиваешь требования к дружбе.\""
+    s "\"Так ли это?\""
+    "Я пожимаю плечами. Я не могу сказать ничего такого, что заставило бы его передумать, так что я не стану утруждать себя."
     show s 1 u at fdis
-    s "\"By the way, what time is it now? I can't hear the students downstairs anymore.\""
-    "... Huh, that's true. It's gotten pretty quiet."
-    mc 1 u shock "\"I can't either..."
-    extend mc 1 u judge " Wait, why are you asking me that? Just check your phone.\""
-    s "\"I left it in my bag.\""
-    mc 1 u sigh "\"Pfft, you're so unprepared.\""
+    s "\"Кстати, сколько сейчас времени? Я больше не слышу студентов внизу.\""
+    "... Ха, это правда. Стало довольно тихо."
+    mc 1 u shock "\"Я тоже не могу..."
+    extend mc 1 u judge " Подожди, почему ты спрашиваешь меня об этом? Просто проверь свой телефон.\""
+    s "\"Я оставил его в своей сумке.\""
+    mc 1 u sigh "\"Пффф, ты такой неподготовленный.\""
     play sound "music/phonebeep.ogg"
-    "I pull my phone out of my pocket and look at the time."
-    "Woah, it's already past 11AM!"
+    "Я достаю телефон из кармана и смотрю на время."
+    "Ого, уже одиннадцать утра!"
     mc 1 u shock "\"11:35?!\""
     show s 1 u shock at fdis
-    "Shoichi almost shoots up."
-    s "\"Shit, I'm late. I'm supposed to be helping with the new team members.\""
-    mc 1 u nervoussmile "\Sorry I held you up here for so long.\""
-    "Shoichi gets up quickly, dusting his clothes off."
+    "Шоичи почти взлетает."
+    s "\"Черт, я опаздываю. Я должен помогать с новыми членами команды.\""
+    mc 1 u nervoussmile "\Прости, что задержал тебя здесь так долго.\""
+    "Шоичи быстро встает, отряхивая одежду."
     show s 1 u wince at fdis
-    s "\"Is there any dirt on my back?\""
-    mc 1 u sigh "\"No, it's fine. They clean the rooftop every day, you know.\""
+    s "\"Есть ли грязь на моей спине?\""
+    mc 1 u sigh "\"Нет, все нормально. Ты же знаешь, они каждый день чистят крышу.\""
     show s 1 u sigh at fdis
-    s "\"Doesn't change the fact we were lying around on the floor.\""
-    mc 1 u sigh "\"If this was going to be such a problem then why did you do it in the first place?\""
-    s "\"It didn't feel like a problem at the time. I'll chalk it up to a lack of foresight.\""
+    s "\"Это не меняет того факта, что мы валялись на полу.\""
+    mc 1 u sigh "\"Если это будет такой проблемой, то зачем ты это сделал в первую очередь?\""
+    s "\"В то время это не казалось проблемой. Я спишу это на недостаток дальновидности.\""
     show s 1 u smile at fdis
-    s "\"Now come on, I'm sure you have better things to do than fall asleep on a school rooftop. Even if you end up skipping practice.\""
+    s "\"А теперь пошли, я уверен, что у тебя есть дела поважнее, чем засыпать на крыше школы. Даже если ты в конечном итоге пропускаешь тренировку.\""
     stop music3 fadeout 4.0
     play music2 "music/BGM/The People Here.ogg" fadein 8.0
     hide s 1 u smile
     show cg1
     with dissolve
-    s 1 u smile "\"Here, let me help you.\""
-    "Shoichi leans down towards me, offering me a hand."
-    "Seeing the blue sky shining brightly behind him and the gentle breeze ruffling his fur... for some reason I can feel myself blushing."
-    "Without really knowing why, I decide to look away and attempt to hide, like a kid that got caught doing something bad."
-    mc 1 u avoidb "\"I-I don't need help, I'm not a baby!\""
-    s 1 u happy "\"I'm not saying you are. But what's wrong with me trying to do something nice for a friend? I just want to help you.\""
-    "Damn smooth talker..."
-    "Despite my protests, I still grab hold of his hand, with him pulling up to my feet with ease."
+    s 1 u smile "\"Вот, позволь мне помочь тебе.\""
+    "Шойчи наклоняется ко мне и протягивает руку."
+    "Видя голубое небо, ярко сияющее позади него, и легкий ветерок, треплющий его мех... почему-то я чувствую, что краснею."
+    "Сам не зная почему, я отвожу взгляд и пытаюсь спрятаться, как ребенок, которого поймали за чем-то плохим."
+    mc 1 u avoidb "\"Мне не нужна помощь, я не ребенок!\""
+    s 1 u happy "\"Я этого и не говорю. Но что плохого в том, что я пытаюсь сделать что-то приятное для друга? Я просто хочу помочь тебе.\""
+    "Проклятый обольститель..."
+    "Несмотря на мои протесты, я все еще хватаю его за руку, и он с легкостью поднимает меня на ноги."
     $ renpy.music.set_volume(0.3, 0.0, channel="sound")
     play sound "music/tap.ogg"
-    "He actually pulls me with too much force, and we end up bumping chests."
-    "My face lands square on his shoulder."
-    "It never ceases to amaze me how deceptively strong he is."
-    "I mean... he already looks strong. But he's still much stronger than he looks."
-    "If that makes any sense."
+    "На самом деле он тянет меня слишком сильно и я сталкиваюсь с его грудью."
+    "Мое лицо приземляется прямо на его плечо."
+    "Меня никогда не перестает удивлять, насколько он обманчиво силен."
+    "Я имею в виду... он уже выглядит сильным. Но он все еще намного сильнее, чем кажется."
+    "Если это имеет смысл."
     $ renpy.music.set_volume(1.0, 0.0, channel="sound")
-    mc 1 u annoyed "\"Ow! Jeez, you're way too strong. Try to reign it in a little, you're gonna end up throwing me off the building!\""
-    s 1 u laugh "\"Hehe, sorry. You have so much fluff that you look much stockier than you really are.\""
-    mc 1 u annoyed "\"What's {i}that{/i} supposed to mean?\""
-    s 1 u happy "\"It's a compliment. I'm saying you're lighter than you look.\""
+    mc 1 u annoyed "\"Ой! Боже, ты слишком сильный. Попробуй хоть чуть-чуть быть по слабже или все закончится тем, что ты вышвырнешь меня из здания!\""
+    s 1 u laugh "\"Хе-хе, извини. У тебя так много меха, что ты выглядишь гораздо коренастее, чем есть на самом деле.\""
+    mc 1 u annoyed "\"Что {i}это{/i} должно означать?\""
+    s 1 u happy "\"Это комплимент. Я говорю, что ты легче, чем кажешься.\""
     hide cg1
     show s 1 u smile at fdis, five
     with dissolve
     play sound "music/gust.ogg"
     show s 1 u wince at fdis
-    "Just as I'm pulling away from him, a particularly strong gust of wind blows against us, rustling my fur violently."
-    s "\"Waah. It's so windy up here, how do you manage to stay here for so long.\""
-    mc 1 u sigh "\"It's not usually this windy up here, you know.\""
-    "Plus, you're making for a pretty good wind shield right now with how big you are."
-    "Although I decide against mentioning that part."
+    "Как только я отстраняюсь от него, на нас налетает особенно сильный порыв ветра, яростно развивая мою шерсть."
+    s "\"Ааа. Здесь так ветрено, как ты умудряешься оставаться здесь так долго.\""
+    mc 1 u sigh "\"Обычно здесь не так ветрено, знаешь ли.\""
+    "Кроме того, ты сейчас делаешь довольно хороший ветровой щит с тем, насколько ты велик."
+    "Хотя я решаю не упоминать эту часть."
     show s 1 u shock at fdis
     stop music2 fadeout 3.0
     play music "music/breeze.ogg" fadein 6.0
     play sound "music/phonevibrating.ogg"
-    "My pocket starts vibrating with force."
-    "I already have an idea who might be calling, so I choose to ignore it."
+    "Мой карман начинает вибрировать с силой."
+    "У меня уже есть идея, кто может звонить, поэтому я предпочитаю игнорировать ее."
     show s 1 u at fdis
-    "Shoichi, though, has completely stopped. His eyes are glued to my pants pocket."
-    s "\"Aren't you going to get that?\""
-    mc 1 u "\"Nope!\""
+    "Однако Шоичи остановился. Его взгляд прикован к карману моих брюк."
+    s "\"Разве ты не собираешься отвечать?\""
+    mc 1 u "\"Нет!\""
     show s 1 u sigh at fdis
-    s "\"It's in bad taste to ignore a call, you know.\""
-    mc 1 u sigh "\"Spare me the lecture. I have a pretty good idea of who it is and this will be a conversation I'd rather avoid.\""
+    s "\"Знаешь, это дурной тон, игнорировать звонок.\""
+    mc 1 u sigh "\"Избавь меня от этой лекции. У меня есть довольно хорошее представление о том, кто это, и этого разговора я предпочел бы избежать.\""
     show s 1 u annoyed at fdis
     play sound "music/fabric.ogg"
     stop music fadeout 2.5
     play music2 "music/BGM/Punchline - Org.ogg" fadein 5.0
-    "Shoichi gives me a bemused \"Hmm.\" and, in one fast movement, shoves a hand down my pocket, pickpocketing my phone."
-    mc 1 u shock "\"Hey, give that back!\""
+    "Шойчи удивленно смотрит на меня: \"Хм\" и одним быстрым движением засовывает руку в карман, воруя телефон."
+    mc 1 u shock "\"Эй, отдай его  обратно!\""
     play sound "music/phonebeep.ogg"
     show s 1 u laugh at fdis
-    s "\"Hello, could this be [povFirstName]'s secret girlfri-"
+    s "\"Здраствуйте возможно вы та самая секретная девушка [povFirstName]'s."
     show s 1 u at fdis
-    extend " Saya-chan?\""
-    "Oh-oh. Here's the development I didn't want to see occurring."
+    extend " Сая-тян?\""
+    "О-о. Вот развитие событий, которое я не хотел видеть."
     show s 1 u shock at fdis
     $ renpy.pause(1.0)
     show s 1 u judge at fdis
     $ renpy.pause(1.0)
     show s 1 u frown at fdis
     "..."
-    "The changes to his expression are already enough to tell me that I'm busted."
-    "And screwed."
-    "I attempt to stealthily walk away from the situation."
+    "Изменения в выражении его лица уже достаточно, чтобы сказать мне, что я попался."
+    "И облажался."
+    "Я пытаюсь незаметно уйти от ситуации."
     show s 1 u scorn at fdis
-    s "\"You have a match? You told me you were taking the day off!\""
-    "Crap..."
-    mc 1 u avoid "\"I am! {size=-4}Without consent...{/size}\""
+    s "\"У тебя сегодня есть матч? Ты сказал мне, что у тебя выходной!\""
+    "Дерьмо..."
+    mc 1 u avoid "\"Я это! {size=-4}Без согласия...{/size}\""
     show s 1 u sigh at fdis
-    "Shoichi starts rubbing his forehead."
-    s "\"Yeah, Saya-chan. Sure. I'll bring him.\""
-    "Noooo..."
+    "Шоичи начинает тереть лоб."
+    s "\"Да, Сая-тян. Конечно. Я приведу его.\""
+    "Неееет..."
     show s 1 u annoyed at fdis
     play sound "music/phonebeep.ogg"
-    "Shoichi hangs up the phone and looks at me with a grumpy expression."
-    s "\"I don't appreciate being lied to.\""
-    mc 1 u annoyed "\"I don't {i}have{/i} to tell you every detail off my every waking moment, do I?\""
+    "Шоичи вешает трубку и сердито смотрит на меня."
+    s "\"Я не люблю, когда мне лгут.\""
+    mc 1 u annoyed "\"Я ведь не {i}обязан{/i} рассказывать тебе каждую деталь о каждом моменте моего бодрствования, не так ли?\""
     show s 1 u scorn at fdis
-    s "\"Well, no... But you have to go to practice.\""
-    mc 1 u annoyed "\"Why?\""
-    s "\"It's your responsibility.\""
-    mc 1 u avoid "\"Again. Why?\""
+    s "\"Ну, нет... Но ты должен пойти на тренировку.\""
+    mc 1 u annoyed "\"Почему?\""
+    s "\"Это твоя ответственность.\""
+    mc 1 u avoid "\"Снова. Почему?\""
     show s 1 u frown at fdis
-    s "\"Because you're the vice-captain for crying out loud. And this is not up for debate.\""
+    s "\"Потому что ты вице-капитан, который громко плачет. И это не подлежит обсуждению.\""
     show s 1 u frown at fdis:
         ease .2 zoom 1.5 xoffset -30 yoffset 200 #moves right 100px, bottom 50px. set to 0 when you return later.
     play sound "music/tap.ogg"
-    "Shoichi grabs me by my shirt collar and starts dragging me."
-    mc 1 u shock "\"Waah, I'll go I'll go, you don't have to drag me. S-Shoichi. Shoichi?!\""
+    "Шоичи хватает меня за воротник рубашки и начинает тащить."
+    mc 1 u shock "\"Вааа, я пойду, я пойду, не надо меня тащить. Ш-Шойчи. Шоичи?!\""
     stop music2
     $ renpy.music.set_volume(1.0, 0.0, channel="music")
     $ renpy.music.set_volume(1.0, 0.0, channel="music2")
@@ -387,225 +387,225 @@
     show s 1 u sigh at fdis, five
     with fade
     show sa 1 t at offscreenleft
-    s "\"Saya-chan, we're here!\""
+    s "\"Сая-тян, мы здесь!\""
     show s 1 u sigh at seven with move
     show s 1 u sigh at fdis, seven
     show sa 1 t annoyed at fdis, three with moveiledis
-    "Saya stomps her way over to us, nearly knocking down some students that were unlucky enough to be in her path."
-    "If this were some kind of manga, I'm one hundred percent sure she'd have smoke coming out of ears."
+    "Сая топает к нам, чуть не сбивая с ног студентов, которым не повезло оказаться у нее на пути."
+    "Если бы это была какая-то манга, я на сто процентов уверен, что у нее был бы дым из ушей."
     $ renpy.music.set_volume(0.7, 2.5, channel="music")
     play music2 "music/BGM/Mischief Maker.ogg" fadein 5.0
     show s 1 u wry at fdis
     show sa 1 t angry at fdis
-    sa "\"You. Asshole!\"" with hpunch
+    sa "\"Ты. Задница!\"" with hpunch
     mc 1 u wince "\"Gah!\""
-    "I am grabbed by the collar of my shirt and dragged to the courts."
-    "What's with people always grabbing me by my shirt. I have arms. Grab those. They don't cost money and there is no risk of ripping them!"
-    sa "\"There's no way you're running away again!\""
-    mc 1 u nervous "\"W-wait. S-Saya-chan. I promise I'm not gonna try to escape. Please stop pulling on my shirt!\""
-    "Saya Mizoguchi, one of my dear childhood friends, is the current captain of our school's tennis club."
-    "Unfortunately for me, she is incredibly brash and hot-headed..."
-    "Even though she looks so innocent and tries to act cute, she's a monster whenever she gets angry."
-    "And considering how easy she is to anger, one could say that she lives in a state of constant rage."
-    "Standing at 176cm, she's also one of the tallest girls in school, which I find slightly unsettling."
+    "Меня хватают за воротник рубашки и тащат во двор."
+    "Почему люди всегда хватают меня за рубашку? У меня есть руки. Хватай их. Они не стоят денег, и нет никакого риска их порвать!"
+    sa "\"Ты ни за что не убежишь снова!\""
+    mc 1 u nervous "\"П-подожди. С-Сая-тян. Я обещаю, что не буду пытаться сбежать. Пожалуйста, перестань дергать меня за рубашку!\""
+    "Сая Мидзогути, один из моих дорогих друзей детства, нынешний капитан теннисного клуба нашей школы."
+    "К несчастью для меня, она невероятно дерзкая и вспыльчивая..."
+    "Несмотря на то, что она выглядит так невинно и пытается вести себя мило, она становится монстром, когда злится."
+    "А учитывая, как легко она поддается гневу, можно сказать, что она живет в состоянии постоянной ярости."
+    "При росте 176 см она также одна из самых высоких девочек в школе, что меня немного тревожит."
     show s 1 u wry at fdis, nine
     show sa 1 t annoyed at fdis, five
     with move
     show k 1 t sigh at two with moveiledis
     stop music2 fadeout 4.0
     $ renpy.music.set_volume(1.0, 8.0, channel="music")
-    kw "\"Mizoguchi-san, I'd like to remind you that our new members are watching this little display here.\""
+    kw "\"Мидзогути-сан, Я хотел бы напомнить вам, что наши новые члены наблюдают за этим маленьким представлением здесь.\""
     show s 1 u at fdis
-    "Saya turns around to look at the source of that voice, her nostrils flared and her brows furrowed."
-    "Not to mention that huge vein that's pulsing on her forehead."
-    "The one addressing her is Keisuke Urushihara, one of our juniors."
-    "Despite his age, he's by far the most responsible member of the team and is constantly counseling Saya and I."
-    "Sometimes it feels like {i}he's{/i} the one pulling the strings here instead of us seniors."
+    "Сая оборачивается, чтобы посмотреть на источник этого голоса, ее ноздри раздуваются, а брови нахмурены."
+    "Не говоря уже об огромной вене, пульсирующей у нее на лбу."
+    "Тот, кто обращается к ней: Кэйсукэ Урусихара, один из наших юниоров."
+    "Несмотря на свой возраст, он, безусловно, самый ответственный член команды и постоянно консультирует Сая и меня."
+    "Иногда мне кажется, что это {i}он{/i} дергает за ниточки, а не мы, старшеклассники."
     show k 1 t at offscreenleft
     show s 1 u at seven
     show sa 1 t annoyed at fdis, three
     with move
     show s 1 u at fdis, seven
-    "Not thirty seconds after popping up to speak his mind, Kei-kun has already left to busy himself with something else."
+    "Не прошло и тридцати секунд, как он появился, чтобы высказать свое мнение. И почти сразу же Кей-кун ушел, чтобы заняться чем-то другим."
     $ renpy.music.set_volume(0.7, 3.0, channel="music")
     play music2 "music/BGM/On My Way.ogg" fadein 6.0
-    "Somehow, it seems that his interference, however brief, was enough to bring her back to her senses."
+    "Почему-то кажется, что его вмешательства, пусть и краткого, было достаточно, чтобы привести ее в чувство."
     show sa 1 t sigh at fdis
-    "Saya clears her throat and straightens her clothes, turning around to look at Shoichi."
-    "She still maintains a death grip on my shirt collar though."
-    sa "\"Right. Anyway, thanks for the help Sho-chan!\""
+    "Сая прочищает горло и поправляет одежду, поворачиваясь, чтобы посмотреть на Шоичи."
+    "Но она все еще мертвой хваткой вцепилась в воротник моей рубашки."
+    sa "\"Правильно. В любом случае, спасибо за помощь, Шо-чан!\""
     show s 1 u laugh at fdis
-    s "\"Pfft, don't mention it. Call me anytime this unruly child gives you any more problems!\""
-    "He seems to be enjoying himself far more than he should."
-    "Bastard, I'll get him back for this."
-    "Gym #3, the one that houses the tennis courts, is actually separated in half by a giant locker room. On one side, we have the tennis courts. On the other, we have the volleyball courts."
-    "So in the end, it was incredibly convenient for him as he was already bound to come this way anyway."
-    s "\"Now if you'll excuse me, I have some captaincy duties to fulfill!\""
+    s "\"Пффф, не упоминай об этом. Позвони мне в любое время, когда этот непослушный ребенок доставит тебе больше проблем!\""
+    "Похоже, он наслаждается собой гораздо больше, чем следовало бы."
+    "Ублюдок, я отплачу ему за это."
+    "Спортзал № 3, в котором расположены теннисные корты, фактически разделен пополам гигантской раздевалкой. С одной стороны, у нас есть теннисные корты. С другой стороны, у нас есть волейбольные площадки."
+    "Так что, в конце концов, это было невероятно удобно для него, так как он все равно должен был прийти сюда."
+    s "\"А теперь прошу меня извинить, мне нужно выполнить кое-какие обязанности капитана!\""
     show s 1 u smile at offscreenright
     show sa 1 t annoyed at fdis, five
     with move
     hide s 1 u smile
-    "He waves us goodbye, heading towards the locker rooms, supposedly for his own practice."
-    "... Meanwhile, I can feel Saya leering at my back."
-    "A creeping sense of dread begins to settle."
-    mc 1 u fsmile "\"W-Well, Saya-chan. I guess I'll just...\""
+    "Он машет нам на прощание, направляясь к раздевалкам, предположительно для собственной тренировки."
+    "... Тем временем я чувствую, как Сая смотрит мне в спину."
+    "Ползучее чувство страха начинает успокаиваться."
+    mc 1 u fsmile "\"Н-ну, Сая-тян. Наверное, я просто...\""
     show sa 1 t doom at fdis
-    sa "\"Freeze!\""
+    sa "\"Стоять!\""
     play sound "music/stab.ogg"
-    "Her voice is so filled of authority that I'm cut down before I even have a chance to speak."
-    "Before long, I completely toss away the foolish notion that I ever had a chance to escape."
+    "В ее голосе столько властности, что я замолкаю, даже не успев заговорить."
+    "Вскоре я полностью отбрасываю глупую мысль о том, что у меня когда-либо был шанс сбежать."
     show sa 1 t sigh at fdis
-    sa "\"Why are you being so troublesome? You know about our club's tradition. We had to delay practice because of you!\""
-    "I look away from her, trying to ignore the slight pang of guilt I feel in my chest."
-    "She's, of course, talking about our club's special yearly match featuring a junior and a senior player elected by members of those years to represent them in a special one-set match."
-    "No one really knows why they initially made it, but nowadays it's accepted as a way to show off our best players to those that are just joining the club."
-    "This is why this match takes place at the first day of class."
-    mc 1 u wince "\"Do I really have to? I already took part of it last year. Isn't there some kind of attendance limit to allow more people to participate?\""
-    "Even as I'm trying to find a way out of it, I already know the best I can do is buy some time."
-    "It's true though that I was chosen to represent the juniors last year, defeating the senior's representative by 6-3, the first time in over ten years that the juniors had won."
-    "Heh, I was pretty happy about it last year too."
+    sa "\"Почему ты так беспокоишься? Вы знаете о традициях нашего клуба. Нам пришлось отложить тренировку из-за тебя!\""
+    "Я отвожу от нее взгляд, стараясь не обращать внимания на легкий укол вины, который чувствую в груди."
+    "Она, конечно, говорит о специальном ежегодном матче нашего клуба с участием младшего и старшего игрока, избранного членами тех лет, чтобы представлять их в специальном матче одного сета."
+    "Никто на самом деле не знает, почему они изначально сделали это, но в настоящее время это принято как способ показать наших лучших игроков тем, кто только вступает в клуб."
+    "Вот почему этот матч проходит в первый день занятий."
+    mc 1 u wince "\"Мне действительно нужно это делать? Я уже участвовал в нем в прошлом году. Разве нет какого-то ограничения посещаемости, чтобы позволить большему количеству людей участвовать?\""
+    "Даже когда я пытаюсь найти выход из этого, я уже знаю, что лучшее, что я могу сделать, это выиграть немного времени."
+    "Это правда, что в прошлом году меня выбрали представлять юниоров, победив представителя старшего класса со счетом 6-3, впервые за более чем десять лет, когда юниоры выиграли."
+    "Хех, я тоже был очень доволен этим в прошлом году."
     show sa 1 t bored at fdis
-    sa "\"Look, normally I'd give you a pass, but all of the seniors voted for you this year. It'd be unfair to them if I picked someone else.\""
-    "Usually we host one match per gender category, so we'd have the girls and the boys playing in separate categories."
-    "But still, the guys are still allowed to vote on who they want to see representing the girls and vice versa. It's a pretty neat system."
-    mc 1 u fsmile "\"Come on, it can't have been literally everyone. I know for a fact that {i}I{/i} didn't vote for myself.\""
+    sa "\"Слушай, обычно я бы дала тебе возможность пропустить матч, но в этом году все старшеклассники проголосовали за тебя. Было бы несправедливо по отношению к ним, если бы я выбрала кого-то другого.\""
+    "Обычно мы проводим по одному матчу в каждой гендерной категории, поэтому девочки и мальчики играют в разных категориях."
+    "Но тем не менее, парням по-прежнему разрешено голосовать за тех, кого они хотят видеть представляющими девушек, и наоборот. Это довольно аккуратная система."
+    mc 1 u fsmile "\"Да ладно, не может быть, чтобы это были буквально все. {i}Я{/i} точно знаю, что голосовал не за себя.\""
     show sa 1 t sigh at fdis
-    sa "\"Don't try to be cute, you didn't even vote at all. You were absent that day.\""
-    "Rats."
+    sa "\"Не пытайся быть милым, ты даже не голосовал вообще. В тот день тебя не было.\""
+    "Чушь."
     show sa 1 t pout at fdis
-    sa "\"And yes, you got every single one of the votes. One hundred percent. Is it even that big of a surprise? You're a famous player in all of Japan, of course our guys would want to watch you play.\""
-    sa "\"Doesn't help that you have been slacking off in practice for the past year.\""
-    "I attempted to act frustrated by sighing as loudly as I can."
-    "The hope was that she'd see it and decide to take pity on me."
-    "It isn't very effective..."
+    sa "\"И да, ты получил все до единого голоса. Сто процентов. Неужели это такой уж большой сюрприз? Ты известный игрок во всей Японии, конечно, наши ребята хотели бы посмотреть, как ты играешь.\""
+    sa "\"Не помогает и то, что в прошлом году вы бездельничали на практике.\""
+    "Я попыталась изобразить разочарование, вздохнув как можно громче."
+    "Я надеялся, что она увидит это и решит сжалиться надо мной."
+    "Это не очень эффективно..."
     show sa 1 t doom2 at fdis
-    sa "\"Should I take that sigh as a sign that you've resigned yourself to your fate? Yes? Great, then it's show time!\""
+    sa "\"Должна ли я считать этот вздох знаком того, что ты смирился со своей судьбой? - Да? Отлично, значит, пришло время шоу!\""
     stop music2 fadeout 2.5
     play music3 "music/BGM/Punchline.ogg" fadein 5.0
     play sound "music/tap.ogg"
-    "Saya grabs me by my wrist and starts dragging me to one of the courts."
-    "Just as I'm about to truly surrender to my inescapable fate..."
+    "Сая хватает меня за запястье и тащит к одному из кортов."
+    "Так же, как я собираюсь по-настоящему сдаться своей неотвратимой судьбе..."
     play sound "music/tap.ogg"
     show sa 1 t doom2 at fdis, seven with move
     show k 2 t sigh at three with move
     show k 2 t sigh at fdis, three
-    "I feel a hand touching my shoulder. As I turn around, I'm greeted to the sight of Kei-kun's face."
-    k "\"Hey hey, how about we take a little breather here, okay?\""
+    "Я чувствую, как чья-то рука касается моего плеча. Когда я оборачиваюсь, то вижу лицо Кей-куна."
+    k "\"Эй, как насчет того, чтобы немного передохнуть здесь, хорошо?\""
     show k 1 t sigh at fdis
-    k "\"Mizoguchi-san, [povLastName]-san hasn't even changed out of his uniform yet, how is he supposed to play like this? Can't we at least give him some time to get changed?\""
+    k "\"Мидзогути-сан, [povLastName]-сан он еще даже форму не сменил, как он может так играть? Может, дадим ему хотя бы время переодеться?\""
     show k 1 t at fdis
-    "K-K-Keisuke, you're the best!"
+    "К-К-Кэйсукэ, ты самый лучший!"
     show sa 1 t annoyed at fdis
-    "Saya stares at him, the bulging vein on her forehead makes another appearance as her brows twitch with frustration."
-    "Just when it seems that she might not budge..."
+    "Сая пристально смотрит на него, выпуклая вена на ее лбу появляется снова, а брови дергаются от разочарования."
+    "Именно тогда, когда кажется, что она не сдвинется с места..."
     stop music3 fadeout 5.0
     $ renpy.music.set_volume(1.0, 10.0, channel="music")
     show sa 1 t sigh at fdis
-    sa "\"Ugh, fine. But be quick about it, I don't want to have to delay this any longer than I have to.\""
-    mc 1 u nervoussmile "\"T-Thank you, I'll be right back!\""
-    "I flash Kei-kun a thumbs up as a thank you."
-    "Now I just have to plot my esc-"
+    sa "\"Тьфу, хорошо. Но поторопись, я не хочу откладывать это дело дольше, чем нужно.\""
+    mc 1 u nervoussmile "\"С-Спасибо, я сейчас вернусь!\""
+    "Я показываю Кей-куну большой палец в знак благодарности."
+    "Теперь я просто должен построить свой побе-"
     show sa 1 t doom2 at fdis
-    sa "\"And don't even think of trying to run away, otherwise I'll hunt you down and I'll make a fur coat out of your skin.\""
-    "... On second thought."
+    sa "\"И даже не думай пытаться убежать, иначе я найду тебя и сделаю шубу из твоего меха.\""
+    "... Без вариантов."
     stop music fadeout 3.0
     scene SLockers with fade
-    "I dash towards the male locker room, trying to get this done as fast as I can."
-    "Every second I take makes Saya even more mad and I can't risk that."
-    "Just then..."
+    "Я бросаюсь к мужской раздевалке, стараясь сделать это как можно быстрее."
+    "С каждой секундой я все больше злюсь на Саю, а я не могу так рисковать."
+    "Именно тогда..."
     show cg19 with Dissolve(1.0)
-    "I see Shoichi standing right next to his locker, his eyes just as glued on me as mine are on him."
-    "For a second, what is happening doesn't really click for any of us."
-    "After all, it's not every day that someone runs into a locker room and nearly crashes into the lockers."
-    "Shoichi's hands are still frozen on the waistband of his... underwear?"
-    "Whatever it is that he is wearing. His hands are still clutching it as if he had just pulled it up a mere fraction of a second before I walked in."
-    "And the entire backside of it is completely bare, especially with him standing frozen like that, giving me a perfect view of his-"
+    "Я вижу, что Шоичи стоит рядом со своим шкафчиком, его глаза так же прикованы ко мне, как и мои к нему."
+    "На секунду то, что происходит, на самом деле не касается никого из нас."
+    "В конце концов, не каждый день кто-то забегает в раздевалку и чуть не врезается в шкафчики."
+    "Руки Шоичи все еще застыли на поясе... нижнее белье?"
+    "Что бы это ни было на нем надето. Его руки все еще сжимают это, как будто он вытащил его за долю секунды до того, как я вошел."
+    "И вся задняя сторона его совершенно голая, особенно с ним, застывшим вот так, давая мне прекрасный вид на его тело."
     hide cg19
     show s 1 jo shock at fdis, five
     with Dissolve(1.0)
     play music2 "music/BGM/Punchline - Org.ogg" fadein 5.0
-    mc 1 u shock "\"Ah! S-s-s-Sorry.\""
+    mc 1 u shock "\"Ах! П-п-п-прости.\""
     show s 1 jo shock at fdis, offscreenleft with move
-    "I turn around as fast as possible, trying to erase the image of my half-naked childhood friend from my mind."
-    "Being so self-conscious around half-naked people... I'm a failure as a Japanese person..."
-    s 1 jo sigh "\"Is this really necessary? I'm not packing anything you haven't seen tons of times before.\""
-    mc 1 u wince "\"S-s-s-shut up!\""
-    "Ugh, I'm not usually this much of a nervous wreck around naked people, but having no time to prepare myself mentally has made me completely shocked to this sudden exposure."
-    "And it had to be Shoichi of all people?!"
-    "I can hear him softly chuckling from behind me. Probably having a lot of fun at my breakdown."
-    "I mean... Seeing someone in their underwear inside of a locker room is no big deal... and it's true that I've seen him wearing less before (no comment on that one)."
-    "But... ugh... I was a kid back then. I didn't really understand how embarrassing nudity is."
-    "In the end, I can't decide if I should make conversation, move towards my locker or start undressing myself."
-    "I just stand frozen with my back turned away from him."
-    s 1 jo sigh "\"Your eyes aren't going to fall off if you look at me, you know.\""
-    mc 1 u sigh "\"Have you gotten dressed yet?\""
-    s 1 jo smile "\"Nope. And I'm not going to until you turn around and look at me.\""
-    mc 1 u shock "\"Wha- Why would you do that?!\""
-    s 1 jo laugh "\"Cause you're freaking out and it's hilarious!\""
-    "Gh... I'm gonna kill him."
+    "Я разворачиваюсь как можно быстрее, пытаясь стереть из памяти образ моег полуголого друга детства."
+    "Быть таким застенчивым рядом с полуголыми людьми... Я неудачник, прям как японец..."
+    s 1 jo sigh "\"Это действительно необходимо? Я не делаю ничего такого, чего бы ты не видел раньше сотни раз.\""
+    mc 1 u wince "\"З-з-з-заткнись!\""
+    "Ах, обычно я не так сильно нервничаю рядом с голыми людьми, но отсутствие времени, чтобы подготовиться мысленно, сделало меня полностью шокированным этим внезапным разоблачением."
+    "И это должен был быть Шоичи из всех людей?!"
+    "Я слышу, как он тихо посмеивается у меня за спиной. Наверное, очень веселится из-за моего нервного срыва."
+    "Я имею в виду... Увидеть кого-то в нижнем белье в раздевалке не такая уж большая проблема... и это правда, что я видел его голым раньше (без комментариев на этот счет)."
+    "Но... тьфу... Тогда я был еще ребенком. Я действительно не понимал, как неловко обнажаться."
+    "В конце концов, я не могу решить, должен ли я завести разговор или подойти к своему шкафчику и начать раздеваться самому."
+    "Я просто стою, оцепенев, отвернувшись от него."
+    s 1 jo sigh "\"Твои глаза не отвалятся, если ты посмотришь на меня.\""
+    mc 1 u sigh "\"Ты уже оделся?\""
+    s 1 jo smile "\"Нет. И я не собираюсь этого делать, пока ты не повернешься и не посмотришь на меня.\""
+    mc 1 u shock "\"Зачем тебе это делать?!\""
+    s 1 jo laugh "\"Потому что ты сходишь с ума, и это смешно!\""
+    "Гррр... Я собираюсь убить его."
     show s 1 jo smile at five with moveiledis
     show s 1 jo smile at fdis, five
-    mc 1 u wince "\"T-there, I'm looking... I can see more of you than I'd like to... {size=-2}Oh God, did you have to be wearing a jockstrap, I can see your ass...{/size}\""
+    mc 1 u wince "\"Т-тут, я смотрю... Я могу видеть тебя чаще, чем мне бы хотелось... {size=-2}О Боже, тебе обязательно было надевать бандаж, я же вижу твою задницу...{/size}\""
     show s 1 jo laugh at fdis
-    s "\"Oh, this? It looks pretty snazzy doesn't it?\""
-    mc 1 u sigh "\"It looks like something you'd buy at a sex shop. Since when have you worn this kind of skimpy underwear?\""
+    s "\"А, это? Это выглядит довольно шикарно, не так ли?\""
+    mc 1 u sigh "\"Похоже на то, что можно купить в секс-шопе. С каких это пор ты носишь такое скудное белье?\""
     show s 1 jo smile at fdis
-    s "\"I'll have you know that I bought this at an athletic gear store. And it's actually pretty damn comfortable. It's great to practice in. One of my teammates recommended it to me a few weeks back and I gave it a try.\""
+    s "\"Я хочу, чтобы вы знали, что я купил это в магазине спортивного снаряжения. И на самом деле это чертовски удобно. Это здорово, чтобы практиковаться. Один из моих товарищей по команде рекомендовал мне его несколько недель назад и он дал мне попробовать.\""
     show s 1 jo laugh at fdis
-    s "\"Don't I look great in it?\""
-    mc 1 u sigh2 "\"Whatever you want to believe...\""
+    s "\"Разве я не выгляжу в нем великолепно?\""
+    mc 1 u sigh2 "\"Все, во что ты хочешь верить...\""
     show s 1 jo seductive at fdis
-    s "\"You know, for someone that's complaining so much about me being half-naked, you sure seem to be interested in my crotch. Your eyes haven't left that area since you turned around.\""
-    mc 1 u avoidb "\"S-shut up, I'm looking at the only area of your body that's still clothed!\""
-    s "\"Mhm, sure you are. Keep telling yourself that.\""
-    "Shoichi turns back to his locker room, picking up a change of clothes."
+    s "\"Знаешь, для того, кто так часто жалуется на то, что я полуголый, ты, похоже, заинтересовался моей промежностью. Твои глаза не покидали этого места с тех пор, как ты повернулся.\""
+    mc 1 u avoidb "\"Заткнись, я смотрю на единственный участок твоего тела, который еще одет!\""
+    s "\"Ну да, конечно. Продолжай убеждать себя в этом.\""
+    "Шоичи возвращается в свою раздевалку, чтобы взять сменную одежду."
     play sound "music/fabric.ogg"
     stop music fadeout 2.5
     play music2 "music/BGM/Dazzling Sunlight.ogg" fadein 5.0
     show s 1 v smile at fdis
-    s "\"There, I'm dressed. You can stop freaking out now.\""
-    mc 1 u sigh "\"T-thank you...\""
-    "God, my cheeks are so hot right now."
+    s "\"Ну вот, я одет. Теперь ты можешь перестать волноваться.\""
+    mc 1 u sigh "\"С-спасибо...\""
+    "Боже, мои щеки сейчас такие горячие."
     show s 1 v seductive at fdis
-    s "\"Good thing your house has a bath. I think you'd have a meltdown if you had to shower at school.\""
-    mc 1 u sigh "\"I don't doubt that.\""
+    s "\"Хорошо, что в вашем доме есть ванна. Я думаю, у тебя случился бы нервный срыв, если бы тебе пришлось принимать душ в школе.\""
+    mc 1 u sigh "\"Я в этом не сомневаюсь.\""
     show s 1 v smile at fdis
-    "I place my tennis bag on a bench and pull out my practice clothes. For a second, I move to undress myself."
-    "I see Shoichi with the corner of my eye and freeze."
-    "He looks at me in confusion for a few seconds. Then, realization dawns on him and he sighs."
+    "Я кладу свою теннисную сумку на скамейку и достаю тренировочную одежду. Секунду после, я начинаю раздеваться сам."
+    "Краем глаза я вижу Шоичи и замираю."
+    "Несколько секунд он смотрит на меня в замешательстве. Затем, осознание осенило его, и он вздыхает."
     show s 1 v sigh at fdis
-    s "\"You want me to turn my back, don't you?\""
-    "I just nod."
-    "Shoichi sighs again and turns away from me."
+    s "\"Ты хочешь, чтобы я повернулся к тебе спиной, не так ли?\""
+    "Я просто киваю."
+    "Шоичи снова вздыхает и отворачивается от меня."
     play sound "music/fabric.ogg"
-    s "\"How do you even deal with this when you're staying at a hotel for a tournament?\""
-    mc 1 u annoyed "\"I don't use the hotel's bath. I look for a bathhouse with private rooms.\""
-    s "\"That's kinda sad.\""
+    s "\"Как вы вообще справляетесь с этим, когда останавливаетесь в отеле на турнир?\""
+    mc 1 u annoyed "\"Я не пользуюсь ванной в отеле. Я ищу баню с отдельными комнатами.\""
+    s "\"Это немного грустно.\""
     play sound "music/fabric.ogg"
-    mc 1 u annoyed "\"Beats getting naked in front of a bunch of strangers. Alright, you can turn around now.\""
+    mc 1 u annoyed "\"Это лучше, чем раздеваться перед кучей незнакомцев. Хорошо, теперь ты можешь повернуться.\""
     show s 1 v wry at fdis
-    "Shoichi turns over again as I'm adjusting my shirt."
-    mc 1 u wince "\"Good thing Kei-kun swooped in to help me. If I had left it up to Saya, she'd have forced me to play in plain school clothes.\""
+    "Пока я поправляю рубашку, Шоичи снова поворачивается."
+    mc 1 u wince "\"Хорошо, что Кей-кун бросился мне на помощь. Если бы я предоставил это Сае, она бы заставила меня играть в обычной школьной одежде.\""
     show s 1 v displeased at fdis
-    "His expression turns sour when I mention Keisuke."
-    s "\"Hooray for that.\""
-    mc 1 u sigh "\"Still mad over last time?\""
+    "Его лицо становится кислым, когда я упоминаю Кейсуке."
+    s "\"Я рад за это.\""
+    mc 1 u sigh "\"Все еще злишься из-за прошлого раза?\""
     show s 1 v annoyed at fdis
-    s "\"That was my ball and he {i}knew{/i} it.\""
-    "For some reason that completely eludes me, these two are always finding some stupid reason to fight over."
-    "I swear, it's like placing a burning candle next to gasoline. The slightest thing makes it catch fire."
-    mc 1 u annoyed "\"And for the last time: let it go. It's been almost two weeks already.\""
+    s "\"Это был мой мяч и он {i}знал{/i} это.\""
+    "По какой-то причине, которая полностью ускользает от меня, эти двое всегда находят какой-то глупый повод для ссоры."
+    "Клянусь, это все равно что поставить горящую свечу рядом с бензином. Малейшее движение - и он загорается."
+    mc 1 u annoyed "\"И в последний раз: прости его. Прошло уже почти две недели.\""
     show s 1 v avoid at fdis
-    "Shoichi pouts. God, he's too childish when it comes to Kei-kun."
-    s "\"I'll let go when he apologizes.\""
-    mc 1 u sigh2 "\"We both know that's never going to happen. Just drop it.\""
+    "Шоичи надувает губы. Боже, он слишком инфантилен, когда дело касается Кей-куна."
+    s "\"Я прощу его, когда он извинится.\""
+    mc 1 u sigh2 "\"Мы оба знаем, что этого никогда не случится. Просто оставь это.\""
     show s 1 v scorn at fdis
-    s "\"Why do I have to be the one to accept defeat?\""
-    mc 1 u annoyed "\"Because when neither of you is winning, you're both just making me miserable!\""
+    s "\"Почему именно я должен смириться с поражением?\""
+    mc 1 u annoyed "\"Потому что когда ни один из вас не выигрывает, вы оба просто делаете меня несчастным!\""
     show s 1 v sigh at fdis
-    s "\"Fine fine, I'll talk to him. You don't have to be rude.\""
-    s "\"Well, anyway, I have to get to practice. Talk to you later?\""
-    mc 1 u "\"Sure. See ya.\""
+    s "\"Хорошо, хорошо, я поговорю с ним. Ты не должен быть таким грубым.\""
+    s "\"Ну, в любом случае, мне нужно тренироваться. Поговорим позже?\""
+    mc 1 u "\"Конечно. Увидимся.\""
     show s 1 v at offscreenright with moveoridis
     "I check my bag to make sure I have everything in order."
     "Once I sure that nothing's missing, I grab my racket and head outside."
